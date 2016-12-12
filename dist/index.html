@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+<title>
+  
+    XMUED &middot; 熊猫金库用户体验中心
+  
+</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- Bootstrap core CSS -->
+<link href="/css/main.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+
+
+
+
+
+
+</head>
+<body class="bd-docs" data-spy="scroll" data-target=".bd-sidenav-active">
+<a id="skippy" class="sr-only sr-only-focusable" href="#content">
+  <div class="container">
+    <span class="skiplink-text">Skip to main content</span>
+  </div>
+</a>
+
+<header class="navbar navbar-light navbar-static-top bd-navbar">
+  <div class="container">
+    <nav>
+      <div class="clearfix">
+        <button class="navbar-toggler pull-xs-right hidden-sm-up iconfont-extend icon-sort" type="button" data-toggle="collapse"
+                data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+        </button>
+        <a class="navbar-brand hidden-md-up" href="/">
+          XMUED
+        </a>
+      </div>
+      <div class="collapse navbar-toggleable-xs" id="bd-main-nav">
+        <a class="site-logo hidden-sm-down" href="/"></a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-item nav-link active"
+               href="/">首页</a>
+          </li>
+
+              
+
+              <li class="nav-item">
+                <a class="nav-item nav-link "
+                   href="/pages/library//">UI仓库</a>
+              </li>
+
+
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-item nav-link "
+               href="/pages/tools/cover.html">工具</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<div id="content">
+  <div class="bd-pageheader bd-masthead" id="content">
+  <div class="container">
+    <span class="bd-booticon outline"></span>
+    <p class="lead">XMUED 是熊猫镇的 HTML、CSS 和 JS 框架，用于开发熊猫镇旗下熊猫金库等 WEB 项目。</p>
+    <div class="row home-download hidden-sm-down">
+      <a href="/download/xmui-min.zip" role="button" class="btn btn-outline-white btn-lg">下载XMUI编译版</a>
+      <a href="/download/xmui-dev.zip" role="button" class="btn btn-outline-white btn-lg">下载XMUI开发版</a>
+    </div>
+    <p class="version hidden-sm-down">当前版本 1.0.1-alpha</p>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3 push-md-9 bd-sidebar">
+
+      <form class="bd-search hidden-sm-down">
+        <input type="text" class="form-control" id="search-input" placeholder="搜索..." autocomplete="off">
+        <div class="dropdown-menu bd-search-results" id="search-results"></div>
+      </form>
+
+      <nav class="bd-links" id="simpleNavbarContent"></nav>
+
+    </div>
+    <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
+
+      <h1 class="bd-title" id="content">XMUED简介</h1>
+      <link href="./webhook/css/webhook.css" rel="stylesheet" />
+
+<script src="./webhook/js/main.js"></script>
+
+<p>XMUED 是熊猫镇的 HTML、CSS 和 JS 框架，用于开发熊猫镇旗下熊猫金库等 WEB 项目。XMUED文档使用 Jekyll + SASS 架构。</p>
+
+<h2 id="section">目录</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">目录</a></li>
+  <li><a href="#xmhook" id="markdown-toc-xmhook">XMHOOK</a>    <ul>
+      <li><a href="#redmine" id="markdown-toc-redmine">Redmine</a></li>
+      <li><a href="#merge-request" id="markdown-toc-merge-request">Merge Request</a></li>
+      <li><a href="#webhook" id="markdown-toc-webhook">Webhook</a></li>
+    </ul>
+  </li>
+  <li><a href="#xmued" id="markdown-toc-xmued">XMUED环境配置</a>    <ul>
+      <li><a href="#nodejs" id="markdown-toc-nodejs">nodejs安装</a></li>
+      <li><a href="#jekyll" id="markdown-toc-jekyll">jekyll全局安装</a></li>
+      <li><a href="#section-1" id="markdown-toc-section-1">安装本地包,包功能详解:</a></li>
+      <li><a href="#xmued-1" id="markdown-toc-xmued-1">启动XMUED调试</a></li>
+      <li><a href="#section-2" id="markdown-toc-section-2">服务端自动部署</a>        <ul>
+          <li><a href="#webhook-1" id="markdown-toc-webhook-1">启动webhook</a></li>
+        </ul>
+      </li>
+      <li><a href="#section-3" id="markdown-toc-section-3">[过期|已切换成自动部署]服务端打包</a></li>
+      <li><a href="#sass" id="markdown-toc-sass">SASS</a></li>
+    </ul>
+  </li>
+  <li><a href="#app-" id="markdown-toc-app-">熊猫金库APP 版本获取</a>    <ul>
+      <li><a href="#ios" id="markdown-toc-ios">iOS</a></li>
+      <li><a href="#android" id="markdown-toc-android">Android</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="xmhook">XMHOOK</h2>
+
+<h3 id="redmine">Redmine</h3>
+
+<div class="w-group" id="redmine"></div>
+
+<h3 id="merge-request">Merge Request</h3>
+
+<div class="w-group" id="merge"></div>
+
+<h3 id="webhook">Webhook</h3>
+
+<div class="w-group" id="webhook"></div>
+
+<h2 id="xmued">XMUED环境配置</h2>
+
+<h3 id="nodejs">nodejs安装</h3>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>brew install node
+</code></pre>
+</div>
+
+<h3 id="jekyll">jekyll全局安装</h3>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>gem install jekyll
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">Jekyll</code>是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 <code class="highlighter-rouge">Markdown</code> （或者 Textile） 以及 <code class="highlighter-rouge">Liquid</code> 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。</p>
+
+<p><a href="http://jekyll.bootcss.com/docs/home/">Jekyll文档</a> <a href="http://blog.csdn.net/dont27/article/details/38097581">Liquid教程</a></p>
+
+<h3 id="section-1">安装本地包,包功能详解:</h3>
+
+<ul>
+  <li><strong>gulp</strong> 前端打包框架</li>
+  <li><strong>gulp-sass</strong> sass编译</li>
+  <li><strong>gulp-autoprefixer</strong> sass编译增加兼容前缀</li>
+  <li><strong>gulp-zip</strong> zip打包</li>
+  <li><strong>gulp-sourcemaps</strong> sass编译增sourcemaps方便调试</li>
+  <li><strong>browser-sync</strong> 编译结束自动刷新浏览器</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install
+</code></pre>
+</div>
+
+<h3 id="xmued-1">启动XMUED调试</h3>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>gulp
+</code></pre>
+</div>
+
+<h3 id="section-2">服务端自动部署</h3>
+
+<p>接口</p>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code>fanshu.xiongmaojinku.com/ui
+</code></pre>
+</div>
+
+<blockquote>
+  <p>[Webhook]接到master的push指令后自动部署</p>
+</blockquote>
+
+<h4 id="webhook-1">启动webhook</h4>
+
+<blockquote>
+  <p>使用screen常驻进程</p>
+</blockquote>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>screen -S webhook
+<span class="gp">$ </span>node webhook.js &amp; 
+<span class="c"># command + A &amp;&amp; command + D 退出窗口</span>
+
+<span class="gp">$ </span>screen -r webhook
+<span class="c"># 召回窗口</span>
+
+<span class="gp">$ </span>ps | grep node 
+<span class="c"># 查看进程</span>
+
+<span class="gp">$ </span><span class="nb">kill </span>node 
+<span class="c"># 结束进程</span>
+</code></pre>
+</div>
+
+<h3 id="section-3">[过期|已切换成自动部署]服务端打包</h3>
+
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git checkout . <span class="o">&amp;&amp;</span> git pull <span class="o">&amp;&amp;</span> gulp build
+</code></pre>
+</div>
+
+<h3 id="sass">SASS</h3>
+
+<p>从功能出发，Sass较LESS略强大一些，LESS用的稍微深入一点你就会发觉它hold不住了。自定义函数不支持，运算符也少的可怜，还用坑爹的css关键字@符声明变量。目前 Bootstarp 4 也已经从LESS全面改用SCSS。</p>
+
+<p><a href="http://www.sass.hk/sass-course.html">SASS用法指南</a></p>
+
+<hr />
+
+<h2 id="app-">熊猫金库APP 版本获取</h2>
+
+<h3 id="ios">iOS</h3>
+
+<blockquote>
+  <p><strong>蒲公英测试版：</strong><a href="http://www.pgyer.com/PandaCashBox">下载地址</a></p>
+
+  <p><strong>AppStore正式版：</strong><a href="https://itunes.apple.com/cn/app/id1092412888">itunes.apple.com/cn/app/id1092412888</a></p>
+</blockquote>
+
+<h3 id="android">Android</h3>
+
+<blockquote>
+  <p><strong>蒲公英测试版：</strong><a href="http://www.pgyer.com/ONEl">下载地址</a></p>
+
+  <p><strong>应用宝正式版：</strong><a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.xmzhen.cashbox">a.app.qq.com/o/simple.jsp?pkgname=com.xmzhen.cashbox</a></p>
+</blockquote>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  $('#section').hide();
+  $('#simpleNavbarContent').html($('#markdown-toc').html());
+  $('#markdown-toc').hide();
+</script>
+
+<script src="/js/search.js"></script>
+<script>
+  SimpleJekyllSearch.init({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    searchResultTemplate: '<a class="dropdown-item" href="{url}">{title}</a>',
+    noResultsText: '<div class="dropdown-item no-results">对不起, 没有您要的结果.</div>',
+    json: '/search/home.json'
+  })
+</script>
+
+</div>
+
+<footer class="bd-footer text-muted">
+  <div class="container">
+    <ul class="bd-footer-links">
+      <li><a href="//www.bdp.cn/index.html">BDP</a></li>
+      <li><a href="//redmine.xiongmaojinku.com">Redmine</a></li>
+      <li><a href="//sentry.xiongmaojinku.com/">Sentry</a></li>
+      <li><a href="//xiongmaojinku.com/admin">Admin</a></li>
+    </ul>
+    <p>Support by <a href="yangyufan@xmzhen.com">@Canisminor</a> - XMUED</p>
+    <p>Copyright © 2016 <a href="//www.xiongmaojinku.com">广东熊猫镇投资管理有限公司</a> 粤ICP备16017370号-1 粤公网安备44010402000330号
+    </p></div>
+</footer>
+
+<script src="//cdn.bootcss.com/tether/1.3.4/js/tether.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+<!-- toolbar -->
+<div id="toolbar" class="btn-group-vertical">
+  <button type="button" id="toTop" class="btn iconfont-extend icon-top" data-toggle="tooltip" data-placement="left"
+          title="回到顶部">
+  </button>
+  
+  
+</div>
+
+<!-- js -->
+
+
+
+
+<script>
+  $(function () {
+    var ifReact = 0;
+    $('[data-toggle="tooltip"]').tooltip();
+    $('#toTop').click(function () {
+      $("html,body").animate({scrollTop: 0}, 500);
+    });
+    $('#toReact').click(function () {
+      if (ifReact == 0) {
+        $(".na:contains('class=')").html('className=');
+        ifReact = 1;
+      }else {
+        $(".na:contains('className=')").html('class=');
+        ifReact = 0;
+      }
+    });
+    var ifPic = 0;
+    $('#toPic').click(function () {
+      if (ifPic == 0) {
+        $(".art-layer").css('background','rgba(123,197,59,.02)');
+        $(".art-layer").css('box-shadow','0 0 0 1px rgba(123,197,59,.5)');
+        ifPic = 1;
+      }else {
+        $(".art-layer").css('background','rgba(0,0,0,0)');
+        $(".art-layer").css('box-shadow','0 0 0 1px rgba(123,197,59,0)');
+        ifPic = 0;
+      }
+    });
+  })
+</script>
+</body>
+</html>
+

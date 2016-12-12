@@ -1,0 +1,23 @@
+---
+destination: ./dist
+encoding: UTF-8
+exclude:
+  - node_modules
+  - README.md
+  - gulpfile.js
+  - package.json
+  - pages/xmui-pc
+  - css
+  - js
+  - img
+keep_files:
+  - webhook
+  - pages/library
+  - download
+  - pages/xmui-pc
+  - css
+  - js
+  - img
+markdown: kramdown
+title: CMCRAFT
+version: 1.0.1-alpha

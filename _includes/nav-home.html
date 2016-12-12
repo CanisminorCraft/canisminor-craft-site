@@ -2,12 +2,13 @@
   <div class="container">
     <nav>
       <div class="clearfix">
-        <button class="navbar-toggler pull-xs-right hidden-sm-up iconfont-extend icon-sort" type="button" data-toggle="collapse"
+        <button class="navbar-toggler pull-xs-right hidden-sm-up iconfont-extend icon-sort" type="button"
+                data-toggle="collapse"
                 data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false"
                 aria-label="Toggle navigation">
         </button>
         <a class="navbar-brand hidden-md-up" href="{{ site.baseurl }}/">
-          XMUED
+          CMC
         </a>
       </div>
       <div class="collapse navbar-toggleable-xs" id="bd-main-nav">
@@ -18,30 +19,11 @@
                href="{{ site.baseurl }}/">首页</a>
           </li>
 
-              {% assign library =  site.data.library | first %}
-
-              <li class="nav-item">
-                <a class="nav-item nav-link {% if page.layout == "library" %}active{% endif %}{% if page.layout == "library-page" %}active{% endif %}"
-                   href="{{ site.baseurl }}/pages/library/{{ library.name | downcase | replace: ' ', '-' }}/">UI仓库</a>
-              </li>
-
-
-          {% assign pagepath = page.path | split:'/' %}
-          {% assign pagenav = pagepath[1] | downcase | replace: ' ', '-'  %}
-          {% for nav in site.data.sidebar %}
-            {% if nav.title %}
-            {% assign group =  nav.group | first %}
-              {% assign sub =  group.sub | first %}
-              <li class="nav-item">
-                <a class="nav-item nav-link {% if pagenav == nav.name  | downcase | replace: ' ', '-'  %}active{% endif %}"
-                   href="{{ site.baseurl }}/pages/{{ nav.name | downcase | replace: ' ', '-'}}/{{ group.name | downcase | replace: ' ', '-'}}/{{ sub.name  | downcase | replace: ' ', '-'  }}.html">{{ nav.title }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
           <li class="nav-item">
-            <a class="nav-item nav-link {% if page.layout == 'factory' %}active{% endif %}"
-               href="{{ site.baseurl }}/pages/tools/cover.html">工具</a>
+            <a class="nav-item nav-link {% if page.layout == "library" %}active{% endif %}{% if page.layout == "library-page" %}active{% endif %}"
+               href="http://map.canisminor.cc">地图</a>
           </li>
+
         </ul>
       </div>
     </nav>

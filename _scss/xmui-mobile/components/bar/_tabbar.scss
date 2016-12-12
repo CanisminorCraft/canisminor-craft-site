@@ -1,0 +1,31 @@
+.xm-tabbar {
+  @include xm-bar(top);
+  > .bar-item {
+    height: (44px);
+    position: relative;
+    display: block;
+    color: $global-text-color;
+    line-height: rem(44px);
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0 1rem;
+    &:hover {
+      color: inherit;
+    }
+    &.active {
+      color: $c-theme;
+      border-bottom: rem(2px) solid $c-theme;
+    }
+  }
+}
+
+.navbar-trans {
+  background: transparent !important;
+  @include set-line(none);
+  > .bar-item {
+    color: #FFF !important;
+  }
+}
+

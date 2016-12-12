@@ -1,0 +1,24 @@
+.xm-actionsheet {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    transform: translate(0, 100%);
+    backface-visibility: hidden;
+    z-index: 5000;
+    width: 100%;
+    background-color: $c-theme-bg-light;
+    //slide up animation
+    transition: transform .3s;
+    > .xm-panel{
+        &:before,&:after{
+            display: none;
+        }
+        + .xm-panel{
+            margin-top: rem(6px);
+        }
+    }
+}
+//actionSheet aniamtion
+.xm-actionsheet-toggle{
+    transform: translate(0, 0);
+}

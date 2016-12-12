@@ -1,0 +1,109 @@
+.xm-img {
+  zoom: .5;
+  + .xm-textfield {
+    margin-left: 1rem;
+  }
+}
+
+.xm-row[role^='box'] {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 1rem;
+  position: relative;
+
+  > .xm-textfield {
+    @include xm-col;
+
+    > .xm-title {
+      color: $c-font-dark;
+      font-weight: 400;
+      font-size: rem(15px);
+      @include ellipsis();
+      word-wrap: break-word;
+      word-break: break-all;
+      + .xm-desc {
+        margin-top: rem(2px);
+      }
+    }
+    > .xm-desc {
+      color: $c-font-light;
+      font-size: rem(13px);
+      line-height: 1.4;
+      @include ellipsisLn(2);
+      + .xm-info {
+        margin-top: rem(8px);
+      }
+    }
+    > .xm-info {
+      font-size: rem(12px);
+      color: $c-font-lightest;
+    }
+    > .xm-num-title {
+      color: $c-font-normal;
+      font-weight: 400;
+      font-size: rem(14px);
+      @include ellipsis();
+      word-wrap: break-word;
+      word-break: break-all;
+      + .xm-num {
+        margin-top: rem(4px);
+      }
+    }
+    > .xm-num {
+      font-family: $font-theme;
+      margin-top: rem(2px);
+      color: $c-theme;
+      font-size: rem(28px);
+      @include ellipsis();
+      word-wrap: break-word;
+      word-break: break-all;
+      line-height: 1;
+      + .xm-num-info {
+        margin-top: rem(2px);
+      }
+    }
+    > .xm-num-info {
+      font-size: rem(11px);
+      color: $c-font-lightest;
+    }
+  }
+  &[role="box-noline"] {
+    padding-top: rem(12px);
+    padding-bottom: rem(12px);
+    &:first-child {
+      padding-top: rem(24px);
+    }
+    &:last-child {
+      padding-bottom: rem(24px);
+    }
+  }
+  &[role="box-line"] {
+    @include set-line(top, $left: 1rem);
+    &:first-child {
+      @include set-line(none);
+    }
+  }
+  &[role="box-group"] {
+    margin: 0 -1rem;
+    padding: 0;
+    @include set-line(top);
+    &:first-child {
+      &:before {
+        display: none
+      }
+    }
+    > .xm-row[role="box"] {
+      @include xm-col;
+      margin: 0;
+      height: rem(80px);
+      @include set-line(left);
+      &:first-child {
+        @include set-line(none);
+      }
+    }
+  }
+}
+
+a.xm-row[role^='box'] {
+  @include cell-press-effect();
+}

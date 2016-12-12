@@ -1,0 +1,155 @@
+//
+//进度条
+//
+$border-radius: 1rem;
+
+//小号基础进度条
+.xm-progress {
+  height: rem(6px);
+  display: block;
+  width: 100%;
+  + .xm-progress {
+    margin-top: 1rem;
+  }
+}
+
+div.xm-progress {
+  background-color: $c-theme-bg;
+  @include border-radius($border-radius);
+  > .xm-progress-bar {
+    height: 100%;
+    background-color: $c-theme;
+    @include border-radius($border-radius);
+  }
+}
+
+progress.xm-progress {
+
+  &[value]::-moz-progress-bar {
+    background-color: $c-theme;
+    @include border-radius($border-radius);
+  }
+
+  &[value]::-webkit-progress-value {
+    background-color: $c-theme;
+    @include border-radius($border-radius);
+  }
+
+  &[value] {
+    background-color: $c-theme-bg;
+    border: 0;
+    appearance: none;
+    @include border-radius($border-radius);
+  }
+
+  &[value]::-webkit-progress-bar {
+    background-color: transparent;
+    @include border-radius($border-radius);
+  }
+
+  &[value]::-ms-fill {
+    background-color: transparent;
+    @include border-radius($border-radius);
+    border: 0;
+  }
+  base::-moz-progress-bar,
+  &[value] {
+    background-color: transparent;
+  }
+}
+
+//大号进度条
+.xm-progress.progress-pro {
+  height: rem(12px);
+}
+
+@mixin progress-pro {
+  $color: rgba(255, 255, 255, .2);
+  $angle: -45deg;
+  $progress-pro: linear-gradient($angle, $color 16%, transparent 16%, transparent 50%, $color 50%, $color 66%, transparent 66%, transparent);
+  //
+  box-sizing: content-box;
+  box-shadow: -1px -1px 0 rgba(255, 80, 0, .5) inset, 1px 1px 0 rgba(255, 80, 0, .5) inset;
+  background-size: .25rem .25rem, 100% 100%;
+  background-image: $progress-pro, $c-linear;
+}
+
+div.xm-progress.progress-pro {
+  box-sizing: border-box;
+  box-shadow: -1px -1px 0 $c-theme-line inset, 1px 1px 0 $c-theme-line inset;
+  > .xm-progress-bar:not([style='width: 0%']) {
+    @include progress-pro;
+    animation: progress-pro 1s linear infinite;
+  }
+}
+
+progress.xm-progress.progress-pro {
+
+  &[value] {
+    box-sizing: border-box;
+    box-shadow: -1px -1px 0 $c-theme-line inset, 1px 1px 0 $c-theme-line inset;
+  }
+  &:not([value='0'])::-webkit-progress-value {
+    @include progress-pro;
+  }
+
+  &:not([value='0'])::-moz-progress-bar {
+    @include progress-pro;
+  }
+  &:not([value='0'])::-ms-fill {
+    @include progress-pro;
+  }
+}
+
+@keyframes progress-pro {
+  from { background-position: -1rem 0, 0 0; }
+  to { background-position: 0 0, 0 0; }
+}
+
+//球形
+$circle-size:rem(120px);
+.xm-progress-circle {
+  width: $circle-size;
+  height: $circle-size;
+  overflow: hidden;
+  background-color: $c-theme-bg;
+  position: relative;
+  border-radius: 50%;
+  border: rem(4px) solid #FFF;
+  box-shadow: 0 0 0 1px darken($c-theme-bg, 40%);
+  &:before{
+    content: '';
+    width: rem(28px);
+    height: rem(28px);
+    top:rem(8px);
+    right: rem(16px);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAuCAQAAADXABITAAABgklEQVR4Ae3UAwxVcRzF8ZNtN2WONWXbNqZs23bzckOYvWzbTdm28W2I975733u7/1/+zMaBfhnSUJsRdKciKWSPetzni8tMobgs0ZYPeO2lJ9llgQxcI7bXrKeOXKMT4Q7QUC4xhvgO01SuMIXEHKeFkwZThcSdopaiIhVnScZqcisaivOYZNynm6KhMGv5SDK2UlzRUIJpXCFxrxhHGkVDCmqyimckah8FFR2Z6MpBEnObau4OfS+JeMcQuUJtdpGI9WSWK1RnB/GdpaTcoQN3iOchReQOOVgad6nHSCuXqMJ5wtWVW6RlAm8JNlvuUZmbBJkrCxRgN7H1lQ3SsBi/J+SRHTrygh8NlC3KsI0vXtJdPwO1Gc58OpFP//1lKMcqTnCa1VSRPSbyvWmyRW+8JsgOqbiG1zvKywpVieUUaWWDBsTWXzaoQmwnZYOUXCS2PLJBf2LLbtfTQ/jdJ7WsUJY3eE2XJTrwwTOLXLJFJ27xxUZyyh5paU1/BlBMv84nW1WlOd/Q7DkAAAAASUVORK5CYII=");
+    position: absolute;
+    z-index: 1;
+  }
+  > .xm-progress-bar {
+    bottom:0;
+    position: absolute;
+    background-image: linear-gradient(0deg, #ff6000 0%, #FF7B00 100%);
+    width: 100%;
+
+    &:before {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAYCAMAAACIuEKDAAAAGFBMVEX79e/77d/9t3b82Lf9x5X9rWL/ewD+kCr7HjNiAAAAAXRSTlMAQObYZgAAAN5JREFUeNrt1lEOwjAMg2GcxPH9b0yLJuVhggnK1E7w5wSfrGq7/WKAe4SRolqpzFS/FkmLcAcWF4RRUh7WTbakBx7cC449Fo61EPlx4hIYDCEK47i8oobBJIUzv5xI6/coWt4CcK5CeUbiro46yYNQnpbEfdsHCJg5xvgslX0LA9immGEpzPQxxinjFniNcWELgjkhvba8TynFYhbHWy/jllOTxmdBmDILMhHz8SyAm5StgszG6OkseP5rzuytAynN8SwA3MO4DbEkpEA9tqtdwj3CjCzBKGR+f8glugPlNETvY6dk2AAAAABJRU5ErkJggg==");
+      background-size: auto 100% ;
+      height: rem(12px);
+      width: 100%;
+      content: '';
+      top:rem(-12px);
+      position: absolute;
+      animation: progress-circle 2s linear infinite;
+    }
+  }
+}
+
+@keyframes progress-circle {
+  from { background-position: rem(-100px) 0; }
+  to { background-position: 0 0; }
+}

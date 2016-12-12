@@ -1,0 +1,70 @@
+//Home
+
+
+
+
+
+//
+// Examples
+//
+
+.bd-examples .img-thumbnail {
+  margin-bottom: .75rem;
+}
+
+.bd-examples h4 {
+  margin-bottom: .25rem;
+}
+
+.bd-examples p {
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 480px) {
+  .bd-examples {
+    margin-right: -.75rem;
+    margin-left: -.75rem;
+  }
+  .bd-examples > [class^="col-"] {
+    padding-right: .75rem;
+    padding-left: .75rem;
+  }
+}
+
+// UL Library
+
+.ui-library {
+  display: flex;
+  flex-wrap: wrap;
+  > .card {
+    display: block;
+    width: 46%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border:$border-normal;
+    @media (max-width: 767px) {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    &:hover {
+      border-color: $c-theme;
+      > .card-block {
+
+        > p {
+          color: $c-theme;
+        }
+      }
+    }
+    > img {
+      border-bottom: 1px solid rgba(0, 0, 0, .05);
+    }
+    > .card-block {
+
+      > p {
+        margin-bottom: 0;
+        color: $c-font-normal;
+      }
+    }
+  }
+}

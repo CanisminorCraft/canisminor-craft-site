@@ -1,0 +1,51 @@
+.xm-btn {
+  display: block;
+  padding: 0 1rem;
+  font-size: $btn-font-size;
+  line-height: ($btn-height/$btn-font-size);
+  width: 100%;
+  margin-top: $btn-default-gap;
+  &.btn-middle{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &.btn-auto, &.btn-mini {
+    display: inline-block;
+    width: auto;
+    margin-top:0;
+  }
+  &.btn-mini {
+    border-radius: .2rem;
+    line-height: $btn-mini-height;
+    font-size: $btn-mini-font-size;
+    padding: 0 .75rem;
+  }
+  &.btn-link {
+    font-size: rem(15px);
+    color: $c-font-light;
+  }
+}
+
+.xm-btn.xm-btn-inline + .xm-btn.xm-btn-inline {
+  margin-top: auto;
+  margin-left: $btn-default-gap;
+}
+
+.xm-btn-area {
+  margin: 1rem $btn-default-gap .3rem;
+  &.xm-btn-area-inline {
+    display: flex;
+    .xm-btn {
+      margin-top: auto;
+      margin-right: $btn-default-gap;
+      width: 100%;
+      flex: 1;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,11 @@
+//
+//开发版
+//
+
+@import "../xmui-base/global";
+@import "utilities";
+
+// iconfont
+$iconfont-extend:true;//加载webapp扩展图标
+$iconfont-report:true;//加载月报图标
+@import "icon/iconfont";

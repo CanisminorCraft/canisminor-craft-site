@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<style>
+  .cover{
+    height: 17rem;
+    background-position: top center !important;
+    background-size: 100% auto !important;
+    border-bottom: 1px solid #eee;
+  }
+</style>
+<div class="bd-pageheader text-xs-center text-sm-left">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="lead">
+      {{ page.desc }}
+    </p>
+    <div class="row home-download hidden-sm-down" style="margin:1rem .3rem;">
+      <a href="https://git.coding.net/canisminor1990/XmjkSketch.git" role="button" class="btn btn-outline-white btn-lg">下载Sketch源文件</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3 push-md-9 bd-sidebar">
+
+      <form class="bd-search hidden-sm-down">
+        <input type="text" class="form-control" id="search-input" placeholder="搜索..." autocomplete="off">
+        <div class="dropdown-menu bd-search-results" id="search-results"></div>
+      </form>
+      {% assign pagepath = page.path | split:'/' %}
+      {% assign pagegroup = pagepath[2] | downcase | replace: ' ', '-' %}
+      <nav class="bd-links" id="docsNavbarContent">
+        <div class="bd-toc-item active">
+          <div class="bd-toc-link">UI仓库</div>
+          <ul class="nav bd-sidenav">
+            {% for nav in site.data.library %}
+              {% assign name = nav.name | downcase | replace: ' ', '-' %}
+              <li class="{% if name  == pagegroup %}active bd-sidenav-active{% endif %}">
+                <a href="{{ site.baseurl }}/pages/library/{{ name }}/">{{ nav.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+    <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
+      {{ content }}
+      <div class="card-columns ui-library">
+        {% for nav in site.data.library %}
+          {% assign name = nav.name | downcase | replace: ' ', '-' %}
+          {% if name == pagegroup %}
+            {% assign group = nav.pages %}
+            {% for sub in group %}
+              {% assign title = sub.title %}
+              <a href="{{ site.baseurl }}/pages/library/views/page.html?openId={{ pagegroup }}/{{ title }}/" class="card">
+                <div class="cover" style="background:url({{ site.baseurl }}/pages/library/{{ pagegroup }}/{{ title }}/cover.png);"></div>
+                <div class="card-block">
+                  <p>{{ nav.title  }}-{{ title }}</p>
+                </div>
+              </a>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include search.html json="library" %}

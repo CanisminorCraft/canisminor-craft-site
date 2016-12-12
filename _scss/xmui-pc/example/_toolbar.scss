@@ -1,0 +1,69 @@
+#toolbar {
+  position: fixed;
+  bottom: 2rem;
+  right: 5%;
+  z-index: 999;
+  > .btn {
+    border-radius: 50%;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    text-align: center;
+    line-height: 3rem;
+    color: $c-font-lightest;
+    font-size: 1.5rem;
+    background: #FFF;
+    padding: 0;
+    outline: 0 !important;
+    &:hover {
+      color: $c-theme;
+    }
+    + .btn {
+      margin-top: .5rem;
+    }
+  }
+  @media (max-width: 480px) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: rem(49px);
+    display: flex;
+    > .btn {
+      display: block;
+      flex: 1;
+      height: 100%;
+      border-radius: 0;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      border-top: $border-normal;
+      position: relative;
+      color: #666;
+      &:before {
+        display: block;
+        margin-top: -.8rem
+      }
+      &:after {
+        position: absolute;
+        bottom: 0;
+        height: 70%;
+        width: 100%;
+        text-align: center;
+        display: block;
+        font-size: rem(12px);
+        color: inherit;
+      }
+      &#toTop:after {
+        content: '置顶';
+      }
+      &#toReact:after {
+        content: '转React';
+      }
+      + .btn {
+        margin-top: 0;
+      }
+    }
+  }
+}

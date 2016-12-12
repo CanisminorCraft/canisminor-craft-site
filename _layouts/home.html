@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="bd-pageheader bd-masthead" id="content">
+  <div class="container">
+    <span class="bd-booticon outline"></span>
+    <p class="lead">XMUED 是熊猫镇的 HTML、CSS 和 JS 框架，用于开发熊猫镇旗下熊猫金库等 WEB 项目。</p>
+    <div class="row home-download hidden-sm-down">
+      <a href="/download/xmui-min.zip" role="button" class="btn btn-outline-white btn-lg">下载XMUI编译版</a>
+      <a href="/download/xmui-dev.zip" role="button" class="btn btn-outline-white btn-lg">下载XMUI开发版</a>
+    </div>
+    <p class="version hidden-sm-down">当前版本 {{ site.version }}</p>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3 push-md-9 bd-sidebar">
+
+      <form class="bd-search hidden-sm-down">
+        <input type="text" class="form-control" id="search-input" placeholder="搜索..." autocomplete="off">
+        <div class="dropdown-menu bd-search-results" id="search-results"></div>
+      </form>
+
+      <nav class="bd-links" id="simpleNavbarContent"></nav>
+
+    </div>
+    <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
+
+      <h1 class="bd-title" id="content">XMUED简介</h1>
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+<script>
+  $('#section').hide();
+  $('#simpleNavbarContent').html($('#markdown-toc').html());
+  $('#markdown-toc').hide();
+</script>
+
+{% include search.html json="home" %}

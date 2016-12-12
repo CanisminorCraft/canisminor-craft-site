@@ -13,11 +13,3 @@ css/
 js/
 
 # dist
-dist/*.*
-dist/download/
-dist/css/
-dist/js/
-dist/pages/*
-!/dist/pages/library
-dist/pages/**/*.html
-dist/pages/library/views/

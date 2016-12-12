@@ -1,0 +1,116 @@
+@import "../xmui-base/variables/color";
+
+#qiniu-main {
+  width    : 100%;
+  position : relative;
+}
+
+.table {
+  border : $border-normal;
+  thead th {
+    vertical-align : bottom;
+    background     : #F8F8F8;
+    border         : 0 !important;
+  }
+}
+
+tr {
+  * {
+    font-family : Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size   : .8rem;
+  }
+  .progressName {
+    strong {
+      width   : 4rem;
+      display : inline-block;
+    }
+    span {
+      color : $c-blue;
+    }
+  }
+  .info {
+    span, a {
+      display       : block;
+      background    : #F8F8FA;
+      padding       : .5rem 1rem;
+      margin        : .5rem 0;
+      border-radius : 4px;
+    }
+    span {
+      color : $c-blue;
+    }
+  }
+  .progress {
+    width   : 96%;
+    display : inline-block;
+  }
+  .progress-bar {
+    min-height : 20px;
+    float      : none;
+  }
+  .progress {
+    height : 20px;
+    div {
+      height : 20px;
+    }
+    .chunk-status {
+      position : absolute;
+      left     : 24px;
+      top      : 0;
+    }
+  }
+  .progressCancel {
+    display         : inline-block;
+    float           : right;
+    position        : relative;
+    z-index         : 100;
+    color           : #333;
+    text-decoration : none;
+  }
+}
+
+.status {
+  position   : absolute;
+  width      : 100%;
+  bottom     : 0;
+  left       : 0;
+  text-align : center;
+  background : #F8F8F8;
+  padding    : .3rem;
+  font-size  : .5rem;
+}
+
+#container {
+  margin-bottom : 1rem;
+  padding       : 1rem;
+  border        : $border-normal;
+  border-radius : 4px;
+  &.draging {
+    background-color : #F8F8F8;
+    border-color     : $c-theme;
+  }
+  .drag-area {
+    width       : 100%;
+    padding     : 1rem;
+    padding-top : 0;
+    text-align  : center;
+    color       : #999;
+    font-size   : 1.5rem;
+  }
+}
+
+.linkWrapper {
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  width           : 100px;
+  height          : 100px;
+  overflow        : hidden;
+  position        : relative;
+  box-sizing      : border-box;
+  border          : 1px solid rgba(0, 0, 0, .1);
+  img {
+    width : 100%;
+  }
+
+}

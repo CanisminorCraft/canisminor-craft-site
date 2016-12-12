@@ -1,0 +1,33 @@
+@import "../xmui-base/global";
+// img
+@import "img";
+
+// load docs contents
+@import "content/content";
+
+// Load docs components
+@import "components/booticon";
+@import "components/nav";
+@import "components/masthead";
+@import "components/page-header";
+@import "components/skiplink";
+@import "components/sidebar";
+@import "components/footer";
+@import "components/buttons";
+@import "components/callouts";
+
+// Load docs example
+@import "example/color";
+@import "example/examples";
+@import "example/brand";
+@import "example/component-examples";
+@import "example/responsive-tests";
+@import "example/toolbar";
+
+// Load docs dependencies
+@import "plugin/syntax";
+@import "plugin/anchor";
+@import "plugin/clipboard-js";
+
+// Load docs animation
+@import "animation/base-dom";

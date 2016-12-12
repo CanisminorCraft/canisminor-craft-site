@@ -1,0 +1,13 @@
+
+
+.xm-btn-default {
+    background-color: $btn-default-bg;
+    color: $btn-default-font-color;
+    &:not(.xm-btn-disabled):visited {
+        color: $btn-default-font-color;
+    }
+    &:not(.xm-btn-disabled):active {
+        color: $btn-default-active-font-color;
+        background-color: $btn-default-active-bg;
+    }
+}

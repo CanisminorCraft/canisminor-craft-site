@@ -1,0 +1,22 @@
+.anchorjs-link {
+  color: inherit;
+  &:hover{
+    color: $c-theme;
+  }
+}
+
+@media (max-width: 480px) {
+  .anchorjs-link {
+    display: none;
+  }
+}
+
+*:hover > .anchorjs-link {
+  opacity: .75;
+}
+
+*:hover > .anchorjs-link:hover,
+.anchorjs-link:focus {
+  text-decoration: none;
+  opacity: 1;
+}

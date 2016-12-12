@@ -1,0 +1,78 @@
+$hl-bg: #272822;
+$hl-grey: lighten(#474741, 5%);
+$hl-white: #F1F1E0;
+$hl-blue: #5ED4EB;
+$hl-green: #A6E603;
+$hl-red: #F51E6D;
+$hl-orange: #FF9900;
+$hl-yellow: #EAE06E;
+$hl-purple: #B37FFF;
+
+.highlight {
+  background: $hl-bg;
+  code {
+    color: $hl-white;
+  }
+}
+
+.hll { background-color: #FFC; }
+
+.c { color: $hl-grey; }
+
+.k { color: $hl-red; }
+
+.o { color: $hl-red; }
+
+.p { color: $hl-white; }
+
+.cp { color: $hl-grey; }
+
+.gp,.c1 { color: $hl-grey; }
+
+.kc { color: $hl-red; }
+
+.kd { color: $hl-red; }
+
+.m { color: $hl-purple; }
+
+.s { color: $hl-yellow; }
+
+.n { color: $hl-blue }
+
+.na { color: $hl-green; }
+
+.nb,.bp { color: $hl-blue; }
+
+.nc { color: $hl-green; }
+
+.no { color: $hl-red; }
+
+.nd { color: $hl-green; }
+
+.nf { color: $hl-green; }
+
+.nl { color: $hl-blue; }
+
+.nt { color: $hl-red; }
+
+.nv { color: $hl-orange; }
+
+.nx { color: $hl-blue; }
+
+.mh { color: $hl-purple; }
+
+.mi { color: $hl-purple; }
+
+.s2 { color: $hl-yellow; }
+
+.sx { color: $hl-yellow }
+
+.s1 { color: $hl-yellow; }
+
+.gh, .gu { color: $hl-purple; }
+
+.ge, .gs,.pi { color: $hl-red }
+
+.gt { color: $hl-yellow }
+
+.sb { color: $hl-blue }

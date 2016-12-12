@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+<title>
+  {% if page.layout == "home" %}
+    {{ page.title }}
+  {% else %}
+    {{ page.title }} &middot; XMUED
+  {% endif %}
+</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- Bootstrap core CSS -->
+<link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+{% assign pagepath = page.path | split:'/' %}
+{% assign pagenav = pagepath[1] | downcase | replace: ' ', '-' %}
+{% if pagenav == "mobile" %}
+  <link href="{{ site.baseurl }}/css/other/example.css" rel="stylesheet">
+  <script src="//cdn.bootcss.com/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+{% endif %}
+

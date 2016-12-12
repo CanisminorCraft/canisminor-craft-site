@@ -1,0 +1,33 @@
+.xm-footbar {
+  @include xm-bar(bottom);
+  > .bar-item {
+    flex: 1;
+    height: (49px);
+    justify-content: center;
+    padding: rem(4px) 0 0;
+    -webkit-tap-highlight-color: transparent;
+    &.active {
+      > .bar-label, > i {
+        color: $c-theme;
+      }
+    }
+    > i {
+      display: block;
+      margin: 0 auto;
+      width: rem(30px);
+      height: rem(30px);
+      font-size: 30px;
+      text-align: center;
+      color: $global-text-color;
+    }
+    > .bar-label {
+      text-align: center;
+      line-height: 1;
+      color: $global-text-color;
+      font-size: rem(14px) !important;
+      transform: scale(.8);
+    }
+  }
+}
+
+

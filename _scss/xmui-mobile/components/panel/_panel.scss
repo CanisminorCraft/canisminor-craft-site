@@ -1,0 +1,62 @@
+//
+// 标题
+//
+.xm-panel-header {
+  @include default-row();
+  @include set-line(bottom);
+  // extra
+  > .info {
+    float: right;
+    color: $c-theme;
+    font-size: rem(12px);
+  }
+  > a.info {
+    font-size: rem(14px);
+    @include set-arrow(right,$color:$c-theme);
+  }
+}
+
+//
+//脚注
+//
+.xm-panel-footer {
+  @include default-row(0);
+  @include set-line(top);
+  // extra
+  > .xm-col {
+    text-align: center;
+    font-size: rem(14px);
+    + .xm-col {
+      @include set-line(left);
+    }
+  }
+  // a
+  > a {
+    @include cell-press-effect();
+    display: block;
+    &[role="cell"] {
+      font-size: rem(14px);
+      padding:0 1rem;
+      @include xm-col;
+      @include set-arrow(right);
+      &:after {
+        float: right;
+      }
+    }
+    &[role="button"] {
+      @include xm-col;
+      font-size: 1rem;
+      text-align: center;
+      -webkit-appearance: none;
+    }
+  }
+}
+
+
+.xm-panel-body{
+  position: relative;
+  + .xm-panel-body{
+    @include set-line(top,$style:dashed);
+  }
+}
+

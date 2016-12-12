@@ -1,0 +1,62 @@
+//theme
+
+$c-theme: #FF6700;
+
+//theme-extend
+$c-theme-dark: #FF3A00;
+$c-theme-light: #FF6F00;
+$c-theme-lightest: #FF8400;
+
+//linear
+$c-linear: linear-gradient(45deg, $c-theme 0%, $c-theme-lightest 100%);
+
+//theme-extra
+$c-theme-yellow: #FFE500;
+$c-theme-link: #4D9BFA;
+$c-theme-grey: #5F5750;
+$c-theme-bg: rgba(207,155,90,.1);
+$c-theme-line: rgba(207,155,90,.2);
+$c-theme-font: #EFCE9F;
+$c-theme-bg-light: #f8f8f8;
+
+//theme-extra-color
+$c-red: #ff5a5f;
+$c-yellow: #FDC90B;
+$c-green: #78c936;
+$c-blue: #2b99ff;
+$c-purple: #C68CF7;
+
+//font
+$c-font-dark: rgba(0, 0, 0, .8);
+$c-font-normal: rgba(0, 0, 0, .6);
+$c-font-light: rgba(0, 0, 0, .4);
+$c-font-lightest: rgba(0, 0, 0, .2);
+$c-font-white: rgba(255, 255, 255, 0.9);
+
+//grey
+$c-grey-dark: rgba(0, 0, 0, .3);
+$c-grey-normal: rgba(0, 0, 0, .04);
+$c-grey-light: rgba(0, 0, 0, .03);
+$c-grey-lightest: rgba(0, 0, 0, .02);
+$c-grey-white: rgba(255, 255, 255, .5);
+
+//line
+$c-line-dark: rgba(0, 0, 0, .24);
+$c-line-normal: rgba(0, 0, 0, .12);
+$c-line-light: rgba(0, 0, 0, .04);
+$c-line-white: rgba(255, 255, 255, .2);
+
+//border
+$border-dark: 1px solid $c-line-dark;
+$border-normal: 1px solid $c-line-normal;
+$border-light: 1px solid $c-line-light;
+$border-white: 1px solid $c-line-white;
+
+//class
+.bg-theme {
+  background-color: $c-theme;
+}
+
+.bg-linear {
+  background-image: $c-linear;
+}

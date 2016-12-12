@@ -1,0 +1,31 @@
+//
+//编译版
+//
+
+
+//
+// base
+//
+@import "../xmui-base/xmui-base";
+@import "utilities";
+
+//
+// iconfont
+//
+
+// 是否加载webapp扩展图标
+$iconfont-extend: true;
+// 是否加载月报图标
+$iconfont-report: false;
+
+@import "icon/iconfont";
+
+//
+// img
+//
+@import "../../img/img";
+
+//
+// page
+//
+@import "pages/pages";

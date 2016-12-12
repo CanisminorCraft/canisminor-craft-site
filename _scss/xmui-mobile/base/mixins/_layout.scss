@@ -1,0 +1,20 @@
+@mixin default-row($padding:1rem) {
+  position: relative;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-left:$padding;
+  padding-right:$padding ;
+  font-size: 1rem;
+  height: $default-row-height;
+  line-height: $default-row-height;
+}
+@mixin cell-press-effect {
+  &:active {
+    background-color: $c-grey-light;
+  }
+}
+
+@mixin xm-col {
+  flex-basis: 0;
+  flex-grow: 1;
+}

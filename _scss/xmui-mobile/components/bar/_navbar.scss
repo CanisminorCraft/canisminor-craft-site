@@ -1,0 +1,51 @@
+.xm-navbar {
+  @include xm-bar(top);
+  > .bar-item {
+    height: rem(44px);
+    line-height: rem(44px);
+    &[role="left"] {
+      left: 1rem;
+      text-align: left;
+    }
+    &[role="right"] {
+      right: 1rem;
+      text-align: right;
+    }
+    &[role="title"] {
+      width: 100%;
+      text-align: center;
+      font-size: rem(17px);
+    }
+  }
+  > a.bar-item {
+    position: absolute;
+    font-size: rem(15px);
+    > i, > i:before {
+      height: inherit;
+      line-height: inherit;
+      display: inline-block;
+
+    }
+    > i {
+      font-size: 1.4rem;
+    }
+    &[role="left"] {
+      > i {
+        margin-left: -.4rem;
+        margin-right: -.05rem;
+      }
+    }
+    &[role="right"] {
+      > i {
+
+        margin-right: -.4rem;
+        margin-left: -.05rem;
+      }
+    }
+    > .icon-fenxiang {
+      margin-right: -.3rem !important;
+    }
+    //返回fix
+  }
+
+}

@@ -1,0 +1,47 @@
+//
+//全局颜色变量
+//
+
+// font color
+$global-link-color: #61749B;
+$global-desc-color: $c-font-light;
+$global-warn-color: $c-red;
+$global-text-color: $c-font-light;
+$global-title-color: $c-font-dark;
+
+//border
+$global-border-color: $c-line-normal;
+
+//arrow
+$global-arrow-color: $c-line-dark;
+
+//component
+$item-active-color: $c-grey-light;
+
+//cell
+$cell-bg:#FFFFFF;
+$cell-border-color:$global-border-color;
+
+//grid
+$grid-border-color:$global-border-color;
+
+//progress
+$progress-bg: $c-theme-bg;
+$progress-color: $c-theme;
+$progress-close-bg: $c-red;
+$progress-active-bg: darken($c-red,10%);
+
+//button
+$btn-font-color:#FFFFFF;
+$btn-disabled-font-color:rgba(255,255,255,.6);
+$btn-active-font-color:rgba(255,255,255,.4);
+
+
+$btn-default-bg:#fff;
+$btn-default-active-bg:$c-grey-light;
+$btn-default-font-color:$c-font-dark;
+$btn-default-disabled-font-color:$c-font-lightest;
+$btn-default-active-font-color:$c-font-normal;
+
+$btn-primary-bg:$c-theme;
+$btn-primary-active-bg:darken($c-theme,10%);

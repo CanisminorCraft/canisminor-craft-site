@@ -1,0 +1,28 @@
+
+
+.xm-btn-plain-primary {
+    color: $btn-primary-bg;
+    border: 1px solid $btn-primary-bg;
+    &button, &input {
+        border-width: 1px;
+        background-color: transparent;
+    }
+    &:active {
+        border-color: $btn-primary-active-bg;
+    }
+    &:after {
+        border-width: 0;
+    }
+}
+
+.xm-btn-plain-default {
+    color: $btn-default-font-color;
+    border: 1px solid $global-border-color;
+    &button, &input {
+        border-width: 1px;
+        background-color: transparent;
+    }
+    &:after {
+        border-width: 0;
+    }
+}

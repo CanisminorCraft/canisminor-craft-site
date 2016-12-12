@@ -1,0 +1,23 @@
+//
+// Bootstrap "B" Booticon
+//
+
+.bd-booticon {
+  display: block;
+  width: 9rem;
+  height: 9rem;
+  cursor: default;
+  background-color: $c-theme;
+  border-radius: 15%;
+  background-image: url($img-logo);
+  background-size: 100%;
+
+  &.inverse {
+    color: $c-theme;
+    background-color: #fff;
+  }
+  &.outline {
+    background-color: transparent;
+    border: $border-white;
+  }
+}

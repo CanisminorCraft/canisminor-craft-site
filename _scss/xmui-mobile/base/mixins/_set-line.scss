@@ -1,0 +1,45 @@
+@mixin set-line($direction,$color: $global-border-color,$style:solid,$width:1px,$class:before,$left:0) {
+  position: relative;
+  &::#{$class} {
+    @if $direction == none {
+      display: none;
+    } @else {
+      content: " ";
+      position: absolute;
+      color: $color;
+      border-#{$direction}: $width $style $color;
+      @if $direction == top {
+        left: $left;
+        top: 0;
+        width: 100%;
+        height: $width;
+        transform-origin: 0 0;
+        transform: scaleY(0.5);
+      }
+      @if $direction == bottom {
+        left: $left;
+        bottom: 0;
+        width: 100%;
+        height: $width;
+        transform-origin: 0 100%;
+        transform: scaleY(0.5);
+      }
+      @if $direction == left {
+        left: 0;
+        top: 0;
+        width: $width;
+        height: 100%;
+        transform-origin: 0 0;
+        transform: scaleX(0.5);
+      }
+      @if $direction == right {
+        right: 0;
+        top: 0;
+        width: $width;
+        height: 100%;
+        transform-origin: 100% 0;
+        transform: scaleX(0.5);
+      }
+    }
+  }
+}

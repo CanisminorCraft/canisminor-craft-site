@@ -1,0 +1,1 @@
+function getUrlParams(){var r=window.location.search,a=r.substr(1,r.length).split("&"),n=new Array;if(null!=a)for(var l=0;l<a.length;l++){var e=/[=|^==]/,t=a[l].replace(e,"&"),u=t.split("&"),i=new Array;i[u[0]]=u[1],n.push(i)}return n}function getParamValue(r){var a=getUrlParams();if(null!=a)for(var n=0;n<a.length;n++)for(var l in a[n])if(l==r)return a[n][l];return null}

@@ -8,7 +8,7 @@
 
 <title>
   
-    XMUED &middot; 熊猫金库用户体验中心
+    Canisminor Craft
   
 </title>
 <link rel="shortcut icon" href="/favicon.ico">
@@ -100,159 +100,44 @@
     <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
 
       <h1 class="bd-title" id="content">XMUED简介</h1>
-      <link href="./webhook/css/webhook.css" rel="stylesheet" />
+      <link href="//hook.canisminor.cc/css/webhook.css" rel="stylesheet" />
 
-<script src="./webhook/js/main.js"></script>
+<script src="//hook.canisminor.cc/js/main.js"></script>
 
-<p>XMUED 是熊猫镇的 HTML、CSS 和 JS 框架，用于开发熊猫镇旗下熊猫金库等 WEB 项目。XMUED文档使用 Jekyll + SASS 架构。</p>
+<p>Canisminor Craft</p>
 
 <h2 id="section">目录</h2>
 
 <ul id="markdown-toc">
   <li><a href="#section" id="markdown-toc-section">目录</a></li>
-  <li><a href="#xmhook" id="markdown-toc-xmhook">XMHOOK</a>    <ul>
-      <li><a href="#redmine" id="markdown-toc-redmine">Redmine</a></li>
-      <li><a href="#merge-request" id="markdown-toc-merge-request">Merge Request</a></li>
+  <li><a href="#news" id="markdown-toc-news">News</a>    <ul>
+      <li><a href="#client" id="markdown-toc-client">Client</a></li>
       <li><a href="#webhook" id="markdown-toc-webhook">Webhook</a></li>
     </ul>
   </li>
-  <li><a href="#xmued" id="markdown-toc-xmued">XMUED环境配置</a>    <ul>
-      <li><a href="#nodejs" id="markdown-toc-nodejs">nodejs安装</a></li>
-      <li><a href="#jekyll" id="markdown-toc-jekyll">jekyll全局安装</a></li>
-      <li><a href="#section-1" id="markdown-toc-section-1">安装本地包,包功能详解:</a></li>
-      <li><a href="#xmued-1" id="markdown-toc-xmued-1">启动XMUED调试</a></li>
-      <li><a href="#section-2" id="markdown-toc-section-2">服务端自动部署</a>        <ul>
-          <li><a href="#webhook-1" id="markdown-toc-webhook-1">启动webhook</a></li>
-        </ul>
-      </li>
-      <li><a href="#section-3" id="markdown-toc-section-3">[过期|已切换成自动部署]服务端打包</a></li>
-      <li><a href="#sass" id="markdown-toc-sass">SASS</a></li>
-    </ul>
-  </li>
-  <li><a href="#app-" id="markdown-toc-app-">熊猫金库APP 版本获取</a>    <ul>
-      <li><a href="#ios" id="markdown-toc-ios">iOS</a></li>
-      <li><a href="#android" id="markdown-toc-android">Android</a></li>
+  <li><a href="#cmc" id="markdown-toc-cmc">CMC配置</a>    <ul>
+      <li><a href="#section-1" id="markdown-toc-section-1">客户端</a></li>
     </ul>
   </li>
 </ul>
 
-<h2 id="xmhook">XMHOOK</h2>
+<h2 id="news">News</h2>
 
-<h3 id="redmine">Redmine</h3>
+<h3 id="client">Client</h3>
 
-<div class="w-group" id="redmine"></div>
-
-<h3 id="merge-request">Merge Request</h3>
-
-<div class="w-group" id="merge"></div>
+<div class="w-group" id="client"></div>
 
 <h3 id="webhook">Webhook</h3>
 
 <div class="w-group" id="webhook"></div>
 
-<h2 id="xmued">XMUED环境配置</h2>
+<h2 id="cmc">CMC配置</h2>
 
-<h3 id="nodejs">nodejs安装</h3>
+<h3 id="section-1">客户端</h3>
 
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>brew install node
+<div class="language-sh highlighter-rouge"><pre class="highlight"><code>pan.baidu.com/s/1eRVSRL4 <span class="c"># 密码：0nw4</span>
 </code></pre>
 </div>
-
-<h3 id="jekyll">jekyll全局安装</h3>
-
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>gem install jekyll
-</code></pre>
-</div>
-
-<p><code class="highlighter-rouge">Jekyll</code>是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 <code class="highlighter-rouge">Markdown</code> （或者 Textile） 以及 <code class="highlighter-rouge">Liquid</code> 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。</p>
-
-<p><a href="http://jekyll.bootcss.com/docs/home/">Jekyll文档</a> <a href="http://blog.csdn.net/dont27/article/details/38097581">Liquid教程</a></p>
-
-<h3 id="section-1">安装本地包,包功能详解:</h3>
-
-<ul>
-  <li><strong>gulp</strong> 前端打包框架</li>
-  <li><strong>gulp-sass</strong> sass编译</li>
-  <li><strong>gulp-autoprefixer</strong> sass编译增加兼容前缀</li>
-  <li><strong>gulp-zip</strong> zip打包</li>
-  <li><strong>gulp-sourcemaps</strong> sass编译增sourcemaps方便调试</li>
-  <li><strong>browser-sync</strong> 编译结束自动刷新浏览器</li>
-</ul>
-
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install
-</code></pre>
-</div>
-
-<h3 id="xmued-1">启动XMUED调试</h3>
-
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>gulp
-</code></pre>
-</div>
-
-<h3 id="section-2">服务端自动部署</h3>
-
-<p>接口</p>
-
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code>fanshu.xiongmaojinku.com/ui
-</code></pre>
-</div>
-
-<blockquote>
-  <p>[Webhook]接到master的push指令后自动部署</p>
-</blockquote>
-
-<h4 id="webhook-1">启动webhook</h4>
-
-<blockquote>
-  <p>使用screen常驻进程</p>
-</blockquote>
-
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>screen -S webhook
-<span class="gp">$ </span>node webhook.js &amp; 
-<span class="c"># command + A &amp;&amp; command + D 退出窗口</span>
-
-<span class="gp">$ </span>screen -r webhook
-<span class="c"># 召回窗口</span>
-
-<span class="gp">$ </span>ps | grep node 
-<span class="c"># 查看进程</span>
-
-<span class="gp">$ </span><span class="nb">kill </span>node 
-<span class="c"># 结束进程</span>
-</code></pre>
-</div>
-
-<h3 id="section-3">[过期|已切换成自动部署]服务端打包</h3>
-
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git checkout . <span class="o">&amp;&amp;</span> git pull <span class="o">&amp;&amp;</span> gulp build
-</code></pre>
-</div>
-
-<h3 id="sass">SASS</h3>
-
-<p>从功能出发，Sass较LESS略强大一些，LESS用的稍微深入一点你就会发觉它hold不住了。自定义函数不支持，运算符也少的可怜，还用坑爹的css关键字@符声明变量。目前 Bootstarp 4 也已经从LESS全面改用SCSS。</p>
-
-<p><a href="http://www.sass.hk/sass-course.html">SASS用法指南</a></p>
-
-<hr />
-
-<h2 id="app-">熊猫金库APP 版本获取</h2>
-
-<h3 id="ios">iOS</h3>
-
-<blockquote>
-  <p><strong>蒲公英测试版：</strong><a href="http://www.pgyer.com/PandaCashBox">下载地址</a></p>
-
-  <p><strong>AppStore正式版：</strong><a href="https://itunes.apple.com/cn/app/id1092412888">itunes.apple.com/cn/app/id1092412888</a></p>
-</blockquote>
-
-<h3 id="android">Android</h3>
-
-<blockquote>
-  <p><strong>蒲公英测试版：</strong><a href="http://www.pgyer.com/ONEl">下载地址</a></p>
-
-  <p><strong>应用宝正式版：</strong><a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.xmzhen.cashbox">a.app.qq.com/o/simple.jsp?pkgname=com.xmzhen.cashbox</a></p>
-</blockquote>
 
     </div>
   </div>

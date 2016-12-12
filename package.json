@@ -2,9 +2,8 @@
   "name": "cmc-website",
   "description": "Canisminor Craft",
   "scripts": {
-    "push": "gulp img; git add -A ;git commit -am 'autobuild'; git push",
-    "ssh": "ssh root@192.168.100.9 'cd ../var/www/XMUED'",
-    "build": "yarn;gulp build",
+    "push": "gulp build; gulp img; git add -A ;git commit -am 'autobuild'; git push",
+    "build": "gulp build; gulp img",
     "start": "gulp"
   },
   "repository": {

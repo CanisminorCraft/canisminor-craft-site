@@ -1,0 +1,31 @@
+{
+  "name": "cmc-website",
+  "description": "Canisminor Craft",
+  "scripts": {
+    "push": "gulp img; git add -A ;git commit -am 'autobuild'; git push",
+    "ssh": "ssh root@192.168.100.9 'cd ../var/www/XMUED'",
+    "build": "yarn;gulp build",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.coding.net:canisminor1990/cmc-website.git"
+  },
+  "author": "Canis Minor",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-zip": "^3.2.0",
+    "imagemin-pngquant": "^5.0.0",
+    "require-dir": "^0.3.1"
+  }
+}

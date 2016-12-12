@@ -11,7 +11,7 @@ exclude:
   - js
   - img
 keep_files:
-  - webhook
+  - favicon.ico
   - pages/library
   - download
   - pages/xmui-pc

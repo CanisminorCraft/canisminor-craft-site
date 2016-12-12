@@ -1,0 +1,23 @@
+# root
+.idea/
+node_modules
+yarn.lock
+npm-debug.log
+
+# file
+*.sketch
+*.psd
+
+# src
+css/
+js/
+
+# dist
+dist/*.*
+dist/download/
+dist/css/
+dist/js/
+dist/pages/*
+!/dist/pages/library
+dist/pages/**/*.html
+dist/pages/library/views/

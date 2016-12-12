@@ -5,10 +5,10 @@ $c-theme: #B44E28;
 //theme-extend
 $c-theme-dark: #611F10;
 $c-theme-light: #BA603B;
-$c-theme-lightest: #BA603B;
+$c-theme-lightest: #BA603B;yarn
 
 //linear
-$c-linear: linear-gradient(45deg, $c-theme 0%, $c-theme-lightest 100%);
+$c-linear: linear-gradient(45deg, $c-theme 0%, $c-theme-dark 100%);
 
 //theme-extra
 $c-theme-yellow: #FFE500;

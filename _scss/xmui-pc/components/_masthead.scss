@@ -1,7 +1,9 @@
 // scss-lint:disable ImportantRule
 
 .bd-masthead {
-  @extend .bg-linear;
+  background-color: $c-theme-dark;
+  background-image: url("../img/bg.png");
+  background-size: cover;
   position: relative;
   padding: 3rem ($grid-gutter-width / 2) 2rem;
   color: $c-theme;

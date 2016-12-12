@@ -5,7 +5,6 @@ title: Canisminor Craft
 <link href="//hook.canisminor.cc/css/webhook.css" rel="stylesheet">
 <script src="//hook.canisminor.cc/js/main.js"></script>
 
-Canisminor Craft
 
 ## 目录
 

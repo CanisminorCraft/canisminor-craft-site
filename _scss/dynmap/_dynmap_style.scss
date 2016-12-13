@@ -148,8 +148,8 @@
     height              : 100%;
     width               : 16px;
     text-align          : center;
-    background          : url(../../img/dynmap/sidebar_hint.png) rgb(0, 0, 0);
-    background          : url(../../img/dynmap/sidebar_hint.png) rgba(0, 0, 0, 0.6);
+    background          : url($path + "sidebar_hint.png") rgb(0, 0, 0);
+    background          : url($path + "sidebar_hint.png") rgba(0, 0, 0, 0.6);
     background-repeat   : no-repeat;
     background-position : center;
     border              : 1px solid rgba(0, 0, 0, 0.5);
@@ -167,16 +167,16 @@
       top              : 7px;
       width            : 16px;
       height           : 16px;
-      background-image : url(../../img/dynmap/window_close.png);
+      background-image : url($path + "window_close.png");
       &:hover {
-        background-image : url(../../img/dynmap/window_pinned_hover.png);
+        background-image : url($path + "window_pinned_hover.png");
       }
     }
     &.pinned .panel > .pin {
       &:hover {
-        background-image : url(../../img/dynmap/window_close_hover.png);
+        background-image : url($path + "window_close_hover.png");
       }
-      background-image : url(../../img/dynmap/window_pinned.png);
+      background-image : url($path + "window_pinned.png");
     }
   }
 }
@@ -235,11 +235,11 @@
   font-size   : 20px;
   font-weight : bold;
   &.night {
-    /* background-image: url(../images/clock_night.png); */
+    /* background-image: url(../images/clock_night.png"); */
     color : #DFF;
   }
   &.day {
-    /* background-image: url(../images/clock_day.png); */
+    /* background-image: url(../images/clock_day.png"); */
     color : #FD3;
   }
   &.night, &.day {
@@ -270,10 +270,10 @@
 .timeofday {
   background-repeat : no-repeat;
   &.sun {
-    background-image : url(../../img/dynmap/sun.png);
+    background-image : url($path + "sun.png");
   }
   &.moon {
-    background-image : url(../../img/dynmap/moon.png);
+    background-image : url($path + "moon.png");
   }
   &.digitalclock {
     position : relative;
@@ -294,22 +294,22 @@
   display           : block;
   background-repeat : no-repeat;
   &.sunny_day {
-    background-image : url(../../img/dynmap/weather_sunny_day.png);
+    background-image : url($path + "weather_sunny_day.png");
   }
   &.stormy_day {
-    background-image : url(../../img/dynmap/weather_stormy_day.png);
+    background-image : url($path + "weather_stormy_day.png");
   }
   &.thunder_day {
-    background-image : url(../../img/dynmap/weather_thunder_day.png);
+    background-image : url($path + "weather_thunder_day.png");
   }
   &.sunny_night {
-    background-image : url(../../img/dynmap/weather_sunny_night.png);
+    background-image : url($path + "weather_sunny_night.png");
   }
   &.stormy_night {
-    background-image : url(../../img/dynmap/weather_stormy_night.png);
+    background-image : url($path + "weather_stormy_night.png");
   }
   &.thunder_night {
-    background-image : url(../../img/dynmap/weather_thunder_night.png);
+    background-image : url($path + "weather_thunder_night.png");
   }
 }
 
@@ -396,10 +396,10 @@
         width              : calc(100% - 6px);
       }
       &:hover .playericon {
-        background : url(../../img/dynmap/player_follow_off.png) no-repeat;
+        background : url($path + "player_follow_off.png") no-repeat;
       }
       &.following .playericon {
-        background : url(../../img/dynmap/player_follow_on.gif) no-repeat;
+        background : url($path + "player_follow_on.gif") no-repeat;
         > * {
           visibility : hidden;
         }
@@ -422,7 +422,7 @@
 .panel {
   .scrollup {
     border                : 1px solid rgba(64, 64, 64, 0.6);
-    background            : url(../../img/dynmap/scrollup.png) rgba(32, 32, 32, 0.6);
+    background            : url($path + "scrollup.png") rgba(32, 32, 32, 0.6);
     margin-bottom         : 4px;
     -moz-border-radius    : 2px;
     -webkit-border-radius : 2px;
@@ -431,7 +431,7 @@
   }
   .scrolldown {
     border                : 1px solid rgba(64, 64, 64, 0.6);
-    background            : url(../../img/dynmap/scrolldown.png) rgba(32, 32, 32, 0.6);
+    background            : url($path + "scrolldown.png") rgba(32, 32, 32, 0.6);
     margin-top            : 4px;
     -moz-border-radius    : 2px;
     -webkit-border-radius : 2px;
@@ -440,24 +440,24 @@
   }
   .scrollup:hover, .scrolldown:hover {
     border     : 1px solid rgba(128, 128, 128, 0.6);
-    background : url(../../img/dynmap/scrollup.png) rgba(64, 64, 64, 0.6);
+    background : url($path + "scrollup.png") rgba(64, 64, 64, 0.6);
   }
   .scrollup:active {
     border     : 1px solid rgba(255, 255, 255, 0.5);
-    background : url(../../img/dynmap/scrollup.png) rgba(128, 128, 128, 0.5);
+    background : url($path + "scrollup.png") rgba(128, 128, 128, 0.5);
   }
   .scrolldown {
     &:active {
       border     : 1px solid rgba(255, 255, 255, 0.5);
-      background : url(../../img/dynmap/scrollup.png) rgba(128, 128, 128, 0.5);
+      background : url($path + "scrollup.png") rgba(128, 128, 128, 0.5);
     }
     &:hover {
       border     : 1px solid rgba(128, 128, 128, 0.6);
-      background : url(../../img/dynmap/scrolldown.png) rgba(64, 64, 64, 0.6);
+      background : url($path + "scrolldown.png") rgba(64, 64, 64, 0.6);
     }
     &:active {
       border     : 1px solid rgba(255, 255, 255, 0.5);
-      background : url(../../img/dynmap/scrolldown.png) rgba(128, 128, 128, 0.5);
+      background : url($path + "scrolldown.png") rgba(128, 128, 128, 0.5);
     }
   }
   .scrollup {
@@ -566,21 +566,21 @@
   }
   .playerHealth {
     height     : 7px;
-    background : url(../../img/dynmap/heart.png) repeat-x left center;
+    background : url($path + "heart.png") repeat-x left center;
   }
   .playerHealthBackground {
     height     : 7px;
     width      : 50px;
-    background : url(../../img/dynmap/heart_depleted.png) repeat-x left center;
+    background : url($path + "heart_depleted.png") repeat-x left center;
   }
   .playerArmor {
     height     : 7px;
-    background : url(../../img/dynmap/armor.png) repeat-x left center;
+    background : url($path + "armor.png") repeat-x left center;
   }
   .playerArmorBackground {
     height     : 7px;
     width      : 50px;
-    background : url(../../img/dynmap/armor_depleted.png) repeat-x left center;
+    background : url($path + "armor_depleted.png") repeat-x left center;
   }
 }
 
@@ -600,19 +600,19 @@
 }
 
 .compass, .compass_SE {
-  background-image : url(../../img/dynmap/compass.png);
+  background-image : url($path + "compass.png");
 }
 
 .compass_NE {
-  background-image : url(../../img/dynmap/compass_NE.png);
+  background-image : url($path + "compass_NE.png");
 }
 
 .compass_NW {
-  background-image : url(../../img/dynmap/compass_NW.png);
+  background-image : url($path + "compass_NW.png");
 }
 
 .compass_SW {
-  background-image : url(../../img/dynmap/compass_SW.png);
+  background-image : url($path + "compass_SW.png");
 }
 
 .compass_flat, .compass_N, .compass_E, .compass_W, .compass_S {
@@ -623,19 +623,19 @@
 }
 
 .compass_flat, .compass_S {
-  background-image : url(../../img/dynmap/compass_flat.png);
+  background-image : url($path + "compass_flat.png");
 }
 
 .compass_N {
-  background-image : url(../../img/dynmap/compass_N.png);
+  background-image : url($path + "compass_N.png");
 }
 
 .compass_E {
-  background-image : url(../../img/dynmap/compass_E.png);
+  background-image : url($path + "compass_E.png");
 }
 
 .compass_W {
-  background-image : url(../../img/dynmap/compass_W.png);
+  background-image : url($path + "compass_W.png");
 }
 
 .mobilecompass {
@@ -674,7 +674,7 @@
   background-color    : #000;
   border              : 0px;
   background          : rgba(0, 0, 0, 0.6);
-  background-image    : url(../../img/dynmap/chat_cursor.png);
+  background-image    : url($path + "chat_cursor.png");
   background-repeat   : no-repeat;
   background-position : 1px center;
   margin              : 4px;
@@ -843,7 +843,7 @@
 }
 
 .dynmap .dynmap-link-button {
-  background-image : url(../../img/dynmap/link.png);
+  background-image : url($path + "link.png");
 }
 
 /* Login/register panel */

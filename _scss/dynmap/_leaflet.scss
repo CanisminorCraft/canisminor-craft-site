@@ -329,7 +329,7 @@
 }
 
 .leaflet-control-layers-toggle {
-  background-image : url(../../img/dynmap/layers.png);
+  background-image : url($path + "layers.png");
   width            : 36px;
   height           : 36px;
 }

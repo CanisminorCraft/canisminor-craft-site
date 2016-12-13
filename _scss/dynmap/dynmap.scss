@@ -1,13 +1,13 @@
-$path: "//canisminor.cc/img/dynmap/";
+$path : "//canisminor.cc/img/dynmap/";
 
 @import "leaflet";
 @import "standalone";
 @import "dynmap_style";
 
 .leaflet-layer img {
-  background-color: #333 !important;
+  background-color : #333 !important;
 }
 
-.compass {
-  display: none !important;
+.compass, .dynmap-link {
+  display : none !important;
 }

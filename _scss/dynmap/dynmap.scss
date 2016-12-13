@@ -4,6 +4,10 @@ $path : "//canisminor.cc/img/dynmap/";
 @import "standalone";
 @import "dynmap_style";
 
+.map{
+  background-color : #666 !important;
+}
+
 .leaflet-layer img {
   background-color : #333 !important;
 }

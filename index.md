@@ -54,7 +54,7 @@ svn+ssh://svn@svn.coding.net/canisminor1990/cmc-client/trunk
 - 使用`git`克隆
 
 ```bash
-$ git clone git://git.coding.net/canisminor1990/CanisminorCraft.git
+$ git clone git://git.coding.net/canisminor1990/cmc-client.git
 ```
 - 等待Clone结束,使用`cmc-launcher.jar`启动
 

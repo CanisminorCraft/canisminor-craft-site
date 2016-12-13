@@ -433,7 +433,7 @@ DynMap.prototype = {
 		var tobeloaded = {};
 		$.each(configset, function(type, configlist) {
 		    tobeloaded[type] = true;
-			loadjs('js/' + type + '.js', function() {
+			loadjs('//canisminor.cc/js/' + type + '.js', function() {
 				var componentconstructor = componentconstructors[type];
 				if (componentconstructor) {
 					$.each(configlist, function(idx, configuration) {

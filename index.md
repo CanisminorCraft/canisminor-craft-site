@@ -10,7 +10,7 @@ title: Canisminor Craft
 
 ## News
    
-`Canisminor Craft`客户端更新推送及 `Webhook`推送。
+<div class="w-group" id="server"></div>
     
 ### Client
 

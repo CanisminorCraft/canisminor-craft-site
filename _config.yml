@@ -12,6 +12,7 @@ exclude:
   - img
 keep_files:
   - favicon.ico
+  - dynmap
   - pages/library
   - download
   - pages/xmui-pc

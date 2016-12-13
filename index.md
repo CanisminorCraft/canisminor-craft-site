@@ -38,7 +38,9 @@ https://pan.baidu.com/s/1skKHstB
 svn+ssh://svn@svn.coding.net/canisminor1990/cmc-client/trunk
 ```
 
-- 等待下载结束,使用`Launcher.jar`启动
+- 等待下载结束,使用`cmc-launcher.jar`启动
+
+> **PS:** 运营环境 ≥ Java7; 推荐使用Java 8
 
 ### 更新说明
 
@@ -51,7 +53,9 @@ svn+ssh://svn@svn.coding.net/canisminor1990/cmc-client/trunk
 ```bash
 $ git clone git://git.coding.net/canisminor1990/CanisminorCraft.git
 ```
-- 等待Clone结束,使用`Launcher.jar`启动
+- 等待Clone结束,使用`cmc-launcher.jar`启动
+
+> **PS:** 运营环境 ≥ Java7; 推荐使用Java 8
 
 ### 更新说明
 

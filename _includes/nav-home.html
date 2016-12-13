@@ -18,12 +18,14 @@
             <a class="nav-item nav-link {% if page.layout == "home" %}active{% endif %}"
                href="{{ site.baseurl }}/">首页</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-item nav-link {% if page.title == "Map" %}active{% endif %}{% if page.layout == "library-page" %}active{% endif %}"
                href="{{ site.baseurl }}/pages/map.html">地图</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-item nav-link {% if page.title == "Git" %}active{% endif %}{% if page.layout == "library-page" %}active{% endif %}"
+               href="{{ site.baseurl }}/pages/git.html">Git</a>
+          </li>
         </ul>
       </div>
     </nav>

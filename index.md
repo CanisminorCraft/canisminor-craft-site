@@ -68,3 +68,10 @@ $ git clone git://git.coding.net/canisminor1990/CanisminorCraft.git
 ```bash
 $ git fetch
 ```
+
+### Copyright
+
+- **Author:** [Canis Minor](http://canisminor.cc)
+- **QQ:** 40073838
+- **Coding:** [canisminor1990](https://coding.net/u/canisminor1990)
+- **Email:** [Canismonor1990@gmail.com](Canismonor1990@gmail.com)

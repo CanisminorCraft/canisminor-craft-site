@@ -67,7 +67,7 @@ if ($parts[0] == "faces") {
 	  echo $row[0];
 	}
 	else {
-		header('Location: ../images/blank.png');
+		header('Location: //canisminor.cc/img/dynmap/blank.png');
 		exit;
 	}
 }
@@ -99,7 +99,7 @@ else { // _markers_
 			echo $row[0];
 		}
 		else {
-			header('Location: ../images/blank.png');
+			header('Location: //canisminor.cc/img/dynmap/blank.png');
 			exit;
 		}
 	}

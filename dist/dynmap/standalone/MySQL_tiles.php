@@ -30,7 +30,7 @@ if ((!isset($path)) || strstr($path, "..")) {
 $parts = explode("/", $path);
 
 if (count($parts) != 4) {
-   header('Location: ../images/blank.png');
+   header('Location: //canisminor.cc/img/dynmap/blank.png');
    cleanupDb();
    exit;
 }
@@ -42,7 +42,7 @@ $world = $parts[0];
 if(isset($worldaccess[$world])) {
     $ss = stristr($worldaccess[$world], $uid);
 	if($ss === false) {
-           header('Location: ../images/blank.png');
+           header('Location: //canisminor.cc/img/dynmap/blank.png');
            cleanupDb();
            exit;
 	}
@@ -59,7 +59,7 @@ $variant='STANDARD';
   if(isset($mapaccess[$mapid])) {
     $ss = stristr($mapaccess[$mapid], $uid);
 	if($ss === false) {
-           header('Location: ../images/blank.png');
+           header('Location: //canisminor.cc/img/dynmap/blank.png');
            cleanupDb();
            exit;
 	}
@@ -77,7 +77,7 @@ else if (count($fparts) == 2) { // x_y
    $y = intval($fparts[1]);
 }
 else {
-   header('Location: ../images/blank.png');
+   header('Location: //canisminor.cc/img/dynmap/blank.png');
    cleanupDb();
    exit;
 }
@@ -99,7 +99,7 @@ if ($stmt->fetch()) {
    echo $timage;
 }
 else {
-   header('Location: ../images/blank.png');
+   header('Location: //canisminor.cc/img/dynmap/blank.png');
 }
 
 $stmt->close();

@@ -47,7 +47,7 @@ $uid = '[' . strtolower($userid) . ']';
 
 if (!is_readable($fname)) {
   if(strstr($path, ".jpg") || strstr($path, ".png")) {
-	  $fname = "../images/blank.png";
+	  $fname = "//canisminor.cc/img/dynmap/blank.png";
   }
   else {
     header('HTTP/1.0 404 Not Found');

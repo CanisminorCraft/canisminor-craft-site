@@ -43,7 +43,7 @@ $world = $parts[0];
 if(isset($worldaccess[$world])) {
     $ss = stristr($worldaccess[$world], $uid);
 	if($ss === false) {
-		$fname = "../images/blank.png";
+		$fname = "//canisminor.cc/img/dynmap/blank.png";
 	}
 }
 if(count($parts) > 2) {
@@ -56,14 +56,14 @@ if(count($parts) > 2) {
   if(isset($mapaccess[$mapid])) {
     $ss = stristr($mapaccess[$mapid], $uid);
 	if($ss === false) {
-		$fname = "../images/blank.png";
+		$fname = "//canisminor.cc/img/dynmap/blank.png";
 	}
   }
 }
 
 if (!is_readable($fname)) {
   if(strstr($path, ".jpg") || strstr($path, ".png")) {
-	  $fname = "../images/blank.png";
+	  $fname = "//canisminor.cc/img/dynmap/blank.png";
   }
   else {
       echo "{ \"result\": \"bad-tile\" }";

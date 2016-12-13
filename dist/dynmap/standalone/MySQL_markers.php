@@ -69,7 +69,7 @@ if ($parts[0] == "faces") {
 	  echo $timage;
 	}
 	else {
-		header('Location: ../images/blank.png');
+		header('Location: //canisminor.cc/img/dynmap/blank.png');
 	}
 }
 else { // _markers_
@@ -100,7 +100,7 @@ else { // _markers_
 			echo $timage;
 		}
 		else {
-			header('Location: ../images/blank.png');
+			header('Location: //canisminor.cc/img/dynmap/blank.png');
 		}
 	}
 }

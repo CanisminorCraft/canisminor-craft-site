@@ -18,7 +18,7 @@ componentconstructors['playermarkers'] = function(dynmap, configuration) {
 				.addClass('Marker')
 				.addClass('playerMarker')
 				.append(playerImage = $('<img/>').addClass(configuration.smallplayerfaces?'playerIconSm':'playerIcon')
-						.attr({ src: 'images/player.png' }))
+						.attr({ src: '//canisminor.cc/img/dynmap/player.png' }))
 				.append(player.namefield = $('<span/>')
 					.addClass(configuration.smallplayerfaces?'playerNameSm':'playerName')
 					.append(player.name));

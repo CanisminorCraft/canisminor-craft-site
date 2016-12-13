@@ -309,7 +309,7 @@ DynMap.prototype = {
 					.append($('<a/>')
 							.attr({ title: map.options.title, href: '#' })
 							.addClass('maptype')
-							.css({ backgroundImage: 'url(' + (map.options.icon || ('images/block_' + mapindex + '.png')) + ')' })
+							.css({ backgroundImage: 'url(' + (map.options.icon || ('//canisminor.cc/img/dynmap/block_' + mapindex + '.png')) + ')' })
 							.text(map.options.title)
 							)
 					.click(function() {
@@ -433,7 +433,7 @@ DynMap.prototype = {
 		var tobeloaded = {};
 		$.each(configset, function(type, configlist) {
 		    tobeloaded[type] = true;
-			loadjs('//canisminor.cc/js/' + type + '.js', function() {
+			loadjs('//canisminor.cc/js/dynmap/' + type + '.js', function() {
 				var componentconstructor = componentconstructors[type];
 				if (componentconstructor) {
 					$.each(configlist, function(idx, configuration) {
@@ -760,7 +760,7 @@ DynMap.prototype = {
 			.addClass('player')
 			.append(playerIconContainer = $('<span/>')
 				.addClass('playerIcon')
-				.append($('<img/>').attr({ src: 'images/player_face.png' }))
+				.append($('<img/>').attr({ src: '//canisminor.cc/img/dynmap/player_face.png' }))
 				.attr({ title: 'Follow player' })
 				.click(function() {
 					var follow = player !== me.followingPlayer;

@@ -69,7 +69,7 @@ $ git clone git://git.coding.net/canisminor1990/CanisminorCraft.git
 $ git fetch
 ```
 
-### Copyright
+## Copyright
 
 - **Author:** [Canis Minor](http://canisminor.cc)
 - **QQ:** 40073838

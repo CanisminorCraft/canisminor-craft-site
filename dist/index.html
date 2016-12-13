@@ -72,20 +72,11 @@
   <div class="row">
     <div class="col-xs-12 col-md-3 push-md-9 bd-sidebar">
 
-      <form class="bd-search hidden-sm-down">
-        <input type="text" class="form-control" id="search-input" placeholder="搜索..." autocomplete="off">
-        <div class="dropdown-menu bd-search-results" id="search-results"></div>
-      </form>
-
       <nav class="bd-links" id="simpleNavbarContent"></nav>
 
     </div>
     <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
-      <link href="//hook.canisminor.cc/css/webhook.css" rel="stylesheet" />
-
-<script src="//hook.canisminor.cc/js/main.js"></script>
-
-<h2 id="section">目录</h2>
+      <h2 id="section">目录</h2>
 
 <ul id="markdown-toc">
   <li><a href="#section" id="markdown-toc-section">目录</a></li>
@@ -128,17 +119,8 @@
   $('#markdown-toc').hide();
 </script>
 
-<script src="/js/search.js"></script>
-<script>
-  SimpleJekyllSearch.init({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('search-results'),
-    searchResultTemplate: '<a class="dropdown-item" href="{url}">{title}</a>',
-    noResultsText: '<div class="dropdown-item no-results">对不起, 没有您要的结果.</div>',
-    json: '/search/home.json'
-  })
-</script>
-
+<link href="//hook.canisminor.cc/css/webhook.css" rel="stylesheet">
+<script src="//hook.canisminor.cc/js/main.js"></script>
 </div>
 
 <footer class="bd-footer text-muted">

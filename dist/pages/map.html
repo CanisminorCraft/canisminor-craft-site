@@ -60,6 +60,13 @@
 
 <div id="content">
   <iframe src="http://map.canisminor.cc" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+
+<script>
+  $("iframe").load(function () {
+    var mainheight = $(this).contents().find("body").height() - 92;
+    $(this).height(mainheight);
+  });
+</script>
 </div>
 
 <footer class="bd-footer text-muted">

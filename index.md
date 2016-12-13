@@ -9,6 +9,8 @@ title: Canisminor Craft
 {:toc}
 
 ## News
+   
+`Canisminor Craft`客户端更新推送及 `Webhook`推送。
     
 ### Client
 
@@ -18,10 +20,38 @@ title: Canisminor Craft
     
 <div class="w-group" id="webhook"></div>
 
-## CMC配置
+## SVN版
 
-### 客户端
+**下载地址:**
 
 ```sh
-pan.baidu.com/s/1eRVSRL4 # 密码：0nw4
+https://pan.baidu.com/s/1skKHstB
+```
+
+**安装说明:**
+
+- 安装`svn.msi`
+- 新建文件夹,并右键`SVN Checkout`
+- URL处填写:
+
+```
+svn+ssh://svn@svn.coding.net/canisminor1990/cmc-client/trunk
+```
+
+**更新说明:**
+
+- 右键`SVN Update`更新客户端
+
+## GIT版
+
+**克隆地址:**
+
+```bash
+$ git clone git://git.coding.net/canisminor1990/CanisminorCraft.git
+```
+
+**更新说明:**
+
+```bash
+$ git fetch
 ```

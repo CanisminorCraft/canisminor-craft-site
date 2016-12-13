@@ -1,0 +1,32 @@
+---
+layout: dynmap
+---
+
+  <script type="text/javascript" src="js/dynmap/leaflet.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="js/dynmap/custommarker.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="js/dynmap/dynmaputils.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="version.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="js/dynmap/jquery.json.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="js/dynmap/jquery.mousewheel.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="js/dynmap/minecraft.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="js/dynmap/map.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="js/dynmap/hdmap.js?_=2.3-2074"></script>
+  <script type="text/javascript" src="standalone/config.js?_=2.3-2074"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      window.dynmap = new DynMap($.extend({
+        container: $('#mcmap')
+      }, config));
+    });
+  </script>
+
+</head>
+<body>
+<noscript>
+  For full functionality of this site it is necessary to enable JavaScript.
+  Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+    instructions how to enable JavaScript in your web browser</a>.
+</noscript>
+
+<div id="mcmap"></div>

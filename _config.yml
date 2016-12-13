@@ -21,4 +21,4 @@ keep_files:
   - img
 markdown: kramdown
 title: CMCRAFT
-version: 1.0.2-alpha
+version: 1.0.3-alpha

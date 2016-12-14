@@ -36,7 +36,13 @@ $(function () {
         if (json.currentcount > 0) {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";
-                strHtml += "<div class='w-avata'><img src='http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name + ".png'></div>";
+                strHtml += "<div class='p-avata'><img src='http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name + ".png'></div>";
+                strHtml += "<div class='p-content'>";
+                strHtml += "<div class='p-name'>" + json.players[i].name + "</div>";
+                var xyz = "x:" + json.players[i].x + " z:" + json.players[i].z
+                strHtml += "<div class='p-xyz'>" + xyz + "</div>";
+                strHtml += "<progress class='progress' value='" + json.players[i].health + "' max='20'></progress>"
+                strHtml += "</div>"
                 strHtml += "</div>"
             }
         } else {

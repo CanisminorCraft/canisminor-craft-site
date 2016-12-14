@@ -8,11 +8,11 @@ title: Canisminor Craft
 * 目录
 {:toc}
 
-## Server
+## 服务器
    
 <div class="w-group" id="server"></div>
     
-### Client
+### 客户端
 
 <div class="w-group" id="client"></div>
 

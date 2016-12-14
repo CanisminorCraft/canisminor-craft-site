@@ -24,9 +24,9 @@ componentconstructors['digitalclock'] = function (dynmap, configuration) {
         }
         var time = null;
         var today = new Date(),
-            s = today.getSeconds(),
+            h = today.getHours(),
             m = today.getMinutes(),
-            now = m + ":" + s;
+            now = h + ":" + m;
         if (servertime >= 0) {
             time = getMinecraftTime(servertime);
             element

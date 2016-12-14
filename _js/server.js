@@ -28,7 +28,7 @@ $(function () {
             "<div class='w-card'>" +
             "<div class='w-avatar'><img src='//canisminor.cc/img/logo.png'></div>" +
             "<div class='w-box'>" +
-            "<div class='w-title'>Server:<a href='//canisminor.cc'>Canisminor Craft</a></div>" +
+            "<div class='w-title'>Server:<a href='/pages/map.html'>Canisminor Craft</a></div>" +
             "<div class='w-time'><span>" + json.currentcount + "/20" + "</span>" + nowtime + "</div>";
         strHtml += "<div class='w-message'></div>";
         //player

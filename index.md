@@ -66,7 +66,7 @@ $ git clone git://git.coding.net/canisminor1990/cmc-client.git
 - 使用`git`更新
 
 ```bash
-$ git fetch
+$ git reset --hard ; git pull
 ```
 
 ## Contact

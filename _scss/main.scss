@@ -16,13 +16,14 @@
   border-top  : 1px dotted #F8F8F8;
 
   .p-box {
-    display     : flex;
-    margin-left : 1rem;
+    display : flex;
+    margin-top: 1rem;
 
   }
   .p-content {
-    flex : 1;
-    position: relative;
+    flex        : 1;
+    position    : relative;
+    margin-left : 1rem;
   }
   .p-avata {
     width  : 32px;
@@ -43,7 +44,7 @@
       font-size   : .8rem;
     }
   }
-  progress{
-    height: 4px;
+  progress {
+    height : 4px;
   }
 }

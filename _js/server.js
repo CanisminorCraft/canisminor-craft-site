@@ -2,22 +2,6 @@ $(function () {
     var className = $("server");
     var strHtml = "";
     $.getJSON("https://mcapi.ca/query/canisminor.cc/info", function (json) {
-        // json = {
-        //     status: true,
-        //     hostname: "canisminor.cc",
-        //     port: 25565,
-        //     ping: 639,
-        //     version: "Spigot 1.11",
-        //     protocol: 315,
-        //     players: {
-        //         online: 3, var
-        //         max: 20
-        //     },
-        //     motd: "Welcome to Canisminor Craft",
-        //     htmlmotd: "Welcome to Canisminor Craft",
-        //     favicon: ""
-        // }
-
         //html
         strHtml +=
             "<div class='w-card'>" +

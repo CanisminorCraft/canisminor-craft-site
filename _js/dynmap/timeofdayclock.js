@@ -45,16 +45,12 @@ componentconstructors['timeofdayclock'] = function(dynmap, configuration) {
 				timeout = null;
 			}
 			var time = null;
-			var today = new Date(),
-				h = today.getHours(),
-				m = today.getMinutes(),
-				now = h + ":" + m;
 			if(servertime >= 0) {
 				time = getMinecraftTime(servertime);
 				clock
 					.addClass(time.day ? 'day' : 'night')
 					.removeClass(time.night ? 'day' : 'night')
-					.text(now);
+					.text(formatTime(time));
 			}
 			else {
 				clock

@@ -57,10 +57,6 @@ $(function () {
         }
         strHtml += "</div>";
         className.html(strHtml)
+        $("#server .w-message").text($('#content .version').text())
     })
-
-    $.getJSON("http://mcapi.ca/query/canisminor.cc/motd", function (json) {
-        $("#server .w-message").text(json.motd)
-    })
-
 })

@@ -5,5 +5,45 @@
 #server {
   .w-avatar {
     border-radius : 0 !important;
+    border        : 0;
+  }
+
+}
+
+.p-card {
+  padding-top : 1rem;
+  margin-top  : 1rem;
+  border-top  : 1px dotted #F8F8F8;
+
+  .p-box {
+    display     : flex;
+    margin-left : 1rem;
+
+  }
+  .p-content {
+    flex : 1;
+    position: relative;
+  }
+  .p-avata {
+    width  : 32px;
+    height : 32px;
+    img {
+      image-rendering : auto;
+      image-rendering : crisp-edges;
+      image-rendering : pixelated; //像素不模糊
+    }
+  }
+
+  .p-name {
+    color       : $c-font-dark;
+    font-weight : bold;
+    span {
+      color       : $c-font-lightest;
+      font-weight : normal;
+      font-size   : .8rem;
+    }
+  }
+  progress{
+    height: 4px;
   }
 }

@@ -11,14 +11,19 @@
 }
 
 .p-card {
-  padding-top : 1rem;
-  margin-top  : 1rem;
-  border-top  : 1px dotted #eee;
-
+  padding-top    : 1rem;
+  margin-top     : 1rem;
+  border-top     : 1px dotted #EEE;
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+  .p-oneline {
+    width : 100%;
+  }
   .p-box {
-    display : flex;
-    margin-top: 1rem;
-
+    display    : flex;
+    margin-top : 1rem;
+    flex: 50%;
   }
   .p-content {
     flex        : 1;
@@ -42,10 +47,12 @@
       color       : $c-font-lightest;
       font-weight : normal;
       font-size   : .8rem;
+      margin-left: .5rem;
     }
   }
   progress {
+    margin-top: .2rem;
     height : 4px;
-    width: 50%;
+    width  : 80%;
   }
 }

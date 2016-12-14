@@ -1,3 +1,9 @@
 @import "../img/img";
 @import "xmui-base/xmui-base";
 @import "xmui-pc/xmui-pc";
+
+#server {
+  .w-avatar {
+    border-radius : 0 !important;
+  }
+}

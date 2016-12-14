@@ -15,6 +15,13 @@ function getMinecraftTime(servertime) {
     };
 }
 
+function motd() {
+    var motd = $.getJSON("http://mcapi.ca/query/canisminor.cc/motd", function (json) {
+        return json.motd
+    })
+    return motd
+}
+
 $(function () {
     var className = $("#server");
     var strHtml = "";
@@ -27,10 +34,8 @@ $(function () {
             "<div class='w-avatar'><img src='//canisminor.cc/img/logo.png'></div>" +
             "<div class='w-box'>" +
             "<div class='w-title'>Server:<a href='//canisminor.cc'>Canisminor Craft</a></div>" +
-            "<div class='w-time'><span>" +
-            json.currentcount + "/20" +
-            "</span>" + nowtime + "</div>";
-        strHtml += "</div>";
+            "<div class='w-time'><span>" + json.currentcount + "/20" + "</span>" + nowtime + "</div></div>";
+        strHtml += "<div class='w-message'>" + motd() + "</div>";
 
         if (json) {
             strHtml += "<div class='auto-build'>Online</div>";

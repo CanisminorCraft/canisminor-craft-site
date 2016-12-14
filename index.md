@@ -8,7 +8,7 @@ title: Canisminor Craft
 * 目录
 {:toc}
 
-## News
+## Server
    
 <div class="w-group" id="server"></div>
     

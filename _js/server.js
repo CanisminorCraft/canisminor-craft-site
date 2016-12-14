@@ -33,7 +33,7 @@ $(function () {
         strHtml += "<div class='w-message'></div>";
         //player
         strHtml += "<div class='p-card'>";
-        strHtml += "<div class='p-oneling'>在线玩家:<span>" + json.currentcount + "人</span></div>";
+        strHtml += "<div class='p-oneline'>在线玩家:<span>" + json.currentcount + "</span>人</div>";
         if (json.currentcount > 0) {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";

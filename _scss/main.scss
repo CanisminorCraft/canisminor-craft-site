@@ -19,6 +19,12 @@
   flex-wrap      : wrap;
   .p-oneline {
     width : 100%;
+    font-weight: bold;
+    span{
+      color:$c-theme;
+      display: inline-block;
+      margin:0 .5rem
+    }
   }
   .p-box {
     display    : flex;

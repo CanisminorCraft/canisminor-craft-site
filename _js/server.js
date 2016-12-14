@@ -47,8 +47,6 @@ $(function () {
                 strHtml += "</div>"
                 strHtml += "</div>"
             }
-        } else {
-            strHtml += "<div class='no-player'>暂无玩家在线</div>"
         }
         strHtml += "</div>"
         // state

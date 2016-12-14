@@ -16,7 +16,7 @@ function getMinecraftTime(servertime) {
 }
 
 $(function () {
-    var className = $("server");
+    var className = $("#server");
     var strHtml = "";
     $.getJSON("http://map.canisminor.cc/up/world/world/", function (json) {
         var json = json;

@@ -36,7 +36,7 @@ $(function () {
         if (json.currentcount > 0) {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box>";
-                strHtml += "<div class='w-avata'><img src='http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name + "'></div>";
+                strHtml += "<div class='w-avata'><img src='http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name + ".png'></div>";
                 strHtml += "</div>"
             }
         } else {

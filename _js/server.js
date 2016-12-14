@@ -19,28 +19,27 @@ $(function () {
     var className = $("#server");
     var strHtml = "";
     $.getJSON("http://map.canisminor.cc/up/world/world/", function (json) {
-        var json = json;
-        return json;
+        var servertime = getMinecraftTime(json.servertime),
+            nowtime = servertime.hours + ":" + servertime.minutes + ":" + servertime.seconds
+        //html
+        strHtml +=
+            "<div class='w-card'>" +
+            "<div class='w-avatar'><img src='//canisminor.cc/img/logo.png'></div>" +
+            "<div class='w-box'>" +
+            "<div class='w-title'>Server:<a href='//canisminor.cc'>Canisminor Craft</a></div>" +
+            "<div class='w-time'><span>" +
+            json.currentcount + "/20" +
+            "</span>" + nowtime + "</div>";
+        strHtml += "</div>";
+
+        if (json) {
+            strHtml += "<div class='auto-build'>Online</div>";
+        } else {
+            strHtml += "<div class='auto-build offline'>Offline</div>";
+        }
+
+        strHtml += "</div>";
+        className.html(strHtml)
     })
-    var servertime = getMinecraftTime(json.servertime),
-        nowtime = servertime.hours + ":" + servertime.minutes + ":" + servertime.seconds
-    //html
-    strHtml +=
-        "<div class='w-card'>" +
-        "<div class='w-avatar'><img src='//canisminor.cc/img/logo.png'></div>" +
-        "<div class='w-box'>" +
-        "<div class='w-title'>Server:<a href='//canisminor.cc'>Canisminor Craft</a></div>" +
-        "<div class='w-time'><span>" +
-        json.currentcount + "/20" +
-        "</span>" + nowtime + "</div>";
-    strHtml += "</div>";
 
-    if (json) {
-        strHtml += "<div class='auto-build'>Online</div>";
-    } else {
-        strHtml += "<div class='auto-build offline'>Offline</div>";
-    }
-
-    strHtml += "</div>";
-    className.html(strHtml)
 })

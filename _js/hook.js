@@ -24,7 +24,7 @@ function hook_client(data, className, num) {
             "<div class='w-card' ";
 
         if (i > num) {
-            strHtml += "sytle='display:none'"
+            strHtml += "style='display:none'"
         }
         strHtml += ">" +
             "<div class='w-avatar'><img src='";
@@ -80,7 +80,7 @@ function hook_webhook(data, className, num) {
             "<div class='w-card' ";
 
         if (i > num) {
-            strHtml += "sytle='display:none'"
+            strHtml += "style='display:none'"
         }
         strHtml += ">" +
             "<div class='w-avatar'><img src='";

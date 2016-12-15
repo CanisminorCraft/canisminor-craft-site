@@ -4,18 +4,22 @@ $(function () {
     var strHtml = "";
     $.getJSON("//hook.canisminor.cc/", function (data) {
         //merge
-        hook_client(data, "div#client");
+        hook_client(data, "div#client", 3);
         //webhook
-        hook_webhook(data, "div#webhook");
+        hook_webhook(data, "div#webhook", 3);
     })
 })
 
 //client
 
-function hook_client(data, className) {
+function hook_client(data, className, num) {
     var className = $(className);
     var strHtml = "";
-    $.each(data.client, function (i) {
+    var row = num - 1;
+    if (row < data.client.length) {
+        row = data.client.length
+    }
+    for (var i = 0; i < row; i++) {
         var json = data.client[i].data;
         var time = data.client[i].time;
         var url = data.client[i].url.replace("/", "")
@@ -54,7 +58,8 @@ function hook_client(data, className) {
             }
         }
         strHtml += "</div>";
-    })
+    }
+
     if (!strHtml) {
         strHtml = "<div class='w-card w-null'>暂无数据</div>"
     }
@@ -63,10 +68,14 @@ function hook_client(data, className) {
 
 //webhook
 
-function hook_webhook(data, className) {
+function hook_webhook(data, className, num) {
     var className = $(className);
     var strHtml = "";
-    $.each(data.webhook, function (i) {
+    var row = num - 1;
+    if (row < data.client.length) {
+        row = data.client.length
+    }
+    for (var i = 0; i < row; i++) {
         var json = data.webhook[i].data;
         var time = data.webhook[i].time;
         var url = data.webhook[i].url.replace("/", "")
@@ -105,7 +114,7 @@ function hook_webhook(data, className) {
             }
         }
         strHtml += "</div>";
-    })
+    }
     if (!strHtml) {
         strHtml = "<div class='w-card w-null'>暂无数据</div>"
     }

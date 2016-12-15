@@ -15,11 +15,7 @@ $(function () {
 function hook_client(data, className, num) {
     var className = $(className);
     var strHtml = "";
-    var row = num - 1;
-    if (row < data.client.length) {
-        row = data.client.length
-    }
-    for (var i = 0; i < row; i++) {
+    for (var i = 0; i < num; i++) {
         var json = data.client[i].data;
         var time = data.client[i].time;
         var url = data.client[i].url.replace("/", "")
@@ -71,11 +67,7 @@ function hook_client(data, className, num) {
 function hook_webhook(data, className, num) {
     var className = $(className);
     var strHtml = "";
-    var row = num - 1;
-    if (row < data.webhook.length) {
-        row = data.webhook.length
-    }
-    for (var i = 0; i < row; i++) {
+    for (var i = 0; i < num; i++) {
         var json = data.webhook[i].data;
         var time = data.webhook[i].time;
         var url = data.webhook[i].url.replace("/", "")

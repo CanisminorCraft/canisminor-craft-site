@@ -1,72 +1,11 @@
 @import "../img/img";
 @import "xmui-base/xmui-base";
 @import "xmui-pc/xmui-pc";
+@import "webhook";
 
 .bd-masthead .lead{
   font-family: $font-theme;
   font-size: 240%;
   color: #fff;
   text-shadow: 0 1px 2px rgba(0,0,0,.5);
-}
-
-#server {
-  .w-avatar {
-    border-radius : 0 !important;
-    border        : 0;
-  }
-
-}
-
-.p-card {
-  padding-top    : 1rem;
-  margin-top     : 1rem;
-  border-top     : 1px dotted #EEE;
-  display        : flex;
-  flex-direction : row;
-  flex-wrap      : wrap;
-  margin-left: -4rem;
-  .p-oneline {
-    width : 100%;
-    font-weight: bold;
-    span{
-      color:$c-theme;
-      display: inline-block;
-      margin:0 .5rem
-    }
-  }
-  .p-box {
-    display    : flex;
-    margin-top : 1rem;
-    width: 50%;
-  }
-  .p-content {
-    flex        : 1;
-    position    : relative;
-    margin-left : 1rem;
-  }
-  .p-avata {
-    width  : 32px;
-    height : 32px;
-    img {
-      image-rendering : auto;
-      image-rendering : crisp-edges;
-      image-rendering : pixelated; //像素不模糊
-    }
-  }
-
-  .p-name {
-    color       : $c-font-dark;
-    font-weight : bold;
-    span {
-      color       : $c-font-lightest;
-      font-weight : normal;
-      font-size   : .8rem;
-      margin-left: .5rem;
-    }
-  }
-  progress {
-    margin-top: .2rem;
-    height : 4px;
-    width  : 80%;
-  }
 }

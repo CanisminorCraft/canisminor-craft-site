@@ -15,13 +15,18 @@ $(function () {
 function hook_client(data, className, num) {
     var className = $(className);
     var strHtml = "";
-    for (var i = 0; i < num; i++) {
+    $.each(data.client, function (i) {
         var json = data.client[i].data;
         var time = data.client[i].time;
         var url = data.client[i].url.replace("/", "")
         //html
         strHtml +=
-            "<div class='w-card'>" +
+            "<div class='w-card' ";
+
+        if (i > num) {
+            strHtml += "sytle='display:none'"
+        }
+        strHtml += ">" +
             "<div class='w-avatar'><img src='";
 
         var ifCoding = RegExp('http').test(json.user.avatar);
@@ -54,8 +59,7 @@ function hook_client(data, className, num) {
             }
         }
         strHtml += "</div>";
-    }
-
+    })
     if (!strHtml) {
         strHtml = "<div class='w-card w-null'>暂无数据</div>"
     }
@@ -67,13 +71,18 @@ function hook_client(data, className, num) {
 function hook_webhook(data, className, num) {
     var className = $(className);
     var strHtml = "";
-    for (var i = 0; i < num; i++) {
+    $.each(data.webhook, function (i) {
         var json = data.webhook[i].data;
         var time = data.webhook[i].time;
         var url = data.webhook[i].url.replace("/", "")
         //html
         strHtml +=
-            "<div class='w-card'>" +
+            "<div class='w-card' ";
+
+        if (i > num) {
+            strHtml += "sytle='display:none'"
+        }
+        strHtml += ">" +
             "<div class='w-avatar'><img src='";
 
         var ifCoding = RegExp('http').test(json.user.avatar);
@@ -106,7 +115,7 @@ function hook_webhook(data, className, num) {
             }
         }
         strHtml += "</div>";
-    }
+    })
     if (!strHtml) {
         strHtml = "<div class='w-card w-null'>暂无数据</div>"
     }

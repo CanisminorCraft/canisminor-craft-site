@@ -72,8 +72,8 @@ function hook_webhook(data, className, num) {
     var className = $(className);
     var strHtml = "";
     var row = num - 1;
-    if (row < data.client.length) {
-        row = data.client.length
+    if (row < data.webhook.length) {
+        row = data.webhook.length
     }
     for (var i = 0; i < row; i++) {
         var json = data.webhook[i].data;

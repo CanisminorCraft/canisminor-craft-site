@@ -1,23 +1,13 @@
 var projects = ['client', 'server', 'hook', 'website'];
-function myrefresh() {
+
+$(function () {
     var strHtml = "";
-    var url = window.location.href.split('.')[0];
-    console.log(url)
-    if (url == 'http://fanshu') {
-        var JSON = "./log.json"
-    } else {
-        var JSON = "//hook.canisminor.cc/log.json"
-    }
-    $.getJSON(JSON, function (data) {
+    $.getJSON("//hook.canisminor.cc/", function (data) {
         //merge
         hook_client(data, "div#client");
         //webhook
         hook_webhook(data, "div#webhook");
     })
-    console.log("xmhook load")
-}
-$(function () {
-    myrefresh();
 })
 
 //client

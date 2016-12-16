@@ -11,10 +11,10 @@ $(function () {
 
     })
     $('#clientShow').on('click',function () {
-        $('#client .w-card').show()
+        $('#client .w-card').hide()
     })
     $('#webhookShow').on('click',function () {
-        $('#webhook .w-card').show()
+        $('#webhook .w-card').hide()
     })
 })
 

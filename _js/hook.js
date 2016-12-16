@@ -1,5 +1,7 @@
 var projects = ['client', 'server', 'hook', 'website'];
-
+$('#clientShow').click(function () {
+    $('#client .w-card').show()
+})
 $(function () {
     var strHtml = "";
     $.getJSON("//hook.canisminor.cc/", function (data) {
@@ -10,10 +12,11 @@ $(function () {
         hook_webhook(data, "#webhook", 3);
 
     })
-    $('#clientShow').on('click',function () {
+
+    $('#clientShow').click(function () {
         $('#client .w-card').css('display','block !important')
     })
-    $('#webhookShow').on('click',function () {
+    $('#webhookShow').click(function () {
         $('#webhook .w-card').css('display','block !important')
     })
 })

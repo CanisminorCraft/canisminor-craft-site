@@ -10,10 +10,10 @@ $(function () {
         hook_webhook(data, "#webhook", 3);
 
     })
-    $('#clientShow').click(function () {
+    $('#clientShow').on('click',function () {
         $('#client .w-card').show()
     })
-    $('#webhookShow').click(function () {
+    $('#webhookShow').on('click',function () {
         $('#webhook .w-card').show()
     })
 })

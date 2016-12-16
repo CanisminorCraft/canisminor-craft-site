@@ -14,10 +14,10 @@ $(function () {
     })
 
     $('#clientShow').click(function () {
-        $('#client .w-card').css('display','block !important')
+        $('#client .w-card').css('display','block!important')
     })
     $('#hookShow').click(function () {
-        $('#hook .w-card').css('display','block !important')
+        $('#hook .w-card').css('display','block!important')
     })
 })
 

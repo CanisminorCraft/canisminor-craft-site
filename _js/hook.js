@@ -6,18 +6,18 @@ $(function () {
     var strHtml = "";
     $.getJSON("//hook.canisminor.cc/", function (data) {
         //merge
-        hook_client(data, "div#client", 3);
+        hook_client(data, "#client", 3);
 
         //webhook
-        hook_webhook(data, "div#webhook", 3);
+        hook_webhook(data, "#hook", 3);
 
     })
 
     $('#clientShow').click(function () {
-        $('div#client .w-card').css('display','block !important')
+        $('#client .w-card').css('display','block !important')
     })
-    $('#webhookShow').click(function () {
-        $('div#webhook .w-card').css('display','block !important')
+    $('#hookShow').click(function () {
+        $('#hook .w-card').css('display','block !important')
     })
 })
 

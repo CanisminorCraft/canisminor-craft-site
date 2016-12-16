@@ -19,8 +19,8 @@ title: Canisminor Craft
 
 ### 部署推送
 
-<div class="show-btn" id="webhookShow">展示全部</div>
-<div class="w-group" id="webhook"></div>
+<div class="show-btn" id="hookShow">展示全部</div>
+<div class="w-group" id="hook"></div>
 
 ## SVN版
 

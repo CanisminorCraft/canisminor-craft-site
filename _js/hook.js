@@ -6,12 +6,12 @@ $(function () {
         //merge
         hook_client(data, "#client", 3);
         $('#clientShow').click(function () {
-            $('#client .w-card').css('display','block')
+            $('#client .w-card').show()
         })
         //webhook
         hook_webhook(data, "#webhook", 3);
         $('#webhookShow').click(function () {
-            $('#webhook .w-card').css('display','block')
+            $('#webhook .w-card').show()
         })
     })
 })

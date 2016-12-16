@@ -5,14 +5,16 @@ $(function () {
     $.getJSON("//hook.canisminor.cc/", function (data) {
         //merge
         hook_client(data, "#client", 3);
-        $('#clientShow').click(function () {
-            $('#client .w-card').show()
-        })
+
         //webhook
         hook_webhook(data, "#webhook", 3);
-        $('#webhookShow').click(function () {
-            $('#webhook .w-card').show()
-        })
+
+    })
+    $('#clientShow').click(function () {
+        $('#client .w-card').show()
+    })
+    $('#webhookShow').click(function () {
+        $('#webhook .w-card').show()
     })
 })
 

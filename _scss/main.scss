@@ -3,6 +3,22 @@
 @import "xmui-pc/xmui-pc";
 @import "webhook";
 
+body{
+  min-width: 375px;
+}
+
+.small-logo{
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: url(../../img/logo.png);
+  background-size: cover;
+  margin-right: .5rem;
+}
+
+.navbar-brand{
+  display: flex;
+}
 .bd-masthead .lead{
   font-family: $font-theme;
   font-size: 240%;

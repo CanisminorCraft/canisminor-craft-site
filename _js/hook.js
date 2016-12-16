@@ -4,9 +4,15 @@ $(function () {
     var strHtml = "";
     $.getJSON("//hook.canisminor.cc/", function (data) {
         //merge
-        hook_client(data, "div#client", 3);
+        hook_client(data, "#client", 3);
+        $('#clientShow').click(function () {
+            $('#client .w-card').css('display','block')
+        })
         //webhook
-        hook_webhook(data, "div#webhook", 3);
+        hook_webhook(data, "#webhook", 3);
+        $('#webhookShow').click(function () {
+            $('#webhook .w-card').css('display','block')
+        })
     })
 })
 

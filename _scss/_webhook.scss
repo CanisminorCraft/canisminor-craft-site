@@ -141,3 +141,13 @@
     width      : 80%;
   }
 }
+
+.show-btn{
+  position: absolute;
+  right: 1rem;
+  margin-top: -3.5rem;
+  color: $c-font-light;
+  &:hover{
+    color: $c-theme;
+  }
+}

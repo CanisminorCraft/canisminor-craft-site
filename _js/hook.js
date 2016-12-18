@@ -60,7 +60,7 @@ function hook_client(data, className, num) {
                 "<a class='w-message' href='" + json.commits[i].web_url + "'>" +
                 json.commits[i].short_message + "</a>" +
                 "<div class='w-author'>committer: " + "<span>" +
-                json.commits[i].committer.name + "</span></div>";
+                "Canis Minor" + "</span></div>";
         }
 
         strHtml += "</div>";
@@ -116,7 +116,7 @@ function hook_webhook(data, className, num) {
                 "<a class='w-message' href='" + json.commits[i].web_url + "'>" +
                 json.commits[i].short_message + "</a>" +
                 "<div class='w-author'>committer: " + "<span>" +
-                json.commits[i].committer.name + "</span></div>";
+                "Canis Minor" + "</span></div>";
         }
 
         strHtml += "</div>";

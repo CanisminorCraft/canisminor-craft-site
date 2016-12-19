@@ -1,0 +1,27 @@
+.res-info {
+  .res-name {
+    font-size     : 1rem;
+    margin-bottom : .2rem;
+  }
+  .res-owner {
+    font-weight : bold;
+    span {
+      font-weight : normal;
+      margin-left : .2rem;
+      color       : $c-blue;
+    }
+  }
+  .res-flags {
+    font-weight : bold;
+    &:hover {
+      span {
+        display : block;
+      }
+    }
+    span {
+      display     : none;
+      font-weight : normal;
+      display     : block;
+    }
+  }
+}

@@ -515,9 +515,9 @@
     white-space        : nowrap;
     color              : #FFF;
     background         : rgba(0, 0, 0, 0.6);
-    padding            : 2px;
-    -moz-border-radius : 3px;
-    border-radius      : 3px;
+    padding            : 2px 4px;
+    -moz-border-radius : 2px;
+    border-radius      : 2px;
   }
   .playerNameSm {
     position           : absolute;
@@ -531,7 +531,7 @@
     border-radius      : 3px;
   }
   .playerNameNoHealth {
-    top : -7px;
+    top : -10px;
   }
   .healthContainer {
     display            : block;

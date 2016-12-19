@@ -79,6 +79,11 @@ $ git clone git://git.coding.net/canisminor1990/cmc-client.git
 $ git reset --hard ; git pull
 ```
 
+## Shader光影
+
+- 启动器中含有两个版本 `1.11` 与 `1.11-forge`
+- 分别对应原版与光影版本,可自由切换
+
 ## Contact
 
 - **Author:** [Canis Minor](http://canisminor.cc)

@@ -12,7 +12,7 @@ title: Canisminor Craft
    
 <div class="w-group" id="server"></div>
     
-### 客户端
+### 客户端推送
 
 <div class="show-btn" id="clientShow">展示全部</div>
 <div class="w-group" id="client"></div>

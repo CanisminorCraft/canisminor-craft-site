@@ -747,11 +747,11 @@
       position           : absolute;
       z-index            : 16;
       white-space        : nowrap;
-      color              : #FFF;
-      background         : rgba(0, 0, 0, 0.6);
-      padding            : 2px;
-      -moz-border-radius : 3px;
-      border-radius      : 3px;
+      color              : #666;
+      background         : rgba(255, 255, 255, 0.9);
+      padding            : 2px 4px;
+      border-radius      : 2px;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     }
     .markerName16x16 {
       top  : -6px;

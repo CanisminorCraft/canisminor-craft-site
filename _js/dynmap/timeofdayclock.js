@@ -113,13 +113,13 @@ componentconstructors['timeofdayclock'] = function(dynmap, configuration) {
 		
 		var moonangle = sunangle + Math.PI;
 
-		if(time >= 0) {		
-			sun.css('background-position', (-50 * Math.cos(sunangle)) + 'px ' + (-50 * Math.sin(sunangle)) + 'px');
-			moon.css('background-position', (-50 * Math.cos(moonangle)) + 'px ' + (-50 * Math.sin(moonangle)) + 'px');
-		}
-		else {
-			sun.css('background-position', '-150px -150px');
-			moon.css('background-position', '-150px -150px');
-		}
+		// if(time >= 0) {
+		// 	sun.css('background-position', (-50 * Math.cos(sunangle)) + 'px ' + (-50 * Math.sin(sunangle)) + 'px');
+		// 	moon.css('background-position', (-50 * Math.cos(moonangle)) + 'px ' + (-50 * Math.sin(moonangle)) + 'px');
+		// }
+		// else {
+		// 	sun.css('background-position', '-150px -150px');
+		// 	moon.css('background-position', '-150px -150px');
+		// }
 	});
 };

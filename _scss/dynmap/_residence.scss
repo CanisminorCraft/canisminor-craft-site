@@ -5,6 +5,7 @@
   }
   .res-owner {
     font-weight : bold;
+    margin-bottom : .2rem;
     span {
       font-weight : normal;
       margin-left : .2rem;
@@ -13,15 +14,15 @@
   }
   .res-flags {
     font-weight : bold;
-    &:hover {
-      span {
-        display : block;
-      }
-    }
+    display     : none;
     span {
-      display     : none;
       font-weight : normal;
       display     : block;
+    }
+  }
+  &:hover {
+    .res-flags {
+      display : block;
     }
   }
 }

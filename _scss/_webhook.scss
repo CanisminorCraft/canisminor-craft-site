@@ -119,6 +119,8 @@
   .p-avata {
     width: 32px;
     height: 32px;
+    border-radius: 2px;
+    overflow: hidden;
     img {
       image-rendering: auto;
       image-rendering: crisp-edges;

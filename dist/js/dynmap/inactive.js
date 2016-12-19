@@ -1,1 +1,0 @@
-componentconstructors.inactive=function(e,o){function t(){clearTimeout(u),u=setTimeout(n,1e3*(o.timeout||1800))}function n(){o.showmessage&&alert(o.showmessage),o.redirecturl&&(window.location=o.redirecturl)}var u=null;$(document).ready(t).mousemove(t).mouseup(t).keypress(t)};

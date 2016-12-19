@@ -110,8 +110,8 @@
 }
 
 .alertbox, .largeclock {
-  border-style          : solid;
-  border-width          : 0px 1px 1px 1px;
+  border-style : solid;
+  border-width : 0px 1px 1px 1px;
 }
 
 /*******************
@@ -496,10 +496,12 @@
     transition         : all 0.6s ease-in-out 0s;
   }
   .playerIcon {
-    margin-top  : -16px;
-    margin-left : -16px;
-    width       : 32px;
-    height      : 32px;
+    margin-top    : -16px;
+    margin-left   : -16px;
+    width         : 32px;
+    height        : 32px;
+    border        : 1px solid rgba(255, 255, 255, .8);
+    border-radius : 4px;
   }
   .playerIconSm {
     margin-top  : -8px;
@@ -510,11 +512,11 @@
   .playerName {
     position           : absolute;
     top                : -19px;
-    left               : 18px;
+    left               : 24px;
     z-index            : 20;
     white-space        : nowrap;
-    color              : #FFF;
-    background         : rgba(0, 0, 0, 0.6);
+    color              : #666;
+    background         : #FFF;
     padding            : 2px 4px;
     -moz-border-radius : 2px;
     border-radius      : 2px;

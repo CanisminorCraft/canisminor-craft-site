@@ -39,9 +39,9 @@
 }
 
 .leaflet-control-layers {
-  background-color : #BBB;
+  background-color : rgba(255, 255, 255, .9);
   &:hover {
-    background-color : #BBB;
+    background-color : rgba(255, 255, 255, 1);
   }
 }
 
@@ -364,8 +364,10 @@
     }
     .playerIcon {
       img {
-        width  : 16px;
-        height : 16px;
+        width         : 16px;
+        height        : 16px;
+        border-radius : 0;
+        border        : 0;
       }
       > * {
         vertical-align : middle;
@@ -780,14 +782,12 @@
     }
   }
   .coord-control {
-    color              : #000;
-    border             : 1px solid rgba(128, 128, 128, 0.6);
-    background-color   : #BBB;
+    color              : #333;
+    background-color   : rgba(255,255,255,.9);
     border-style       : solid;
-    padding            : 2px;
+    padding            : 2px 4px;
     min-width          : 80px;
-    -moz-border-radius : 5px;
-    border-radius      : 5px;
+    border-radius      : 4px;
   }
   .coord-control-noy {
     width : 60px;

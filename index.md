@@ -22,6 +22,14 @@ title: Canisminor Craft
 <div class="show-btn" id="hookShow">展示全部</div>
 <div class="w-group" id="hook"></div>
 
+## 纯ResPack包
+
+### 下载地址
+
+```sh
+https://coding.net/u/canisminor1990/p/CanisminorCraft/git
+```
+
 ## SVN版
 
 ### 下载地址

@@ -15,72 +15,54 @@ desc: CMC服务器信息与插件列表
 - **材质包:** `Canisminor Craft`
 - **服务器:** `Paper Spigot`
 
+## 截图
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223051-9.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223050-8.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223052-1.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223052-2.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223053-3.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223053-4.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223053-5.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223054-6.png)
+
+![](https://o4j4l4n7h.qnssl.com/20161219-223054-7.png)
+
 ## 插件列表
 
-## AuthMe
-
-You can use the following commands to use the features of AuthMe. Mandatory arguments are marked with `< >`
-brackets; optional arguments are enclosed in square brackets (`[ ]`).
-
-{% include plugins/authme.md %}
-
-> **Bukkit:** [LINK](https://dev.bukkit.org/projects/authme-reloaded?gameCategorySlug=bukkit-plugins&projectID=36083)
-**Github:** [LINK](https://github.com/AuthMe/AuthMeReloaded)
-
-## BossShop
-
-## Citizen
-
-### Citizen-Sentinel
-
-## ClearLag
-
-## CommandCost
-
-## ConquestiaMobs
-
-## Dynmap
-
-#### Dynmap-Residence
-
-## EHDGroupManager
-
-## EssentialsX
-
-### EssentialsX-AntiBuild
-
-### EssentialsX-Chat
-
-### EssentialsX-Protect
-
-### EssentialsX-Spawn
-
-## InfernalMobs
-
-## IslandCraft
-
-## Lift
-
-## LockettePro
-
-## mcMMO
-
-## MobHealth
-
-## Plugman
-
-## ProtocolLib
-
-## Residence
-
-## ServerlistMOTD
-
-## SkinsRestorer
-
-## Vault
-
-## WoodCutter
-
-## WorldBorder
-
-## WorldEdit
+- AuthMe
+- BossShop
+- Citizen
+- Citizen-Sentinel
+- ClearLag
+- CommandCost
+- ConquestiaMobs
+- Dynmap
+- Dynmap-Residence
+- EHDGroupManager
+- EssentialsX
+- EssentialsX-AntiBuild
+- EssentialsX-Chat
+- EssentialsX-Protect
+- EssentialsX-Spawn
+- InfernalMobs
+- IslandCraft
+- Lift
+- LockettePro
+- mcMMO
+- MobHealth
+- Plugman
+- ProtocolLib
+- Residence
+- ServerlistMOTD
+- SkinsRestorer
+- Vault
+- WorldBorder
+- WorldEdit

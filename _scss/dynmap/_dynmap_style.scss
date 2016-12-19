@@ -502,7 +502,7 @@
     margin-left   : -16px;
     width         : 32px;
     height        : 32px;
-    border        : 1px solid rgba(255, 255, 255, .8);
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
     border-radius : 4px;
   }
   .playerIconSm {
@@ -782,12 +782,12 @@
     }
   }
   .coord-control {
-    color              : #333;
-    background-color   : rgba(255,255,255,.9);
-    border-style       : solid;
-    padding            : 2px 4px;
-    min-width          : 80px;
-    border-radius      : 4px;
+    color            : #333;
+    background-color : rgba(255, 255, 255, .9);
+    padding          : 2px 4px;
+    min-width        : 80px;
+    border-radius    : 4px;
+    opacity          : .5;
   }
   .coord-control-noy {
     width : 60px;

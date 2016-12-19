@@ -247,6 +247,7 @@
  */
 
 .largeclock {
+  height: 2.5rem;
   position: absolute;
   top: 10px;
   left: 0;
@@ -264,10 +265,12 @@
 .timeofday {
   background-repeat : no-repeat;
   &.sun {
-    background-image : url($path + "sun.png");
+    //background-image : url($path + "sun.png");
+    display: none;
   }
   &.moon {
-    background-image : url($path + "moon.png");
+    //background-image : url($path + "moon.png");
+    display: none;
   }
   &.digitalclock {
     position : relative;

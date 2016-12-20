@@ -2,8 +2,16 @@
 layout: default
 title: Viewer
 ---
-<link href="../css/viewer.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/css/minecraft/viewer.css" rel="stylesheet">
+<style>
+  footer {
+    margin-top : 0 !important;
+  }
 
+  header {
+    border-bottom : 1px solid #e3e3e3;
+  }
+</style>
 <div id="wrapper">
   <!-- Viewer goes there -->
   <div class="sidebar">
@@ -45,18 +53,18 @@ title: Viewer
 <!-- end of demo js -->
 <!-- actual usage of the api -->
 <!-- Requires three.js and OrbitControls.js -->
-<script src="{{ site.baseurl }}/js/three.min.js"></script>
+<script src="//cdn.bootcss.com/three.js/r83/three.min.js"></script>
 <script src="{{ site.baseurl }}/js/OrbitControls.js"></script>
 <script src="{{ site.baseurl }}/js/ModelViewer.js"></script>
 <!-- Demo -->
 <script>
   console.log("----------");
-  function readFile(filename){
+  function readFile(filename) {
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    var f = fso.OpenTextFile(filename,1);
+    var f = fso.OpenTextFile(filename, 1);
     var s = "";
     while (!f.AtEndOfStream)
-      s += f.ReadLine()+"/n";
+      s += f.ReadLine() + "/n";
     f.Close();
     return s;
   }
@@ -64,8 +72,8 @@ title: Viewer
   console.log(test);
 
 </script>
-<script src="{{ site.baseurl }}/json/texture.json"></script>
-<script src="{{ site.baseurl }}/json/models.json"></script>
+<script src="{{ site.baseurl }}/data/texture.json"></script>
+<script src="{{ site.baseurl }}/data/models.json"></script>
 
 <script src="{{ site.baseurl }}/js/url.js"></script>
 

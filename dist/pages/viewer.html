@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="theme-color" content="#B44E28">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=375,maximum-scale=1.3,user-scalable=no">
+<link rel="apple-touch-icon-precomposed" href="/img/logo.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="blank">
+<meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+<meta name="author" content="Canis Minor">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<title>
+  
+    Viewer &middot; CMC
+  
+</title>
+<!-- Bootstrap core CSS -->
+<link href="/css/main.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+<script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+
+
+
+</head>
+<body class="bd-docs" data-spy="scroll" data-target=".bd-sidenav-active">
+<a id="skippy" class="sr-only sr-only-focusable" href="#content">
+  <div class="container">
+    <span class="skiplink-text">Skip to main content</span>
+  </div>
+</a>
+
+<header class="navbar navbar-light navbar-static-top bd-navbar">
+  <div class="container">
+    <nav>
+      <div class="clearfix">
+        <button class="navbar-toggler pull-xs-right hidden-sm-up material-icons" type="button"
+                data-toggle="collapse"
+                data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">&#xE5D2;
+        </button>
+        <a class="navbar-brand hidden-md-up" href="/">
+          <span class="small-logo"></span>
+          CMC
+        </a>
+      </div>
+      <div class="collapse navbar-toggleable-xs" id="bd-main-nav">
+        <a class="site-logo hidden-sm-down" href="/"></a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-item nav-link "
+               href="/">首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link "
+               href="/pages/map.html">地图</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link "
+               href="https://coding.net/u/canisminor1990/p/CanisminorCraft/git">材质包</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link "
+               href="/pages/server.html">服务器</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link "
+               href="/pages/id-list.html">ID List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link "
+               href="/pages/model-list.html">Model</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<div id="content">
+  <link href="/css/minecraft/viewer.css" rel="stylesheet">
+<style>
+  footer {
+    margin-top : 0 !important;
+  }
+
+  header {
+    border-bottom : 1px solid #e3e3e3;
+  }
+</style>
+<div id="wrapper">
+  <!-- Viewer goes there -->
+  <div class="sidebar">
+    <h5>网格设置</h5>
+    <div class="sidebar-item">
+      <label for="showgrid">
+        <input type="radio" checked id="showgrid" name="grid" value="true"
+               onchange="this.value == 'true' ? viewer.showGrid() : viewer.hideGrid()"> 开启</label>
+      <label for="hidegrid">
+        <input type="radio" id="hidegrid" name="grid" value="false"
+               onchange="this.value == 'true' ? viewer.showGrid() : viewer.hideGrid()"> 关闭</label>
+    </div>
+    <h5>摄像机</h5>
+    <div class="sidebar-item">
+      <button type="button" class="btn btn-secondary" onclick="viewer.reset()">重置镜头</button>
+    </div>
+    <h5>模型</h5>
+    <div class="sidebar-item">
+      <label for="displayOption">
+        <input type="text" class="form-control" id="displayOption" value="block"
+               onchange="if (['thirdperson_righthand', 'thirdperson_lefthand', 'firstperson_righthand', 'firstperson_lefthand', 'gui', 'head', 'ground', 'fixed', 'block', 'thirdperson', 'firstperson'].indexOf(this.value) >= 0) model.applyDisplay(this.value)">
+      </label>
+    </div>
+    <h5>Json</h5>
+    <div class="sidebar-item">
+
+      <label class="custom-file">
+        <input type="file" class="form-control" accept=".json" id="loadmodel" onchange="loadjson(this.files[0])">
+        <span class="custom-file-control"></span>
+      </label>
+      <button type="button" class="btn btn-primary" onclick="loadthing()">加载模型</button>
+    </div>
+  </div>
+</div>
+
+<!-- end of demo gui -->
+<!-- demo js -->
+<script src="/js/viewer.js"></script>
+<!-- end of demo js -->
+<!-- actual usage of the api -->
+<!-- Requires three.js and OrbitControls.js -->
+<script src="//cdn.bootcss.com/three.js/r83/three.min.js"></script>
+<script src="/js/OrbitControls.js"></script>
+<script src="/js/ModelViewer.js"></script>
+<!-- Demo -->
+<script>
+  console.log("----------");
+  function readFile(filename) {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    var f = fso.OpenTextFile(filename, 1);
+    var s = "";
+    while (!f.AtEndOfStream)
+      s += f.ReadLine() + "/n";
+    f.Close();
+    return s;
+  }
+  var test = readFile("/json/test.txt");
+  console.log(test);
+
+</script>
+<script src="/data/texture.json"></script>
+<script src="/data/models.json"></script>
+
+<script src="/js/url.js"></script>
+
+<script>
+  var openId = getParamValue("openId");
+  var i = 0;
+  for (i in jsonModels) {
+    if (jsonModels[i].name == openId) {
+      jsonTemp = jsonModels[i].data
+      break;
+    }
+    i++;
+  }
+  var json = JSON.stringify(jsonTemp);
+</script>
+
+
+<script type="text/javascript">
+  var container = document.getElementById('wrapper')
+  var viewer = new ModelViewer(container)
+  window.addEventListener('resize', viewer.resize)
+  var model = new JsonModel('demo', json, textures)
+  viewer.load(model)
+</script>
+
+
+
+</div>
+
+<footer class="bd-footer text-muted">
+  <div class="container">
+    <ul class="bd-footer-links">
+      <li><a href="//map.canisminor.cc">Map</a></li>
+      <li><a href="//coding.net/u/canisminor1990/p/cmc-client/git">Coding</a></li>
+      <li><a href="https://coding.net/u/canisminor1990/p/CanisminorCraft/git">ResPack</a></li>
+    </ul>
+    <p>Copyright ©️ 2016 <a href="canisminor1990@gmail.com">Canis Minor</a> 京ICP备16055942号-1</p>
+</div>
+</footer>
+
+<script src="//cdn.bootcss.com/tether/1.3.4/js/tether.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
+

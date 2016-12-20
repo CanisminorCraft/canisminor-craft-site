@@ -1,0 +1,1948 @@
+ var textures = [
+
+
+
+
+{"name" : "stone", "texture" : "/assets/minecraft/textures/blocks/stone.png"},
+
+
+
+{"name" : "stone_granite", "texture" : "/assets/minecraft/textures/blocks/stone_granite.png"},
+
+
+
+{"name" : "stone_granite_smooth", "texture" : "/assets/minecraft/textures/blocks/stone_granite_smooth.png"},
+
+
+
+{"name" : "stone_diorite", "texture" : "/assets/minecraft/textures/blocks/stone_diorite.png"},
+
+
+
+{"name" : "stone_diorite_smooth", "texture" : "/assets/minecraft/textures/blocks/stone_diorite_smooth.png"},
+
+
+
+{"name" : "stone_andesite", "texture" : "/assets/minecraft/textures/blocks/stone_andesite.png"},
+
+
+
+{"name" : "stone_andesite_smooth", "texture" : "/assets/minecraft/textures/blocks/stone_andesite_smooth.png"},
+
+
+
+
+
+{"name" : "stone_slab_side", "texture" : "/assets/minecraft/textures/blocks/stone_slab_side.png"},
+
+{"name" : "stone_slab_top", "texture" : "/assets/minecraft/textures/blocks/stone_slab_top.png"},
+
+
+
+
+
+
+
+{"name" : "grass_side", "texture" : "/assets/minecraft/textures/blocks/grass_side.png"},
+
+{"name" : "grass_side_overlay", "texture" : "/assets/minecraft/textures/blocks/grass_side_overlay.png"},
+
+{"name" : "grass_side_snowed", "texture" : "/assets/minecraft/textures/blocks/grass_side_snowed.png"},
+
+{"name" : "grass_top", "texture" : "/assets/minecraft/textures/blocks/grass_top.png"},
+
+
+
+
+
+{"name" : "dirt", "texture" : "/assets/minecraft/textures/blocks/dirt.png"},
+
+
+
+{"name" : "coarse_dirt", "texture" : "/assets/minecraft/textures/blocks/coarse_dirt.png"},
+
+
+
+{"name" : "dirt_podzol_side", "texture" : "/assets/minecraft/textures/blocks/dirt_podzol_side.png"},
+
+{"name" : "dirt_podzol_top", "texture" : "/assets/minecraft/textures/blocks/dirt_podzol_top.png"},
+
+
+
+
+
+{"name" : "farmland_dry", "texture" : "/assets/minecraft/textures/blocks/farmland_dry.png"},
+
+
+
+{"name" : "farmland_wet", "texture" : "/assets/minecraft/textures/blocks/farmland_wet.png"},
+
+
+
+
+
+{"name" : "snow", "texture" : "/assets/minecraft/textures/blocks/snow.png"},
+
+
+
+
+
+{"name" : "mycelium_side", "texture" : "/assets/minecraft/textures/blocks/mycelium_side.png"},
+
+{"name" : "mycelium_top", "texture" : "/assets/minecraft/textures/blocks/mycelium_top.png"},
+
+
+
+
+
+{"name" : "grass_path_side", "texture" : "/assets/minecraft/textures/blocks/grass_path_side.png"},
+
+{"name" : "grass_path_top", "texture" : "/assets/minecraft/textures/blocks/grass_path_top.png"},
+
+
+
+
+
+
+
+{"name" : "cobblestone", "texture" : "/assets/minecraft/textures/blocks/cobblestone.png"},
+
+
+
+
+
+{"name" : "cobblestone_mossy", "texture" : "/assets/minecraft/textures/blocks/cobblestone_mossy.png"},
+
+
+
+
+
+
+
+{"name" : "planks_oak", "texture" : "/assets/minecraft/textures/blocks/planks_oak.png"},
+
+
+
+{"name" : "planks_spruce", "texture" : "/assets/minecraft/textures/blocks/planks_spruce.png"},
+
+
+
+{"name" : "planks_birch", "texture" : "/assets/minecraft/textures/blocks/planks_birch.png"},
+
+
+
+{"name" : "planks_jungle", "texture" : "/assets/minecraft/textures/blocks/planks_jungle.png"},
+
+
+
+{"name" : "planks_acacia", "texture" : "/assets/minecraft/textures/blocks/planks_acacia.png"},
+
+
+
+{"name" : "planks_big_oak", "texture" : "/assets/minecraft/textures/blocks/planks_big_oak.png"},
+
+
+
+
+
+
+
+{"name" : "sapling_oak", "texture" : "/assets/minecraft/textures/blocks/sapling_oak.png"},
+
+
+
+{"name" : "sapling_spruce", "texture" : "/assets/minecraft/textures/blocks/sapling_spruce.png"},
+
+
+
+{"name" : "sapling_birch", "texture" : "/assets/minecraft/textures/blocks/sapling_birch.png"},
+
+
+
+{"name" : "sapling_jungle", "texture" : "/assets/minecraft/textures/blocks/sapling_jungle.png"},
+
+
+
+{"name" : "sapling_acacia", "texture" : "/assets/minecraft/textures/blocks/sapling_acacia.png"},
+
+
+
+{"name" : "sapling_roofed_oak", "texture" : "/assets/minecraft/textures/blocks/sapling_roofed_oak.png"},
+
+
+
+
+
+
+
+{"name" : "bedrock", "texture" : "/assets/minecraft/textures/blocks/bedrock.png"},
+
+
+
+
+
+
+
+{"name" : "water_flow", "texture" : "/assets/minecraft/textures/blocks/water_flow.png"},
+
+{"name" : "water_overlay", "texture" : "/assets/minecraft/textures/blocks/water_overlay.png"},
+
+
+
+
+
+{"name" : "water_still", "texture" : "/assets/minecraft/textures/blocks/water_still.png"},
+
+
+
+
+
+
+
+{"name" : "lava_flow", "texture" : "/assets/minecraft/textures/blocks/lava_flow.png"},
+
+
+
+
+
+{"name" : "lava_still", "texture" : "/assets/minecraft/textures/blocks/lava_still.png"},
+
+
+
+
+
+
+
+{"name" : "sand", "texture" : "/assets/minecraft/textures/blocks/sand.png"},
+
+
+
+{"name" : "red_sand", "texture" : "/assets/minecraft/textures/blocks/red_sand.png"},
+
+
+
+
+
+{"name" : "sandstone_bottom", "texture" : "/assets/minecraft/textures/blocks/sandstone_bottom.png"},
+
+{"name" : "sandstone_normal", "texture" : "/assets/minecraft/textures/blocks/sandstone_normal.png"},
+
+{"name" : "sandstone_top", "texture" : "/assets/minecraft/textures/blocks/sandstone_top.png"},
+
+
+
+{"name" : "sandstone_carved", "texture" : "/assets/minecraft/textures/blocks/sandstone_carved.png"},
+
+
+
+{"name" : "sandstone_smooth", "texture" : "/assets/minecraft/textures/blocks/sandstone_smooth.png"},
+
+
+
+
+
+{"name" : "red_sandstone_bottom", "texture" : "/assets/minecraft/textures/blocks/red_sandstone_bottom.png"},
+
+{"name" : "red_sandstone_normal", "texture" : "/assets/minecraft/textures/blocks/red_sandstone_normal.png"},
+
+{"name" : "red_sandstone_top", "texture" : "/assets/minecraft/textures/blocks/red_sandstone_top.png"},
+
+
+
+{"name" : "red_sandstone_carved", "texture" : "/assets/minecraft/textures/blocks/red_sandstone_carved.png"},
+
+
+
+{"name" : "red_sandstone_smooth", "texture" : "/assets/minecraft/textures/blocks/red_sandstone_smooth.png"},
+
+
+
+
+
+
+
+{"name" : "gravel", "texture" : "/assets/minecraft/textures/blocks/gravel.png"},
+
+
+
+
+
+
+
+{"name" : "gold_ore", "texture" : "/assets/minecraft/textures/blocks/gold_ore.png"},
+
+
+
+
+
+{"name" : "iron_ore", "texture" : "/assets/minecraft/textures/blocks/iron_ore.png"},
+
+
+
+
+
+{"name" : "coal_ore", "texture" : "/assets/minecraft/textures/blocks/coal_ore.png"},
+
+
+
+
+
+{"name" : "lapis_ore", "texture" : "/assets/minecraft/textures/blocks/lapis_ore.png"},
+
+
+
+
+
+{"name" : "diamond_ore", "texture" : "/assets/minecraft/textures/blocks/diamond_ore.png"},
+
+
+
+
+
+{"name" : "redstone_ore", "texture" : "/assets/minecraft/textures/blocks/redstone_ore.png"},
+
+
+
+
+
+{"name" : "emerald_ore", "texture" : "/assets/minecraft/textures/blocks/emerald_ore.png"},
+
+
+
+
+
+
+
+{"name" : "log_oak", "texture" : "/assets/minecraft/textures/blocks/log_oak.png"},
+
+{"name" : "log_oak_top", "texture" : "/assets/minecraft/textures/blocks/log_oak_top.png"},
+
+
+
+{"name" : "log_spruce", "texture" : "/assets/minecraft/textures/blocks/log_spruce.png"},
+
+{"name" : "log_spruce_top", "texture" : "/assets/minecraft/textures/blocks/log_spruce_top.png"},
+
+
+
+{"name" : "log_birch", "texture" : "/assets/minecraft/textures/blocks/log_birch.png"},
+
+{"name" : "log_birch_top", "texture" : "/assets/minecraft/textures/blocks/log_birch_top.png"},
+
+
+
+{"name" : "log_jungle", "texture" : "/assets/minecraft/textures/blocks/log_jungle.png"},
+
+{"name" : "log_jungle_top", "texture" : "/assets/minecraft/textures/blocks/log_jungle_top.png"},
+
+
+
+
+
+{"name" : "log_acacia", "texture" : "/assets/minecraft/textures/blocks/log_acacia.png"},
+
+{"name" : "log_acacia_top", "texture" : "/assets/minecraft/textures/blocks/log_acacia_top.png"},
+
+
+
+{"name" : "log_big_oak", "texture" : "/assets/minecraft/textures/blocks/log_big_oak.png"},
+
+{"name" : "log_big_oak_top", "texture" : "/assets/minecraft/textures/blocks/log_big_oak_top.png"},
+
+
+
+
+
+
+
+{"name" : "leaves_oak", "texture" : "/assets/minecraft/textures/blocks/leaves_oak.png"},
+
+
+
+{"name" : "leaves_spruce", "texture" : "/assets/minecraft/textures/blocks/leaves_spruce.png"},
+
+
+
+{"name" : "leaves_birch", "texture" : "/assets/minecraft/textures/blocks/leaves_birch.png"},
+
+
+
+{"name" : "leaves_jungle", "texture" : "/assets/minecraft/textures/blocks/leaves_jungle.png"},
+
+
+
+
+
+{"name" : "leaves_acacia", "texture" : "/assets/minecraft/textures/blocks/leaves_acacia.png"},
+
+
+
+{"name" : "leaves_big_oak", "texture" : "/assets/minecraft/textures/blocks/leaves_big_oak.png"},
+
+
+
+
+
+
+
+{"name" : "sponge", "texture" : "/assets/minecraft/textures/blocks/sponge.png"},
+
+
+
+{"name" : "sponge_wet", "texture" : "/assets/minecraft/textures/blocks/sponge_wet.png"},
+
+
+
+
+
+
+
+{"name" : "glass", "texture" : "/assets/minecraft/textures/blocks/glass.png"},
+
+
+
+
+
+{"name" : "glass_white", "texture" : "/assets/minecraft/textures/blocks/glass_white.png"},
+
+
+
+{"name" : "glass_orange", "texture" : "/assets/minecraft/textures/blocks/glass_orange.png"},
+
+
+
+{"name" : "glass_magenta", "texture" : "/assets/minecraft/textures/blocks/glass_magenta.png"},
+
+
+
+{"name" : "glass_light_blue", "texture" : "/assets/minecraft/textures/blocks/glass_light_blue.png"},
+
+
+
+{"name" : "glass_yellow", "texture" : "/assets/minecraft/textures/blocks/glass_yellow.png"},
+
+
+
+{"name" : "glass_lime", "texture" : "/assets/minecraft/textures/blocks/glass_lime.png"},
+
+
+
+{"name" : "glass_pink", "texture" : "/assets/minecraft/textures/blocks/glass_pink.png"},
+
+
+
+{"name" : "glass_gray", "texture" : "/assets/minecraft/textures/blocks/glass_gray.png"},
+
+
+
+{"name" : "glass_silver", "texture" : "/assets/minecraft/textures/blocks/glass_silver.png"},
+
+
+
+{"name" : "glass_cyan", "texture" : "/assets/minecraft/textures/blocks/glass_cyan.png"},
+
+
+
+{"name" : "glass_purple", "texture" : "/assets/minecraft/textures/blocks/glass_purple.png"},
+
+
+
+{"name" : "glass_blue", "texture" : "/assets/minecraft/textures/blocks/glass_blue.png"},
+
+
+
+{"name" : "glass_brown", "texture" : "/assets/minecraft/textures/blocks/glass_brown.png"},
+
+
+
+{"name" : "glass_green", "texture" : "/assets/minecraft/textures/blocks/glass_green.png"},
+
+
+
+{"name" : "glass_red", "texture" : "/assets/minecraft/textures/blocks/glass_red.png"},
+
+
+
+{"name" : "glass_black", "texture" : "/assets/minecraft/textures/blocks/glass_black.png"},
+
+
+
+
+
+{"name" : "glass_pane_top", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top.png"},
+
+{"name" : "glass_pane_top_white", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_white.png"},
+
+
+
+{"name" : "glass_pane_top_orange", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_orange.png"},
+
+
+
+{"name" : "glass_pane_top_magenta", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_magenta.png"},
+
+
+
+{"name" : "glass_pane_top_light_blue", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_light_blue.png"},
+
+
+
+{"name" : "glass_pane_top_yellow", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_yellow.png"},
+
+
+
+{"name" : "glass_pane_top_lime", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_lime.png"},
+
+
+
+{"name" : "glass_pane_top_pink", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_pink.png"},
+
+
+
+{"name" : "glass_pane_top_gray", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_gray.png"},
+
+
+
+{"name" : "glass_pane_top_silver", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_silver.png"},
+
+
+
+{"name" : "glass_pane_top_cyan", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_cyan.png"},
+
+
+
+{"name" : "glass_pane_top_purple", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_purple.png"},
+
+
+
+{"name" : "glass_pane_top_blue", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_blue.png"},
+
+
+
+{"name" : "glass_pane_top_brown", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_brown.png"},
+
+
+
+{"name" : "glass_pane_top_green", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_green.png"},
+
+
+
+{"name" : "glass_pane_top_red", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_red.png"},
+
+
+
+{"name" : "glass_pane_top_black", "texture" : "/assets/minecraft/textures/blocks/glass_pane_top_black.png"},
+
+
+
+
+
+
+
+{"name" : "lapis_block", "texture" : "/assets/minecraft/textures/blocks/lapis_block.png"},
+
+
+
+
+
+{"name" : "gold_block", "texture" : "/assets/minecraft/textures/blocks/gold_block.png"},
+
+
+
+
+
+{"name" : "iron_block", "texture" : "/assets/minecraft/textures/blocks/iron_block.png"},
+
+
+
+
+
+{"name" : "diamond_block", "texture" : "/assets/minecraft/textures/blocks/diamond_block.png"},
+
+
+
+
+
+{"name" : "emerald_block", "texture" : "/assets/minecraft/textures/blocks/emerald_block.png"},
+
+
+
+
+
+{"name" : "redstone_block", "texture" : "/assets/minecraft/textures/blocks/redstone_block.png"},
+
+
+
+
+
+{"name" : "coal_block", "texture" : "/assets/minecraft/textures/blocks/coal_block.png"},
+
+
+
+
+
+
+
+{"name" : "dispenser_front_horizontal", "texture" : "/assets/minecraft/textures/blocks/dispenser_front_horizontal.png"},
+
+{"name" : "dispenser_front_vertical", "texture" : "/assets/minecraft/textures/blocks/dispenser_front_vertical.png"},
+
+
+
+
+
+
+
+{"name" : "noteblock", "texture" : "/assets/minecraft/textures/blocks/noteblock.png"},
+
+
+
+
+
+
+
+{"name" : "bed_feet_end", "texture" : "/assets/minecraft/textures/blocks/bed_feet_end.png"},
+
+{"name" : "bed_feet_side", "texture" : "/assets/minecraft/textures/blocks/bed_feet_side.png"},
+
+{"name" : "bed_feet_top", "texture" : "/assets/minecraft/textures/blocks/bed_feet_top.png"},
+
+{"name" : "bed_head_end", "texture" : "/assets/minecraft/textures/blocks/bed_head_end.png"},
+
+{"name" : "bed_head_side", "texture" : "/assets/minecraft/textures/blocks/bed_head_side.png"},
+
+{"name" : "bed_head_top", "texture" : "/assets/minecraft/textures/blocks/bed_head_top.png"},
+
+
+
+
+
+
+
+{"name" : "rail_golden", "texture" : "/assets/minecraft/textures/blocks/rail_golden.png"},
+
+
+
+{"name" : "rail_golden_powered", "texture" : "/assets/minecraft/textures/blocks/rail_golden_powered.png"},
+
+
+
+
+
+{"name" : "rail_detector", "texture" : "/assets/minecraft/textures/blocks/rail_detector.png"},
+
+
+
+{"name" : "rail_detector_powered", "texture" : "/assets/minecraft/textures/blocks/rail_detector_powered.png"},
+
+
+
+
+
+{"name" : "rail_normal", "texture" : "/assets/minecraft/textures/blocks/rail_normal.png"},
+
+
+
+{"name" : "rail_normal_turned", "texture" : "/assets/minecraft/textures/blocks/rail_normal_turned.png"},
+
+
+
+
+
+{"name" : "rail_activator", "texture" : "/assets/minecraft/textures/blocks/rail_activator.png"},
+
+
+
+{"name" : "rail_activator_powered", "texture" : "/assets/minecraft/textures/blocks/rail_activator_powered.png"},
+
+
+
+
+
+
+
+{"name" : "piston_bottom", "texture" : "/assets/minecraft/textures/blocks/piston_bottom.png"},
+
+{"name" : "piston_inner", "texture" : "/assets/minecraft/textures/blocks/piston_inner.png"},
+
+{"name" : "piston_side", "texture" : "/assets/minecraft/textures/blocks/piston_side.png"},
+
+{"name" : "piston_top_sticky", "texture" : "/assets/minecraft/textures/blocks/piston_top_sticky.png"},
+
+
+
+
+
+{"name" : "piston_top_normal", "texture" : "/assets/minecraft/textures/blocks/piston_top_normal.png"},
+
+
+
+
+
+
+
+{"name" : "web", "texture" : "/assets/minecraft/textures/blocks/web.png"},
+
+
+
+
+
+
+
+{"name" : "deadbush", "texture" : "/assets/minecraft/textures/blocks/deadbush.png"},
+
+
+
+{"name" : "tallgrass", "texture" : "/assets/minecraft/textures/blocks/tallgrass.png"},
+
+
+
+{"name" : "fern", "texture" : "/assets/minecraft/textures/blocks/fern.png"},
+
+
+
+
+
+
+
+{"name" : "wool_colored_white", "texture" : "/assets/minecraft/textures/blocks/wool_colored_white.png"},
+
+
+
+{"name" : "wool_colored_orange", "texture" : "/assets/minecraft/textures/blocks/wool_colored_orange.png"},
+
+
+
+{"name" : "wool_colored_magenta", "texture" : "/assets/minecraft/textures/blocks/wool_colored_magenta.png"},
+
+
+
+{"name" : "wool_colored_light_blue", "texture" : "/assets/minecraft/textures/blocks/wool_colored_light_blue.png"},
+
+
+
+{"name" : "wool_colored_yellow", "texture" : "/assets/minecraft/textures/blocks/wool_colored_yellow.png"},
+
+
+
+{"name" : "wool_colored_lime", "texture" : "/assets/minecraft/textures/blocks/wool_colored_lime.png"},
+
+
+
+{"name" : "wool_colored_pink", "texture" : "/assets/minecraft/textures/blocks/wool_colored_pink.png"},
+
+
+
+{"name" : "wool_colored_gray", "texture" : "/assets/minecraft/textures/blocks/wool_colored_gray.png"},
+
+
+
+{"name" : "wool_colored_silver", "texture" : "/assets/minecraft/textures/blocks/wool_colored_silver.png"},
+
+
+
+{"name" : "wool_colored_cyan", "texture" : "/assets/minecraft/textures/blocks/wool_colored_cyan.png"},
+
+
+
+{"name" : "wool_colored_purple", "texture" : "/assets/minecraft/textures/blocks/wool_colored_purple.png"},
+
+
+
+{"name" : "wool_colored_blue", "texture" : "/assets/minecraft/textures/blocks/wool_colored_blue.png"},
+
+
+
+{"name" : "wool_colored_brown", "texture" : "/assets/minecraft/textures/blocks/wool_colored_brown.png"},
+
+
+
+{"name" : "wool_colored_green", "texture" : "/assets/minecraft/textures/blocks/wool_colored_green.png"},
+
+
+
+{"name" : "wool_colored_red", "texture" : "/assets/minecraft/textures/blocks/wool_colored_red.png"},
+
+
+
+{"name" : "wool_colored_black", "texture" : "/assets/minecraft/textures/blocks/wool_colored_black.png"},
+
+
+
+
+
+
+
+{"name" : "flower_dandelion", "texture" : "/assets/minecraft/textures/blocks/flower_dandelion.png"},
+
+
+
+
+
+{"name" : "flower_rose", "texture" : "/assets/minecraft/textures/blocks/flower_rose.png"},
+
+
+
+{"name" : "flower_blue_orchid", "texture" : "/assets/minecraft/textures/blocks/flower_blue_orchid.png"},
+
+
+
+{"name" : "flower_allium", "texture" : "/assets/minecraft/textures/blocks/flower_allium.png"},
+
+
+
+{"name" : "flower_houstonia", "texture" : "/assets/minecraft/textures/blocks/flower_houstonia.png"},
+
+
+
+{"name" : "flower_tulip_red", "texture" : "/assets/minecraft/textures/blocks/flower_tulip_red.png"},
+
+
+
+{"name" : "flower_tulip_orange", "texture" : "/assets/minecraft/textures/blocks/flower_tulip_orange.png"},
+
+
+
+{"name" : "flower_tulip_white", "texture" : "/assets/minecraft/textures/blocks/flower_tulip_white.png"},
+
+
+
+{"name" : "flower_tulip_pink", "texture" : "/assets/minecraft/textures/blocks/flower_tulip_pink.png"},
+
+
+
+{"name" : "flower_oxeye_daisy", "texture" : "/assets/minecraft/textures/blocks/flower_oxeye_daisy.png"},
+
+
+
+
+
+
+
+{"name" : "mushroom_brown", "texture" : "/assets/minecraft/textures/blocks/mushroom_brown.png"},
+
+
+
+
+
+{"name" : "mushroom_red", "texture" : "/assets/minecraft/textures/blocks/mushroom_red.png"},
+
+
+
+
+
+
+
+{"name" : "brick", "texture" : "/assets/minecraft/textures/blocks/brick.png"},
+
+
+
+
+
+
+
+{"name" : "tnt_bottom", "texture" : "/assets/minecraft/textures/blocks/tnt_bottom.png"},
+
+{"name" : "tnt_side", "texture" : "/assets/minecraft/textures/blocks/tnt_side.png"},
+
+{"name" : "tnt_top", "texture" : "/assets/minecraft/textures/blocks/tnt_top.png"},
+
+
+
+
+
+
+
+
+
+
+
+{"name" : "obsidian", "texture" : "/assets/minecraft/textures/blocks/obsidian.png"},
+
+
+
+
+
+
+
+{"name" : "torch_on", "texture" : "/assets/minecraft/textures/blocks/torch_on.png"},
+
+
+
+
+
+{"name" : "redstone_torch_off", "texture" : "/assets/minecraft/textures/blocks/redstone_torch_off.png"},
+
+
+
+
+
+{"name" : "redstone_torch_on", "texture" : "/assets/minecraft/textures/blocks/redstone_torch_on.png"},
+
+
+
+
+
+
+
+{"name" : "fire_layer_0", "texture" : "/assets/minecraft/textures/blocks/fire_layer_0.png"},
+
+
+
+{"name" : "fire_layer_1", "texture" : "/assets/minecraft/textures/blocks/fire_layer_1.png"},
+
+
+
+
+
+
+
+{"name" : "mob_spawner", "texture" : "/assets/minecraft/textures/blocks/mob_spawner.png"},
+
+
+
+
+
+
+
+{"name" : "redstone_dust_line0", "texture" : "/assets/minecraft/textures/blocks/redstone_dust_line0.png"},
+
+{"name" : "redstone_dust_overlay", "texture" : "/assets/minecraft/textures/blocks/redstone_dust_overlay.png"},
+
+
+
+{"name" : "redstone_dust_line1", "texture" : "/assets/minecraft/textures/blocks/redstone_dust_line1.png"},
+
+
+
+{"name" : "redstone_dust_dot", "texture" : "/assets/minecraft/textures/blocks/redstone_dust_dot.png"},
+
+
+
+
+
+{"name" : "repeater_off", "texture" : "/assets/minecraft/textures/blocks/repeater_off.png"},
+
+
+
+
+
+{"name" : "repeater_on", "texture" : "/assets/minecraft/textures/blocks/repeater_on.png"},
+
+
+
+
+
+{"name" : "comparator_off", "texture" : "/assets/minecraft/textures/blocks/comparator_off.png"},
+
+
+
+
+
+{"name" : "comparator_on", "texture" : "/assets/minecraft/textures/blocks/comparator_on.png"},
+
+
+
+
+
+
+
+{"name" : "crafting_table_front", "texture" : "/assets/minecraft/textures/blocks/crafting_table_front.png"},
+
+{"name" : "crafting_table_side", "texture" : "/assets/minecraft/textures/blocks/crafting_table_side.png"},
+
+{"name" : "crafting_table_top", "texture" : "/assets/minecraft/textures/blocks/crafting_table_top.png"},
+
+
+
+
+
+
+
+{"name" : "wheat_stage_0", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_0.png"},
+
+
+
+{"name" : "wheat_stage_1", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_1.png"},
+
+
+
+{"name" : "wheat_stage_2", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_2.png"},
+
+
+
+{"name" : "wheat_stage_3", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_3.png"},
+
+
+
+{"name" : "wheat_stage_4", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_4.png"},
+
+
+
+{"name" : "wheat_stage_5", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_5.png"},
+
+
+
+{"name" : "wheat_stage_6", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_6.png"},
+
+
+
+{"name" : "wheat_stage_7", "texture" : "/assets/minecraft/textures/blocks/wheat_stage_7.png"},
+
+
+
+
+
+{"name" : "nether_wart_stage_0", "texture" : "/assets/minecraft/textures/blocks/nether_wart_stage_0.png"},
+
+
+
+{"name" : "nether_wart_stage_1", "texture" : "/assets/minecraft/textures/blocks/nether_wart_stage_1.png"},
+
+
+
+{"name" : "nether_wart_stage_2", "texture" : "/assets/minecraft/textures/blocks/nether_wart_stage_2.png"},
+
+
+
+
+
+{"name" : "carrots_stage_0", "texture" : "/assets/minecraft/textures/blocks/carrots_stage_0.png"},
+
+
+
+{"name" : "carrots_stage_1", "texture" : "/assets/minecraft/textures/blocks/carrots_stage_1.png"},
+
+
+
+{"name" : "carrots_stage_2", "texture" : "/assets/minecraft/textures/blocks/carrots_stage_2.png"},
+
+
+
+{"name" : "carrots_stage_3", "texture" : "/assets/minecraft/textures/blocks/carrots_stage_3.png"},
+
+
+
+
+
+{"name" : "potatoes_stage_0", "texture" : "/assets/minecraft/textures/blocks/potatoes_stage_0.png"},
+
+
+
+{"name" : "potatoes_stage_1", "texture" : "/assets/minecraft/textures/blocks/potatoes_stage_1.png"},
+
+
+
+{"name" : "potatoes_stage_2", "texture" : "/assets/minecraft/textures/blocks/potatoes_stage_2.png"},
+
+
+
+{"name" : "potatoes_stage_3", "texture" : "/assets/minecraft/textures/blocks/potatoes_stage_3.png"},
+
+
+
+
+
+{"name" : "beetroots_stage_0", "texture" : "/assets/minecraft/textures/blocks/beetroots_stage_0.png"},
+
+
+
+{"name" : "beetroots_stage_1", "texture" : "/assets/minecraft/textures/blocks/beetroots_stage_1.png"},
+
+
+
+{"name" : "beetroots_stage_2", "texture" : "/assets/minecraft/textures/blocks/beetroots_stage_2.png"},
+
+
+
+{"name" : "beetroots_stage_3", "texture" : "/assets/minecraft/textures/blocks/beetroots_stage_3.png"},
+
+
+
+
+
+
+
+{"name" : "furnace_front_off", "texture" : "/assets/minecraft/textures/blocks/furnace_front_off.png"},
+
+{"name" : "furnace_side", "texture" : "/assets/minecraft/textures/blocks/furnace_side.png"},
+
+{"name" : "furnace_top", "texture" : "/assets/minecraft/textures/blocks/furnace_top.png"},
+
+
+
+
+
+{"name" : "furnace_front_on", "texture" : "/assets/minecraft/textures/blocks/furnace_front_on.png"},
+
+
+
+
+
+
+
+{"name" : "door_wood_lower", "texture" : "/assets/minecraft/textures/blocks/door_wood_lower.png"},
+
+{"name" : "door_wood_upper", "texture" : "/assets/minecraft/textures/blocks/door_wood_upper.png"},
+
+
+
+
+
+{"name" : "door_iron_lower", "texture" : "/assets/minecraft/textures/blocks/door_iron_lower.png"},
+
+{"name" : "door_iron_upper", "texture" : "/assets/minecraft/textures/blocks/door_iron_upper.png"},
+
+
+
+
+
+{"name" : "door_spruce_lower", "texture" : "/assets/minecraft/textures/blocks/door_spruce_lower.png"},
+
+{"name" : "door_spruce_upper", "texture" : "/assets/minecraft/textures/blocks/door_spruce_upper.png"},
+
+
+
+
+
+{"name" : "door_birch_lower", "texture" : "/assets/minecraft/textures/blocks/door_birch_lower.png"},
+
+{"name" : "door_birch_upper", "texture" : "/assets/minecraft/textures/blocks/door_birch_upper.png"},
+
+
+
+
+
+{"name" : "door_jungle_lower", "texture" : "/assets/minecraft/textures/blocks/door_jungle_lower.png"},
+
+{"name" : "door_jungle_upper", "texture" : "/assets/minecraft/textures/blocks/door_jungle_upper.png"},
+
+
+
+
+
+{"name" : "door_acacia_lower", "texture" : "/assets/minecraft/textures/blocks/door_acacia_lower.png"},
+
+{"name" : "door_acacia_upper", "texture" : "/assets/minecraft/textures/blocks/door_acacia_upper.png"},
+
+
+
+
+
+{"name" : "door_dark_oak_lower", "texture" : "/assets/minecraft/textures/blocks/door_dark_oak_lower.png"},
+
+{"name" : "door_dark_oak_upper", "texture" : "/assets/minecraft/textures/blocks/door_dark_oak_upper.png"},
+
+
+
+
+
+
+
+{"name" : "ladder", "texture" : "/assets/minecraft/textures/blocks/ladder.png"},
+
+
+
+
+
+
+
+
+
+
+
+{"name" : "ice", "texture" : "/assets/minecraft/textures/blocks/ice.png"},
+
+
+
+
+
+{"name" : "ice_packed", "texture" : "/assets/minecraft/textures/blocks/ice_packed.png"},
+
+
+
+
+
+{"name" : "frosted_ice_0", "texture" : "/assets/minecraft/textures/blocks/frosted_ice_0.png"},
+
+
+
+{"name" : "frosted_ice_1", "texture" : "/assets/minecraft/textures/blocks/frosted_ice_1.png"},
+
+
+
+{"name" : "frosted_ice_2", "texture" : "/assets/minecraft/textures/blocks/frosted_ice_2.png"},
+
+
+
+{"name" : "frosted_ice_3", "texture" : "/assets/minecraft/textures/blocks/frosted_ice_3.png"},
+
+
+
+
+
+
+
+{"name" : "cactus_bottom", "texture" : "/assets/minecraft/textures/blocks/cactus_bottom.png"},
+
+{"name" : "cactus_side", "texture" : "/assets/minecraft/textures/blocks/cactus_side.png"},
+
+{"name" : "cactus_top", "texture" : "/assets/minecraft/textures/blocks/cactus_top.png"},
+
+
+
+
+
+
+
+{"name" : "clay", "texture" : "/assets/minecraft/textures/blocks/clay.png"},
+
+
+
+
+
+{"name" : "hardened_clay_stained_white", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_white.png"},
+
+
+
+{"name" : "hardened_clay_stained_orange", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_orange.png"},
+
+
+
+{"name" : "hardened_clay_stained_magenta", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_magenta.png"},
+
+
+
+{"name" : "hardened_clay_stained_light_blue", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_light_blue.png"},
+
+
+
+{"name" : "hardened_clay_stained_yellow", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_yellow.png"},
+
+
+
+{"name" : "hardened_clay_stained_lime", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_lime.png"},
+
+
+
+{"name" : "hardened_clay_stained_pink", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_pink.png"},
+
+
+
+{"name" : "hardened_clay_stained_gray", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_gray.png"},
+
+
+
+{"name" : "hardened_clay_stained_silver", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_silver.png"},
+
+
+
+{"name" : "hardened_clay_stained_cyan", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_cyan.png"},
+
+
+
+{"name" : "hardened_clay_stained_purple", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_purple.png"},
+
+
+
+{"name" : "hardened_clay_stained_blue", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_blue.png"},
+
+
+
+{"name" : "hardened_clay_stained_brown", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_brown.png"},
+
+
+
+{"name" : "hardened_clay_stained_green", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_green.png"},
+
+
+
+{"name" : "hardened_clay_stained_red", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_red.png"},
+
+
+
+{"name" : "hardened_clay_stained_black", "texture" : "/assets/minecraft/textures/blocks/hardened_clay_stained_black.png"},
+
+
+
+
+
+{"name" : "hardened_clay", "texture" : "/assets/minecraft/textures/blocks/hardened_clay.png"},
+
+
+
+
+
+
+
+{"name" : "reeds", "texture" : "/assets/minecraft/textures/blocks/reeds.png"},
+
+
+
+
+
+
+
+{"name" : "jukebox_side", "texture" : "/assets/minecraft/textures/blocks/jukebox_side.png"},
+
+{"name" : "jukebox_top", "texture" : "/assets/minecraft/textures/blocks/jukebox_top.png"},
+
+
+
+
+
+
+
+{"name" : "pumpkin_face_off", "texture" : "/assets/minecraft/textures/blocks/pumpkin_face_off.png"},
+
+{"name" : "pumpkin_face_on", "texture" : "/assets/minecraft/textures/blocks/pumpkin_face_on.png"},
+
+{"name" : "pumpkin_side", "texture" : "/assets/minecraft/textures/blocks/pumpkin_side.png"},
+
+{"name" : "pumpkin_top", "texture" : "/assets/minecraft/textures/blocks/pumpkin_top.png"},
+
+
+
+
+
+{"name" : "melon_side", "texture" : "/assets/minecraft/textures/blocks/melon_side.png"},
+
+{"name" : "melon_top", "texture" : "/assets/minecraft/textures/blocks/melon_top.png"},
+
+
+
+
+
+{"name" : "pumpkin_stem_disconnected", "texture" : "/assets/minecraft/textures/blocks/pumpkin_stem_disconnected.png"},
+
+
+
+{"name" : "pumpkin_stem_connected", "texture" : "/assets/minecraft/textures/blocks/pumpkin_stem_connected.png"},
+
+
+
+
+
+{"name" : "melon_stem_disconnected", "texture" : "/assets/minecraft/textures/blocks/melon_stem_disconnected.png"},
+
+
+
+{"name" : "melon_stem_connected", "texture" : "/assets/minecraft/textures/blocks/melon_stem_connected.png"},
+
+
+
+
+
+
+
+{"name" : "netherrack", "texture" : "/assets/minecraft/textures/blocks/netherrack.png"},
+
+
+
+
+
+{"name" : "soul_sand", "texture" : "/assets/minecraft/textures/blocks/soul_sand.png"},
+
+
+
+
+
+{"name" : "nether_brick", "texture" : "/assets/minecraft/textures/blocks/nether_brick.png"},
+
+
+
+
+
+{"name" : "quartz_ore", "texture" : "/assets/minecraft/textures/blocks/quartz_ore.png"},
+
+
+
+
+
+{"name" : "nether_wart_block", "texture" : "/assets/minecraft/textures/blocks/nether_wart_block.png"},
+
+
+
+
+
+{"name" : "red_nether_brick", "texture" : "/assets/minecraft/textures/blocks/red_nether_brick.png"},
+
+
+
+
+
+
+
+{"name" : "glowstone", "texture" : "/assets/minecraft/textures/blocks/glowstone.png"},
+
+
+
+
+
+{"name" : "redstone_lamp_off", "texture" : "/assets/minecraft/textures/blocks/redstone_lamp_off.png"},
+
+{"name" : "redstone_lamp_on", "texture" : "/assets/minecraft/textures/blocks/redstone_lamp_on.png"},
+
+
+
+
+
+{"name" : "sea_lantern", "texture" : "/assets/minecraft/textures/blocks/sea_lantern.png"},
+
+
+
+
+
+
+
+{"name" : "portal", "texture" : "/assets/minecraft/textures/blocks/portal.png"},
+
+
+
+
+
+
+
+{"name" : "cake_bottom", "texture" : "/assets/minecraft/textures/blocks/cake_bottom.png"},
+
+{"name" : "cake_inner", "texture" : "/assets/minecraft/textures/blocks/cake_inner.png"},
+
+{"name" : "cake_side", "texture" : "/assets/minecraft/textures/blocks/cake_side.png"},
+
+{"name" : "cake_top", "texture" : "/assets/minecraft/textures/blocks/cake_top.png"},
+
+
+
+
+
+
+
+{"name" : "trapdoor", "texture" : "/assets/minecraft/textures/blocks/trapdoor.png"},
+
+
+
+
+
+{"name" : "iron_trapdoor", "texture" : "/assets/minecraft/textures/blocks/iron_trapdoor.png"},
+
+
+
+
+
+
+
+{"name" : "stonebrick", "texture" : "/assets/minecraft/textures/blocks/stonebrick.png"},
+
+
+
+{"name" : "stonebrick_mossy", "texture" : "/assets/minecraft/textures/blocks/stonebrick_mossy.png"},
+
+
+
+{"name" : "stonebrick_cracked", "texture" : "/assets/minecraft/textures/blocks/stonebrick_cracked.png"},
+
+
+
+{"name" : "stonebrick_carved", "texture" : "/assets/minecraft/textures/blocks/stonebrick_carved.png"},
+
+
+
+
+
+
+
+{"name" : "mushroom_block_inside", "texture" : "/assets/minecraft/textures/blocks/mushroom_block_inside.png"},
+
+{"name" : "mushroom_block_skin_brown", "texture" : "/assets/minecraft/textures/blocks/mushroom_block_skin_brown.png"},
+
+{"name" : "mushroom_block_skin_stem", "texture" : "/assets/minecraft/textures/blocks/mushroom_block_skin_stem.png"},
+
+
+
+
+
+{"name" : "mushroom_block_skin_red", "texture" : "/assets/minecraft/textures/blocks/mushroom_block_skin_red.png"},
+
+
+
+
+
+
+
+{"name" : "debug", "texture" : "/assets/minecraft/textures/blocks/debug.png"},
+
+
+
+{"name" : "debug2", "texture" : "/assets/minecraft/textures/blocks/debug2.png"},
+
+
+
+
+
+
+
+{"name" : "iron_bars", "texture" : "/assets/minecraft/textures/blocks/iron_bars.png"},
+
+
+
+
+
+
+
+{"name" : "vine", "texture" : "/assets/minecraft/textures/blocks/vine.png"},
+
+
+
+
+
+
+
+{"name" : "waterlily", "texture" : "/assets/minecraft/textures/blocks/waterlily.png"},
+
+
+
+
+
+
+
+{"name" : "enchanting_table_bottom", "texture" : "/assets/minecraft/textures/blocks/enchanting_table_bottom.png"},
+
+{"name" : "enchanting_table_side", "texture" : "/assets/minecraft/textures/blocks/enchanting_table_side.png"},
+
+{"name" : "enchanting_table_top", "texture" : "/assets/minecraft/textures/blocks/enchanting_table_top.png"},
+
+
+
+
+
+
+
+{"name" : "brewing_stand", "texture" : "/assets/minecraft/textures/blocks/brewing_stand.png"},
+
+{"name" : "brewing_stand_base", "texture" : "/assets/minecraft/textures/blocks/brewing_stand_base.png"},
+
+
+
+
+
+
+
+{"name" : "cauldron_bottom", "texture" : "/assets/minecraft/textures/blocks/cauldron_bottom.png"},
+
+{"name" : "cauldron_inner", "texture" : "/assets/minecraft/textures/blocks/cauldron_inner.png"},
+
+{"name" : "cauldron_side", "texture" : "/assets/minecraft/textures/blocks/cauldron_side.png"},
+
+{"name" : "cauldron_top", "texture" : "/assets/minecraft/textures/blocks/cauldron_top.png"},
+
+
+
+
+
+
+
+{"name" : "endframe_eye", "texture" : "/assets/minecraft/textures/blocks/endframe_eye.png"},
+
+{"name" : "endframe_side", "texture" : "/assets/minecraft/textures/blocks/endframe_side.png"},
+
+{"name" : "endframe_top", "texture" : "/assets/minecraft/textures/blocks/endframe_top.png"},
+
+
+
+
+
+
+
+{"name" : "end_stone", "texture" : "/assets/minecraft/textures/blocks/end_stone.png"},
+
+
+
+
+
+{"name" : "end_bricks", "texture" : "/assets/minecraft/textures/blocks/end_bricks.png"},
+
+
+
+
+
+
+
+{"name" : "dragon_egg", "texture" : "/assets/minecraft/textures/blocks/dragon_egg.png"},
+
+
+
+
+
+
+
+{"name" : "cocoa_stage_0", "texture" : "/assets/minecraft/textures/blocks/cocoa_stage_0.png"},
+
+
+
+{"name" : "cocoa_stage_1", "texture" : "/assets/minecraft/textures/blocks/cocoa_stage_1.png"},
+
+
+
+{"name" : "cocoa_stage_2", "texture" : "/assets/minecraft/textures/blocks/cocoa_stage_2.png"},
+
+
+
+
+
+
+
+{"name" : "trip_wire_source", "texture" : "/assets/minecraft/textures/blocks/trip_wire_source.png"},
+
+
+
+
+
+{"name" : "trip_wire", "texture" : "/assets/minecraft/textures/blocks/trip_wire.png"},
+
+
+
+
+
+
+
+{"name" : "command_block_back", "texture" : "/assets/minecraft/textures/blocks/command_block_back.png"},
+
+{"name" : "command_block_conditional", "texture" : "/assets/minecraft/textures/blocks/command_block_conditional.png"},
+
+{"name" : "command_block_front", "texture" : "/assets/minecraft/textures/blocks/command_block_front.png"},
+
+{"name" : "command_block_side", "texture" : "/assets/minecraft/textures/blocks/command_block_side.png"},
+
+
+
+
+
+{"name" : "repeating_command_block_back", "texture" : "/assets/minecraft/textures/blocks/repeating_command_block_back.png"},
+
+{"name" : "repeating_command_block_conditional", "texture" : "/assets/minecraft/textures/blocks/repeating_command_block_conditional.png"},
+
+{"name" : "repeating_command_block_front", "texture" : "/assets/minecraft/textures/blocks/repeating_command_block_front.png"},
+
+{"name" : "repeating_command_block_side", "texture" : "/assets/minecraft/textures/blocks/repeating_command_block_side.png"},
+
+
+
+
+
+{"name" : "chain_command_block_back", "texture" : "/assets/minecraft/textures/blocks/chain_command_block_back.png"},
+
+{"name" : "chain_command_block_conditional", "texture" : "/assets/minecraft/textures/blocks/chain_command_block_conditional.png"},
+
+{"name" : "chain_command_block_front", "texture" : "/assets/minecraft/textures/blocks/chain_command_block_front.png"},
+
+{"name" : "chain_command_block_side", "texture" : "/assets/minecraft/textures/blocks/chain_command_block_side.png"},
+
+
+
+
+
+
+
+{"name" : "beacon", "texture" : "/assets/minecraft/textures/blocks/beacon.png"},
+
+
+
+
+
+
+
+{"name" : "flower_pot", "texture" : "/assets/minecraft/textures/blocks/flower_pot.png"},
+
+
+
+
+
+
+
+{"name" : "anvil_base", "texture" : "/assets/minecraft/textures/blocks/anvil_base.png"},
+
+{"name" : "anvil_top_damaged_0", "texture" : "/assets/minecraft/textures/blocks/anvil_top_damaged_0.png"},
+
+
+
+{"name" : "anvil_top_damaged_1", "texture" : "/assets/minecraft/textures/blocks/anvil_top_damaged_1.png"},
+
+
+
+{"name" : "anvil_top_damaged_2", "texture" : "/assets/minecraft/textures/blocks/anvil_top_damaged_2.png"},
+
+
+
+
+
+
+
+{"name" : "daylight_detector_inverted_top", "texture" : "/assets/minecraft/textures/blocks/daylight_detector_inverted_top.png"},
+
+{"name" : "daylight_detector_side", "texture" : "/assets/minecraft/textures/blocks/daylight_detector_side.png"},
+
+{"name" : "daylight_detector_top", "texture" : "/assets/minecraft/textures/blocks/daylight_detector_top.png"},
+
+
+
+
+
+
+
+{"name" : "hopper_inside", "texture" : "/assets/minecraft/textures/blocks/hopper_inside.png"},
+
+{"name" : "hopper_outside", "texture" : "/assets/minecraft/textures/blocks/hopper_outside.png"},
+
+{"name" : "hopper_top", "texture" : "/assets/minecraft/textures/blocks/hopper_top.png"},
+
+
+
+
+
+
+
+{"name" : "quartz_block_bottom", "texture" : "/assets/minecraft/textures/blocks/quartz_block_bottom.png"},
+
+{"name" : "quartz_block_side", "texture" : "/assets/minecraft/textures/blocks/quartz_block_side.png"},
+
+{"name" : "quartz_block_top", "texture" : "/assets/minecraft/textures/blocks/quartz_block_top.png"},
+
+
+
+{"name" : "quartz_block_chiseled", "texture" : "/assets/minecraft/textures/blocks/quartz_block_chiseled.png"},
+
+{"name" : "quartz_block_chiseled_top", "texture" : "/assets/minecraft/textures/blocks/quartz_block_chiseled_top.png"},
+
+
+
+{"name" : "quartz_block_lines", "texture" : "/assets/minecraft/textures/blocks/quartz_block_lines.png"},
+
+{"name" : "quartz_block_lines_top", "texture" : "/assets/minecraft/textures/blocks/quartz_block_lines_top.png"},
+
+
+
+
+
+
+
+{"name" : "dropper_front_horizontal", "texture" : "/assets/minecraft/textures/blocks/dropper_front_horizontal.png"},
+
+{"name" : "dropper_front_vertical", "texture" : "/assets/minecraft/textures/blocks/dropper_front_vertical.png"},
+
+
+
+
+
+
+
+{"name" : "slime", "texture" : "/assets/minecraft/textures/blocks/slime.png"},
+
+
+
+
+
+
+
+{"name" : "prismarine_rough", "texture" : "/assets/minecraft/textures/blocks/prismarine_rough.png"},
+
+
+
+{"name" : "prismarine_bricks", "texture" : "/assets/minecraft/textures/blocks/prismarine_bricks.png"},
+
+
+
+{"name" : "prismarine_dark", "texture" : "/assets/minecraft/textures/blocks/prismarine_dark.png"},
+
+
+
+
+
+
+
+{"name" : "hay_block_side", "texture" : "/assets/minecraft/textures/blocks/hay_block_side.png"},
+
+{"name" : "hay_block_top", "texture" : "/assets/minecraft/textures/blocks/hay_block_top.png"},
+
+
+
+
+
+
+
+{"name" : "double_plant_sunflower_back", "texture" : "/assets/minecraft/textures/blocks/double_plant_sunflower_back.png"},
+
+{"name" : "double_plant_sunflower_bottom", "texture" : "/assets/minecraft/textures/blocks/double_plant_sunflower_bottom.png"},
+
+{"name" : "double_plant_sunflower_front", "texture" : "/assets/minecraft/textures/blocks/double_plant_sunflower_front.png"},
+
+{"name" : "double_plant_sunflower_top", "texture" : "/assets/minecraft/textures/blocks/double_plant_sunflower_top.png"},
+
+
+
+{"name" : "double_plant_syringa_bottom", "texture" : "/assets/minecraft/textures/blocks/double_plant_syringa_bottom.png"},
+
+{"name" : "double_plant_syringa_top", "texture" : "/assets/minecraft/textures/blocks/double_plant_syringa_top.png"},
+
+
+
+{"name" : "double_plant_grass_bottom", "texture" : "/assets/minecraft/textures/blocks/double_plant_grass_bottom.png"},
+
+{"name" : "double_plant_grass_top", "texture" : "/assets/minecraft/textures/blocks/double_plant_grass_top.png"},
+
+
+
+{"name" : "double_plant_fern_bottom", "texture" : "/assets/minecraft/textures/blocks/double_plant_fern_bottom.png"},
+
+{"name" : "double_plant_fern_top", "texture" : "/assets/minecraft/textures/blocks/double_plant_fern_top.png"},
+
+
+
+{"name" : "double_plant_rose_bottom", "texture" : "/assets/minecraft/textures/blocks/double_plant_rose_bottom.png"},
+
+{"name" : "double_plant_rose_top", "texture" : "/assets/minecraft/textures/blocks/double_plant_rose_top.png"},
+
+
+
+{"name" : "double_plant_paeonia_bottom", "texture" : "/assets/minecraft/textures/blocks/double_plant_paeonia_bottom.png"},
+
+{"name" : "double_plant_paeonia_top", "texture" : "/assets/minecraft/textures/blocks/double_plant_paeonia_top.png"},
+
+
+
+
+
+
+
+{"name" : "end_rod", "texture" : "/assets/minecraft/textures/blocks/end_rod.png"},
+
+
+
+
+
+
+
+{"name" : "chorus_flower", "texture" : "/assets/minecraft/textures/blocks/chorus_flower.png"},
+
+
+
+{"name" : "chorus_flower_dead", "texture" : "/assets/minecraft/textures/blocks/chorus_flower_dead.png"},
+
+
+
+
+
+{"name" : "chorus_plant", "texture" : "/assets/minecraft/textures/blocks/chorus_plant.png"},
+
+
+
+
+
+
+
+{"name" : "purpur_block", "texture" : "/assets/minecraft/textures/blocks/purpur_block.png"},
+
+
+
+
+
+{"name" : "purpur_pillar", "texture" : "/assets/minecraft/textures/blocks/purpur_pillar.png"},
+
+{"name" : "purpur_pillar_top", "texture" : "/assets/minecraft/textures/blocks/purpur_pillar_top.png"},
+
+
+
+
+
+
+
+{"name" : "magma", "texture" : "/assets/minecraft/textures/blocks/magma.png"},
+
+
+
+
+
+
+
+{"name" : "bone_block_side", "texture" : "/assets/minecraft/textures/blocks/bone_block_side.png"},
+
+{"name" : "bone_block_top", "texture" : "/assets/minecraft/textures/blocks/bone_block_top.png"},
+
+
+
+
+
+
+
+{"name" : "structure_block", "texture" : "/assets/minecraft/textures/blocks/structure_block.png"},
+
+{"name" : "structure_block_save", "texture" : "/assets/minecraft/textures/blocks/structure_block_save.png"},
+
+
+
+{"name" : "structure_block_load", "texture" : "/assets/minecraft/textures/blocks/structure_block_load.png"},
+
+
+
+{"name" : "structure_block_corner", "texture" : "/assets/minecraft/textures/blocks/structure_block_corner.png"},
+
+
+
+{"name" : "structure_block_data", "texture" : "/assets/minecraft/textures/blocks/structure_block_data.png"},
+
+
+
+
+
+
+
+{"name" : "itemframe_background", "texture" : "/assets/minecraft/textures/blocks/itemframe_background.png"},
+
+
+
+
+
+
+
+{"name" : "destroy_stage_0", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_0.png"},
+
+
+
+{"name" : "destroy_stage_1", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_1.png"},
+
+
+
+{"name" : "destroy_stage_2", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_2.png"},
+
+
+
+{"name" : "destroy_stage_3", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_3.png"},
+
+
+
+{"name" : "destroy_stage_4", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_4.png"},
+
+
+
+{"name" : "destroy_stage_5", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_5.png"},
+
+
+
+{"name" : "destroy_stage_6", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_6.png"},
+
+
+
+{"name" : "destroy_stage_7", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_7.png"},
+
+
+
+{"name" : "destroy_stage_8", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_8.png"},
+
+
+
+{"name" : "destroy_stage_9", "texture" : "/assets/minecraft/textures/blocks/destroy_stage_9.png"},
+
+
+
+
+ {}
+]

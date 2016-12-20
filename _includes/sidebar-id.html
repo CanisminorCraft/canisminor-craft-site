@@ -12,12 +12,4 @@
   {% endfor %}
 </nav>
 
-<script>
-  SimpleJekyllSearch.init({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('search-results'),
-    searchResultTemplate: '<a class="dropdown-item" href="{url}">{title}</a>',
-    noResultsText: '<div class="dropdown-item no-results">对不起, 没有您要的结果.</div>',
-    json: '{{ site.baseurl }}/json/search-id.json'
-  })
-</script>
+{% include search.html json="search-id" %}

@@ -1,0 +1,50 @@
+---
+layout: sidebar
+sidebar: id
+title: ID List
+desc: Date Value 材质列表
+---
+
+
+<!--<ul class="blocks-3d" id="ul">-->
+<!--<li class="blocks-3d">1</li>-->
+<!--<li class="blocks-3d">2</li>-->
+<!--<li class="blocks-3d">3</li>-->
+<!--<li class="blocks-3d">4</li>-->
+<!--<li class="blocks-3d">5</li>-->
+<!--<li class="blocks-3d">6</li>-->
+<!--</ul>-->
+
+
+
+<div class="block-list">
+  {% for a in site.data.block-textures %}
+  <ul class="block-ul">
+    <li>
+      <h3><a href="#{{ a.name }}-{{ a.id }}" id="{{ a.name }}-{{ a.id }}">ID:{{ a.id }}</a>{{ a.name }}</h3>
+      <ul>
+        {% for b in a.file %}
+        <li>
+          <p>G-ID: {{ b.id }}</p>
+          <ul>
+            {% for c in b.file %}
+            <li>
+              <p>ID-DV: {{ b.id }}:{{ c.dv }}</p>
+              <ul>
+                {% for d in c.name %}
+                <li>
+                  <p id="{{ d }}"> {{ d }}</p>
+                  <div class="blocks" style="background-image:url({{ site.baseurl }}/assets/minecraft/textures/blocks/{{ d }}.png)"></div>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+  {% endfor %}
+</div>

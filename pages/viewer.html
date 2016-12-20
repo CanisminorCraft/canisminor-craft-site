@@ -1,0 +1,94 @@
+---
+layout: default
+title: Viewer
+---
+<link href="../css/viewer.css" rel="stylesheet">
+
+<div id="wrapper">
+  <!-- Viewer goes there -->
+  <div class="sidebar">
+    <h5>网格设置</h5>
+    <div class="sidebar-item">
+      <label for="showgrid">
+        <input type="radio" checked id="showgrid" name="grid" value="true"
+               onchange="this.value == 'true' ? viewer.showGrid() : viewer.hideGrid()"> 开启</label>
+      <label for="hidegrid">
+        <input type="radio" id="hidegrid" name="grid" value="false"
+               onchange="this.value == 'true' ? viewer.showGrid() : viewer.hideGrid()"> 关闭</label>
+    </div>
+    <h5>摄像机</h5>
+    <div class="sidebar-item">
+      <button type="button" class="btn btn-secondary" onclick="viewer.reset()">重置镜头</button>
+    </div>
+    <h5>模型</h5>
+    <div class="sidebar-item">
+      <label for="displayOption">
+        <input type="text" class="form-control" id="displayOption" value="block"
+               onchange="if (['thirdperson_righthand', 'thirdperson_lefthand', 'firstperson_righthand', 'firstperson_lefthand', 'gui', 'head', 'ground', 'fixed', 'block', 'thirdperson', 'firstperson'].indexOf(this.value) >= 0) model.applyDisplay(this.value)">
+      </label>
+    </div>
+    <h5>Json</h5>
+    <div class="sidebar-item">
+
+      <label class="custom-file">
+        <input type="file" class="form-control" accept=".json" id="loadmodel" onchange="loadjson(this.files[0])">
+        <span class="custom-file-control"></span>
+      </label>
+      <button type="button" class="btn btn-primary" onclick="loadthing()">加载模型</button>
+    </div>
+  </div>
+</div>
+
+<!-- end of demo gui -->
+<!-- demo js -->
+<script src="{{ site.baseurl }}/js/viewer.js"></script>
+<!-- end of demo js -->
+<!-- actual usage of the api -->
+<!-- Requires three.js and OrbitControls.js -->
+<script src="{{ site.baseurl }}/js/three.min.js"></script>
+<script src="{{ site.baseurl }}/js/OrbitControls.js"></script>
+<script src="{{ site.baseurl }}/js/ModelViewer.js"></script>
+<!-- Demo -->
+<script>
+  console.log("----------");
+  function readFile(filename){
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    var f = fso.OpenTextFile(filename,1);
+    var s = "";
+    while (!f.AtEndOfStream)
+      s += f.ReadLine()+"/n";
+    f.Close();
+    return s;
+  }
+  var test = readFile("{{ site.baseurl }}/json/test.txt");
+  console.log(test);
+
+</script>
+<script src="{{ site.baseurl }}/json/texture.json"></script>
+<script src="{{ site.baseurl }}/json/models.json"></script>
+
+<script src="{{ site.baseurl }}/js/url.js"></script>
+
+<script>
+  var openId = getParamValue("openId");
+  var i = 0;
+  for (i in jsonModels) {
+    if (jsonModels[i].name == openId) {
+      jsonTemp = jsonModels[i].data
+      break;
+    }
+    i++;
+  }
+  var json = JSON.stringify(jsonTemp);
+</script>
+
+
+<script type="text/javascript">
+  var container = document.getElementById('wrapper')
+  var viewer = new ModelViewer(container)
+  window.addEventListener('resize', viewer.resize)
+  var model = new JsonModel('demo', json, textures)
+  viewer.load(model)
+</script>
+
+

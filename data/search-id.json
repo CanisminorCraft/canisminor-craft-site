@@ -1,0 +1,19 @@
+---
+
+---
+
+[
+{% for a in site.data.block-textures %}
+{% for b in a.file %}
+{% for c in b.file %}
+{% for d in c.name %}
+{
+  "title" : "{{ b.id }}:{{ c.dv }} {{ d }}",
+  "url"   : "#{{ d }}"
+},
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{}
+]

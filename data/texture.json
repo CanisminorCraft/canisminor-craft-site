@@ -1,0 +1,14 @@
+---
+---
+ var textures = [
+{% for a in site.data.block-textures %}
+{% for b in a.file %}
+{% for c in b.file %}
+{% for d in c.name %}
+{"name" : "{{ d }}", "texture" : "{{ site.baseurl }}/assets/minecraft/textures/blocks/{{ d }}.png"},
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+ {}
+]

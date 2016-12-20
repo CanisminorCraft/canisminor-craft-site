@@ -1,0 +1,200 @@
+@import "../xmui-base/global";
+
+$size: 6rem;
+
+.block-list {
+  ul, li {
+    position: relative;
+    padding: 0;
+  }
+}
+
+.blocks {
+  width: $size;
+  height: $size;
+  background-size: 100%;
+  image-rendering: pixelated;
+  background-color: #FFF;
+
+}
+
+ul.block-ul, ul.models-ul {
+  display: block;
+
+  p {
+    margin: 0;
+    font-size: 0.75rem;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    padding: 0 .5rem;
+    border-bottom: 1px solid #F8F8F8;
+  }
+}
+
+ul.models-ul {
+
+  > li {
+    display: block;
+    > h3 {
+      margin: 2rem 0;
+      > a {
+        margin-right: .5rem;
+      }
+    }
+    > ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      > li {
+        display: block;
+
+        box-sizing: content-box;
+        &:last-child {
+          margin-right: 0;
+        }
+        border: 1px solid #F8F8F8;
+        > p {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        > ul {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0;
+
+          > li {
+            display: block;
+            width: $size;
+            overflow: hidden;
+            box-sizing: content-box;
+
+
+          }
+        }
+      }
+    }
+  }
+}
+
+ul.block-ul {
+
+  > li {
+    display: block;
+    > h3 {
+      margin: 2rem 0;
+      > a {
+        margin-right: .5rem;
+      }
+    }
+    > ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      > li {
+        display: block;
+        border: 1px solid #F8F8F8;
+        box-sizing: content-box;
+        &:last-child {
+          margin-right: 0;
+        }
+        > p {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        > ul {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0;
+          > li {
+            display: block;
+
+            > ul {
+              display: flex;
+              padding: 0;
+              > li {
+                display: block;
+                width: $size;
+                overflow: hidden;
+                box-sizing: content-box;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//3d
+ul.blocks-3d {
+  list-style: none;
+  width: $size*2;
+  height: $size*2;
+  margin: $size auto;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+ul.blocks-3d {
+  animation: run 5s linear infinite;
+}
+
+@keyframes run {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg)
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg)
+  }
+}
+
+/*如果在ul里设置：perspective:400px;perspective-origin:0% 50%; 则会有透视、景深的效果*/
+li.blocks-3d {
+  width: $size;
+  height: $size;
+  position: absolute;
+  text-align: center;
+  line-height: $size;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFF;
+}
+
+li.blocks-3d:nth-child(1) {
+  background: rgba(255, 0, 0, 1);
+  transform: rotateX(90deg) translateZ($size/2);
+}
+
+li.blocks-3d:nth-child(2) {
+  background: rgba(0, 255, 255, 1);
+  transform: rotateX(270deg) translateZ($size/2);
+}
+
+li.blocks-3d:nth-child(3) {
+  background: rgba(255, 0, 255, 1);
+  transform: rotateY(90deg) translateZ($size/2);
+}
+
+li.blocks-3d:nth-child(4) {
+  background: rgba(0, 255, 0, 1);
+  transform: rotateY(270deg) translateZ($size/2);
+}
+
+li.blocks-3d:nth-child(5) {
+  background: rgba(200, 200, 0, 1);
+  transform: translateZ(-$size/2);
+}
+
+li.blocks-3d:nth-child(6) {
+  background: rgba(0, 0, 255, 1);
+  transform: translateZ($size/2);
+}

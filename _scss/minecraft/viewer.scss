@@ -1,0 +1,40 @@
+@import "../xmui-base/global";
+
+#wrapper {
+display: flex;
+  flex-direction: row-reverse
+}
+
+.block-viewer {
+  position: relative;
+
+  flex:1;
+  height: 30rem;
+  overflow: hidden;
+}
+
+/* demo section */
+
+.sidebar {
+  position: relative;
+  width: 20rem;
+  background-color: #FFF;
+  padding: 2rem;
+  color: #888;
+  border-left: $border-normal;
+  overflow: auto;
+  label{
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  h5{
+    font-size: 1rem;
+    color: $c-font-dark;
+  }
+  .sidebar-item{
+    margin:1rem 0;
+  }
+  .btn-primary{
+    margin-top: 1rem;
+  }
+}

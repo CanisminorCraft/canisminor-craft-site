@@ -1,0 +1,59 @@
+---
+layout: sidebar
+sidebar: model
+title: Model List
+desc: Model 模型列表
+---
+{% assign modelname2 ='' %}
+
+<div class="models-list">
+  <ul class="models-ul">
+    <ul>
+      {% for a in site.data.block-models %}
+      {% assign modelname = a.name | split:'_' %}
+      {% if modelname[0] != modelname2[0] %}
+    </ul>
+    </li>
+    <li>
+      <h3><a href="#">Model</a>{{ modelname[0] }}</h3>
+      <ul>
+        {% endif %}
+
+        <li>
+          <a href="{{ site.baseurl }}/pages/viewer.html?openId={{ a.name }}"><p id="{{ a.name }}">{{ a.name }}</p></a>
+          <ul>
+            {% assign temp = a.data.textures | sort %}
+            {% capture array %}
+            {% for i in temp %}
+              {{ i[1] }}
+            {% endfor %}
+            {% endcapture %}
+            {% assign array = array | strip_newlines | remove:' '  | split: 'blocks/'  | sort %}
+            {% assign texture = "" %}
+
+            {% for b in array %}
+              {% assign name = b | strip_newlines | remove:' ' %}
+
+              {% if name != texture %}
+                <li>
+                  <p>{{ name }}</p>
+                  <div class="blocks"
+                       style="background-image:url({{ site.baseurl }}/assets/minecraft/textures/blocks/{{ name }}.png)"></div>
+                </li>
+              {% endif %}
+
+              {% assign texture = name %}
+            {% endfor %}
+
+            {% assign texture = "" %}
+
+            </li>
+
+
+          </ul>
+          {% assign modelname2 = a.name | split:'_' %}
+
+
+          {% endfor %}
+      </ul>
+</div>

@@ -1,0 +1,2624 @@
+[
+  {
+    "dir": "101#iron_bars",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/101#iron_bars",
+    "rename": "101_0#iron_bars.png",
+    "name": "iron_bars.png"
+  },
+  {
+    "dir": "106#vine",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/106#vine",
+    "rename": "106_0#vine.png",
+    "name": "vine.png"
+  },
+  {
+    "dir": "10#lava",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/10#lava",
+    "rename": "10_0#lava_flow.png",
+    "name": "lava_flow.png"
+  },
+  {
+    "dir": "10#lava",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/10#lava",
+    "rename": "10_0#lava_flow.png.mcmeta",
+    "name": "lava_flow.png.mcmeta"
+  },
+  {
+    "dir": "10#lava",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/10#lava",
+    "rename": "11_0#lava_still.png",
+    "name": "lava_still.png"
+  },
+  {
+    "dir": "10#lava",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/10#lava",
+    "rename": "11_0#lava_still.png.mcmeta",
+    "name": "lava_still.png.mcmeta"
+  },
+  {
+    "dir": "111#waterlily",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/111#waterlily",
+    "rename": "111_0#waterlily.png",
+    "name": "waterlily.png"
+  },
+  {
+    "dir": "116#enchanting",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/116#enchanting",
+    "rename": "116_0#enchanting_table_bottom.png",
+    "name": "enchanting_table_bottom.png"
+  },
+  {
+    "dir": "116#enchanting",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/116#enchanting",
+    "rename": "116_0#enchanting_table_side.png",
+    "name": "enchanting_table_side.png"
+  },
+  {
+    "dir": "116#enchanting",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/116#enchanting",
+    "rename": "116_0#enchanting_table_top.png",
+    "name": "enchanting_table_top.png"
+  },
+  {
+    "dir": "117#brewing",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/117#brewing",
+    "rename": "117_0#brewing_stand.png",
+    "name": "brewing_stand.png"
+  },
+  {
+    "dir": "117#brewing",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/117#brewing",
+    "rename": "117_0#brewing_stand_base.png",
+    "name": "brewing_stand_base.png"
+  },
+  {
+    "dir": "118#cauldron",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/118#cauldron",
+    "rename": "118_0#cauldron_bottom.png",
+    "name": "cauldron_bottom.png"
+  },
+  {
+    "dir": "118#cauldron",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/118#cauldron",
+    "rename": "118_0#cauldron_inner.png",
+    "name": "cauldron_inner.png"
+  },
+  {
+    "dir": "118#cauldron",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/118#cauldron",
+    "rename": "118_0#cauldron_side.png",
+    "name": "cauldron_side.png"
+  },
+  {
+    "dir": "118#cauldron",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/118#cauldron",
+    "rename": "118_0#cauldron_top.png",
+    "name": "cauldron_top.png"
+  },
+  {
+    "dir": "120#endframe",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/120#endframe",
+    "rename": "120_0#endframe_eye.png",
+    "name": "endframe_eye.png"
+  },
+  {
+    "dir": "120#endframe",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/120#endframe",
+    "rename": "120_0#endframe_side.png",
+    "name": "endframe_side.png"
+  },
+  {
+    "dir": "120#endframe",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/120#endframe",
+    "rename": "120_0#endframe_top.png",
+    "name": "endframe_top.png"
+  },
+  {
+    "dir": "121#end",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/121#end",
+    "rename": "121_0#end_stone.png",
+    "name": "end_stone.png"
+  },
+  {
+    "dir": "121#end",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/121#end",
+    "rename": "206_0#end_bricks.png",
+    "name": "end_bricks.png"
+  },
+  {
+    "dir": "122#dragon_egg",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/122#dragon_egg",
+    "rename": "122_0#dragon_egg.png",
+    "name": "dragon_egg.png"
+  },
+  {
+    "dir": "127#cocoa",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/127#cocoa",
+    "rename": "127_0#cocoa_stage_0.png",
+    "name": "cocoa_stage_0.png"
+  },
+  {
+    "dir": "127#cocoa",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/127#cocoa",
+    "rename": "127_1#cocoa_stage_1.png",
+    "name": "cocoa_stage_1.png"
+  },
+  {
+    "dir": "127#cocoa",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/127#cocoa",
+    "rename": "127_2#cocoa_stage_2.png",
+    "name": "cocoa_stage_2.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "12_0#sand.png",
+    "name": "sand.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "12_1#red_sand.png",
+    "name": "red_sand.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "179_0#red_sandstone_bottom.png",
+    "name": "red_sandstone_bottom.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "179_0#red_sandstone_normal.png",
+    "name": "red_sandstone_normal.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "179_0#red_sandstone_top.png",
+    "name": "red_sandstone_top.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "179_1#red_sandstone_carved.png",
+    "name": "red_sandstone_carved.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "179_2#red_sandstone_smooth.png",
+    "name": "red_sandstone_smooth.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "24_0#sandstone_bottom.png",
+    "name": "sandstone_bottom.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "24_0#sandstone_normal.png",
+    "name": "sandstone_normal.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "24_0#sandstone_top.png",
+    "name": "sandstone_top.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "24_1#sandstone_carved.png",
+    "name": "sandstone_carved.png"
+  },
+  {
+    "dir": "12#sand",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/12#sand",
+    "rename": "24_2#sandstone_smooth.png",
+    "name": "sandstone_smooth.png"
+  },
+  {
+    "dir": "131#trip",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/131#trip",
+    "rename": "131_0#trip_wire_source.png",
+    "name": "trip_wire_source.png"
+  },
+  {
+    "dir": "131#trip",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/131#trip",
+    "rename": "132_0#trip_wire.png",
+    "name": "trip_wire.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_back.png",
+    "name": "command_block_back.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_back.png.mcmeta",
+    "name": "command_block_back.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_conditional.png",
+    "name": "command_block_conditional.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_conditional.png.mcmeta",
+    "name": "command_block_conditional.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_front.png",
+    "name": "command_block_front.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_front.png.mcmeta",
+    "name": "command_block_front.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_side.png",
+    "name": "command_block_side.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "137_0#command_block_side.png.mcmeta",
+    "name": "command_block_side.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_back.png",
+    "name": "repeating_command_block_back.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_back.png.mcmeta",
+    "name": "repeating_command_block_back.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_conditional.png",
+    "name": "repeating_command_block_conditional.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_conditional.png.mcmeta",
+    "name": "repeating_command_block_conditional.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_front.png",
+    "name": "repeating_command_block_front.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_front.png.mcmeta",
+    "name": "repeating_command_block_front.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_side.png",
+    "name": "repeating_command_block_side.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "210_0#repeating_command_block_side.png.mcmeta",
+    "name": "repeating_command_block_side.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_back.png",
+    "name": "chain_command_block_back.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_back.png.mcmeta",
+    "name": "chain_command_block_back.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_conditional.png",
+    "name": "chain_command_block_conditional.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_conditional.png.mcmeta",
+    "name": "chain_command_block_conditional.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_front.png",
+    "name": "chain_command_block_front.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_front.png.mcmeta",
+    "name": "chain_command_block_front.png.mcmeta"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_side.png",
+    "name": "chain_command_block_side.png"
+  },
+  {
+    "dir": "137#command_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/137#command_block",
+    "rename": "211_0#chain_command_block_side.png.mcmeta",
+    "name": "chain_command_block_side.png.mcmeta"
+  },
+  {
+    "dir": "138#beacon",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/138#beacon",
+    "rename": "138_0#beacon.png",
+    "name": "beacon.png"
+  },
+  {
+    "dir": "13#gravel",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/13#gravel",
+    "rename": "13_0#gravel.png",
+    "name": "gravel.png"
+  },
+  {
+    "dir": "140#flower_pot",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/140#flower_pot",
+    "rename": "140_0#flower_pot.png",
+    "name": "flower_pot.png"
+  },
+  {
+    "dir": "145#anvil",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/145#anvil",
+    "rename": "145_0#anvil_base.png",
+    "name": "anvil_base.png"
+  },
+  {
+    "dir": "145#anvil",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/145#anvil",
+    "rename": "145_0#anvil_top_damaged_0.png",
+    "name": "anvil_top_damaged_0.png"
+  },
+  {
+    "dir": "145#anvil",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/145#anvil",
+    "rename": "145_1#anvil_top_damaged_1.png",
+    "name": "anvil_top_damaged_1.png"
+  },
+  {
+    "dir": "145#anvil",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/145#anvil",
+    "rename": "145_2#anvil_top_damaged_2.png",
+    "name": "anvil_top_damaged_2.png"
+  },
+  {
+    "dir": "14#ore_stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/14#ore_stone",
+    "rename": "129_0#emerald_ore.png",
+    "name": "emerald_ore.png"
+  },
+  {
+    "dir": "14#ore_stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/14#ore_stone",
+    "rename": "14_0#gold_ore.png",
+    "name": "gold_ore.png"
+  },
+  {
+    "dir": "14#ore_stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/14#ore_stone",
+    "rename": "15_0#iron_ore.png",
+    "name": "iron_ore.png"
+  },
+  {
+    "dir": "14#ore_stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/14#ore_stone",
+    "rename": "16_0#coal_ore.png",
+    "name": "coal_ore.png"
+  },
+  {
+    "dir": "14#ore_stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/14#ore_stone",
+    "rename": "21_0#lapis_ore.png",
+    "name": "lapis_ore.png"
+  },
+  {
+    "dir": "14#ore_stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/14#ore_stone",
+    "rename": "56_0#diamond_ore.png",
+    "name": "diamond_ore.png"
+  },
+  {
+    "dir": "14#ore_stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/14#ore_stone",
+    "rename": "73_0#redstone_ore.png",
+    "name": "redstone_ore.png"
+  },
+  {
+    "dir": "151#daylight",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/151#daylight",
+    "rename": "151_0#daylight_detector_inverted_top.png",
+    "name": "daylight_detector_inverted_top.png"
+  },
+  {
+    "dir": "151#daylight",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/151#daylight",
+    "rename": "151_0#daylight_detector_side.png",
+    "name": "daylight_detector_side.png"
+  },
+  {
+    "dir": "151#daylight",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/151#daylight",
+    "rename": "151_0#daylight_detector_top.png",
+    "name": "daylight_detector_top.png"
+  },
+  {
+    "dir": "154#hopper",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/154#hopper",
+    "rename": "154_0#hopper_inside.png",
+    "name": "hopper_inside.png"
+  },
+  {
+    "dir": "154#hopper",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/154#hopper",
+    "rename": "154_0#hopper_outside.png",
+    "name": "hopper_outside.png"
+  },
+  {
+    "dir": "154#hopper",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/154#hopper",
+    "rename": "154_0#hopper_top.png",
+    "name": "hopper_top.png"
+  },
+  {
+    "dir": "155#quartz",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/155#quartz",
+    "rename": "155_0#quartz_block_bottom.png",
+    "name": "quartz_block_bottom.png"
+  },
+  {
+    "dir": "155#quartz",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/155#quartz",
+    "rename": "155_0#quartz_block_side.png",
+    "name": "quartz_block_side.png"
+  },
+  {
+    "dir": "155#quartz",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/155#quartz",
+    "rename": "155_0#quartz_block_top.png",
+    "name": "quartz_block_top.png"
+  },
+  {
+    "dir": "155#quartz",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/155#quartz",
+    "rename": "155_1#quartz_block_chiseled.png",
+    "name": "quartz_block_chiseled.png"
+  },
+  {
+    "dir": "155#quartz",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/155#quartz",
+    "rename": "155_1#quartz_block_chiseled_top.png",
+    "name": "quartz_block_chiseled_top.png"
+  },
+  {
+    "dir": "155#quartz",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/155#quartz",
+    "rename": "155_2#quartz_block_lines.png",
+    "name": "quartz_block_lines.png"
+  },
+  {
+    "dir": "155#quartz",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/155#quartz",
+    "rename": "155_2#quartz_block_lines_top.png",
+    "name": "quartz_block_lines_top.png"
+  },
+  {
+    "dir": "158#dropper",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/158#dropper",
+    "rename": "158_0#dropper_front_horizontal.png",
+    "name": "dropper_front_horizontal.png"
+  },
+  {
+    "dir": "158#dropper",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/158#dropper",
+    "rename": "158_0#dropper_front_vertical.png",
+    "name": "dropper_front_vertical.png"
+  },
+  {
+    "dir": "165#slime",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/165#slime",
+    "rename": "165_0#slime.png",
+    "name": "slime.png"
+  },
+  {
+    "dir": "168#prismarine",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/168#prismarine",
+    "rename": "168_0#prismarine_rough.png",
+    "name": "prismarine_rough.png"
+  },
+  {
+    "dir": "168#prismarine",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/168#prismarine",
+    "rename": "168_0#prismarine_rough.png.mcmeta",
+    "name": "prismarine_rough.png.mcmeta"
+  },
+  {
+    "dir": "168#prismarine",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/168#prismarine",
+    "rename": "168_1#prismarine_bricks.png",
+    "name": "prismarine_bricks.png"
+  },
+  {
+    "dir": "168#prismarine",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/168#prismarine",
+    "rename": "168_2#prismarine_dark.png",
+    "name": "prismarine_dark.png"
+  },
+  {
+    "dir": "170#hay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/170#hay",
+    "rename": "170_0#hay_block_side.png",
+    "name": "hay_block_side.png"
+  },
+  {
+    "dir": "170#hay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/170#hay",
+    "rename": "170_0#hay_block_top.png",
+    "name": "hay_block_top.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_0#double_plant_sunflower_back.png",
+    "name": "double_plant_sunflower_back.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_0#double_plant_sunflower_bottom.png",
+    "name": "double_plant_sunflower_bottom.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_0#double_plant_sunflower_front.png",
+    "name": "double_plant_sunflower_front.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_0#double_plant_sunflower_top.png",
+    "name": "double_plant_sunflower_top.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_1#double_plant_syringa_bottom.png",
+    "name": "double_plant_syringa_bottom.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_1#double_plant_syringa_top.png",
+    "name": "double_plant_syringa_top.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_2#double_plant_grass_bottom.png",
+    "name": "double_plant_grass_bottom.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_2#double_plant_grass_top.png",
+    "name": "double_plant_grass_top.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_3#double_plant_fern_bottom.png",
+    "name": "double_plant_fern_bottom.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_3#double_plant_fern_top.png",
+    "name": "double_plant_fern_top.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_4#double_plant_rose_bottom.png",
+    "name": "double_plant_rose_bottom.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_4#double_plant_rose_top.png",
+    "name": "double_plant_rose_top.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_5#double_plant_paeonia_bottom.png",
+    "name": "double_plant_paeonia_bottom.png"
+  },
+  {
+    "dir": "175#double_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/175#double_plant",
+    "rename": "175_5#double_plant_paeonia_top.png",
+    "name": "double_plant_paeonia_top.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "162_0#log_acacia.png",
+    "name": "log_acacia.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "162_0#log_acacia_top.png",
+    "name": "log_acacia_top.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "162_1#log_big_oak.png",
+    "name": "log_big_oak.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "162_1#log_big_oak_top.png",
+    "name": "log_big_oak_top.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_0#log_oak.png",
+    "name": "log_oak.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_0#log_oak_top.png",
+    "name": "log_oak_top.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_1#log_spruce.png",
+    "name": "log_spruce.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_1#log_spruce_top.png",
+    "name": "log_spruce_top.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_2#log_birch.png",
+    "name": "log_birch.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_2#log_birch_top.png",
+    "name": "log_birch_top.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_3#log_jungle.png",
+    "name": "log_jungle.png"
+  },
+  {
+    "dir": "17#log",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/17#log",
+    "rename": "17_3#log_jungle_top.png",
+    "name": "log_jungle_top.png"
+  },
+  {
+    "dir": "18#leaves",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/18#leaves",
+    "rename": "161_0#leaves_acacia.png",
+    "name": "leaves_acacia.png"
+  },
+  {
+    "dir": "18#leaves",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/18#leaves",
+    "rename": "161_1#leaves_big_oak.png",
+    "name": "leaves_big_oak.png"
+  },
+  {
+    "dir": "18#leaves",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/18#leaves",
+    "rename": "18_0#leaves_oak.png",
+    "name": "leaves_oak.png"
+  },
+  {
+    "dir": "18#leaves",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/18#leaves",
+    "rename": "18_1#leaves_spruce.png",
+    "name": "leaves_spruce.png"
+  },
+  {
+    "dir": "18#leaves",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/18#leaves",
+    "rename": "18_2#leaves_birch.png",
+    "name": "leaves_birch.png"
+  },
+  {
+    "dir": "18#leaves",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/18#leaves",
+    "rename": "18_3#leaves_jungle.png",
+    "name": "leaves_jungle.png"
+  },
+  {
+    "dir": "198#end_rod",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/198#end_rod",
+    "rename": "198_0#end_rod.png",
+    "name": "end_rod.png"
+  },
+  {
+    "dir": "199#chorus",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/199#chorus",
+    "rename": "199_0#chorus_flower.png",
+    "name": "chorus_flower.png"
+  },
+  {
+    "dir": "199#chorus",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/199#chorus",
+    "rename": "199_1#chorus_flower_dead.png",
+    "name": "chorus_flower_dead.png"
+  },
+  {
+    "dir": "199#chorus",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/199#chorus",
+    "rename": "200_0#chorus_plant.png",
+    "name": "chorus_plant.png"
+  },
+  {
+    "dir": "19#sponge",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/19#sponge",
+    "rename": "19_0#sponge.png",
+    "name": "sponge.png"
+  },
+  {
+    "dir": "19#sponge",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/19#sponge",
+    "rename": "19_1#sponge_wet.png",
+    "name": "sponge_wet.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "1_0#stone.png",
+    "name": "stone.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "1_1#stone_granite.png",
+    "name": "stone_granite.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "1_2#stone_granite_smooth.png",
+    "name": "stone_granite_smooth.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "1_3#stone_diorite.png",
+    "name": "stone_diorite.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "1_4#stone_diorite_smooth.png",
+    "name": "stone_diorite_smooth.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "1_5#stone_andesite.png",
+    "name": "stone_andesite.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "1_6#stone_andesite_smooth.png",
+    "name": "stone_andesite_smooth.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "44_0#stone_slab_side.png",
+    "name": "stone_slab_side.png"
+  },
+  {
+    "dir": "1#stone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/1#stone",
+    "rename": "44_0#stone_slab_top.png",
+    "name": "stone_slab_top.png"
+  },
+  {
+    "dir": "201#purpur",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/201#purpur",
+    "rename": "201_0#purpur_block.png",
+    "name": "purpur_block.png"
+  },
+  {
+    "dir": "201#purpur",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/201#purpur",
+    "rename": "202_0#purpur_pillar.png",
+    "name": "purpur_pillar.png"
+  },
+  {
+    "dir": "201#purpur",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/201#purpur",
+    "rename": "202_0#purpur_pillar_top.png",
+    "name": "purpur_pillar_top.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_0#glass_pane_top.png",
+    "name": "glass_pane_top.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_0#glass_pane_top_white.png",
+    "name": "glass_pane_top_white.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_10#glass_pane_top_purple.png",
+    "name": "glass_pane_top_purple.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_11#glass_pane_top_blue.png",
+    "name": "glass_pane_top_blue.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_12#glass_pane_top_brown.png",
+    "name": "glass_pane_top_brown.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_13#glass_pane_top_green.png",
+    "name": "glass_pane_top_green.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_14#glass_pane_top_red.png",
+    "name": "glass_pane_top_red.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_15#glass_pane_top_black.png",
+    "name": "glass_pane_top_black.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_1#glass_pane_top_orange.png",
+    "name": "glass_pane_top_orange.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_2#glass_pane_top_magenta.png",
+    "name": "glass_pane_top_magenta.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_3#glass_pane_top_light_blue.png",
+    "name": "glass_pane_top_light_blue.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_4#glass_pane_top_yellow.png",
+    "name": "glass_pane_top_yellow.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_5#glass_pane_top_lime.png",
+    "name": "glass_pane_top_lime.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_6#glass_pane_top_pink.png",
+    "name": "glass_pane_top_pink.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_7#glass_pane_top_gray.png",
+    "name": "glass_pane_top_gray.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_8#glass_pane_top_silver.png",
+    "name": "glass_pane_top_silver.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "160_9#glass_pane_top_cyan.png",
+    "name": "glass_pane_top_cyan.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "20_0#glass.png",
+    "name": "glass.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_0#glass_white.png",
+    "name": "glass_white.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_10#glass_purple.png",
+    "name": "glass_purple.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_11#glass_blue.png",
+    "name": "glass_blue.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_12#glass_brown.png",
+    "name": "glass_brown.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_13#glass_green.png",
+    "name": "glass_green.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_14#glass_red.png",
+    "name": "glass_red.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_15#glass_black.png",
+    "name": "glass_black.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_1#glass_orange.png",
+    "name": "glass_orange.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_2#glass_magenta.png",
+    "name": "glass_magenta.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_3#glass_light_blue.png",
+    "name": "glass_light_blue.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_4#glass_yellow.png",
+    "name": "glass_yellow.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_5#glass_lime.png",
+    "name": "glass_lime.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_6#glass_pink.png",
+    "name": "glass_pink.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_7#glass_gray.png",
+    "name": "glass_gray.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_8#glass_silver.png",
+    "name": "glass_silver.png"
+  },
+  {
+    "dir": "20#glass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/20#glass",
+    "rename": "95_9#glass_cyan.png",
+    "name": "glass_cyan.png"
+  },
+  {
+    "dir": "213#magma",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/213#magma",
+    "rename": "213_0#magma.png",
+    "name": "magma.png"
+  },
+  {
+    "dir": "213#magma",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/213#magma",
+    "rename": "213_0#magma.png.mcmeta",
+    "name": "magma.png.mcmeta"
+  },
+  {
+    "dir": "216#bone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/216#bone",
+    "rename": "216_0#bone_block_side.png",
+    "name": "bone_block_side.png"
+  },
+  {
+    "dir": "216#bone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/216#bone",
+    "rename": "216_0#bone_block_top.png",
+    "name": "bone_block_top.png"
+  },
+  {
+    "dir": "22#ore_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/22#ore_block",
+    "rename": "133_0#emerald_block.png",
+    "name": "emerald_block.png"
+  },
+  {
+    "dir": "22#ore_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/22#ore_block",
+    "rename": "152_0#redstone_block.png",
+    "name": "redstone_block.png"
+  },
+  {
+    "dir": "22#ore_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/22#ore_block",
+    "rename": "173_0#coal_block.png",
+    "name": "coal_block.png"
+  },
+  {
+    "dir": "22#ore_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/22#ore_block",
+    "rename": "22_0#lapis_block.png",
+    "name": "lapis_block.png"
+  },
+  {
+    "dir": "22#ore_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/22#ore_block",
+    "rename": "41_0#gold_block.png",
+    "name": "gold_block.png"
+  },
+  {
+    "dir": "22#ore_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/22#ore_block",
+    "rename": "42_0#iron_block.png",
+    "name": "iron_block.png"
+  },
+  {
+    "dir": "22#ore_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/22#ore_block",
+    "rename": "57_0#diamond_block.png",
+    "name": "diamond_block.png"
+  },
+  {
+    "dir": "23#dispenser",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/23#dispenser",
+    "rename": "23_0#dispenser_front_horizontal.png",
+    "name": "dispenser_front_horizontal.png"
+  },
+  {
+    "dir": "23#dispenser",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/23#dispenser",
+    "rename": "23_0#dispenser_front_vertical.png",
+    "name": "dispenser_front_vertical.png"
+  },
+  {
+    "dir": "255#structure",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/255#structure",
+    "rename": "255_0#structure_block.png",
+    "name": "structure_block.png"
+  },
+  {
+    "dir": "255#structure",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/255#structure",
+    "rename": "255_0#structure_block_save.png",
+    "name": "structure_block_save.png"
+  },
+  {
+    "dir": "255#structure",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/255#structure",
+    "rename": "255_1#structure_block_load.png",
+    "name": "structure_block_load.png"
+  },
+  {
+    "dir": "255#structure",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/255#structure",
+    "rename": "255_2#structure_block_corner.png",
+    "name": "structure_block_corner.png"
+  },
+  {
+    "dir": "255#structure",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/255#structure",
+    "rename": "255_3#structure_block_data.png",
+    "name": "structure_block_data.png"
+  },
+  {
+    "dir": "25#noteblock",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/25#noteblock",
+    "rename": "25_0#noteblock.png",
+    "name": "noteblock.png"
+  },
+  {
+    "dir": "26#bed",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/26#bed",
+    "rename": "26_0#bed_feet_end.png",
+    "name": "bed_feet_end.png"
+  },
+  {
+    "dir": "26#bed",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/26#bed",
+    "rename": "26_0#bed_feet_side.png",
+    "name": "bed_feet_side.png"
+  },
+  {
+    "dir": "26#bed",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/26#bed",
+    "rename": "26_0#bed_feet_top.png",
+    "name": "bed_feet_top.png"
+  },
+  {
+    "dir": "26#bed",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/26#bed",
+    "rename": "26_0#bed_head_end.png",
+    "name": "bed_head_end.png"
+  },
+  {
+    "dir": "26#bed",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/26#bed",
+    "rename": "26_0#bed_head_side.png",
+    "name": "bed_head_side.png"
+  },
+  {
+    "dir": "26#bed",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/26#bed",
+    "rename": "26_0#bed_head_top.png",
+    "name": "bed_head_top.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "157_0#rail_activator.png",
+    "name": "rail_activator.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "157_1#rail_activator_powered.png",
+    "name": "rail_activator_powered.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "27_0#rail_golden.png",
+    "name": "rail_golden.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "27_1#rail_golden_powered.png",
+    "name": "rail_golden_powered.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "28_0#rail_detector.png",
+    "name": "rail_detector.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "28_1#rail_detector_powered.png",
+    "name": "rail_detector_powered.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "66_0#rail_normal.png",
+    "name": "rail_normal.png"
+  },
+  {
+    "dir": "27#rail",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/27#rail",
+    "rename": "66_1#rail_normal_turned.png",
+    "name": "rail_normal_turned.png"
+  },
+  {
+    "dir": "29#piston",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/29#piston",
+    "rename": "29_0#piston_bottom.png",
+    "name": "piston_bottom.png"
+  },
+  {
+    "dir": "29#piston",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/29#piston",
+    "rename": "29_0#piston_inner.png",
+    "name": "piston_inner.png"
+  },
+  {
+    "dir": "29#piston",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/29#piston",
+    "rename": "29_0#piston_side.png",
+    "name": "piston_side.png"
+  },
+  {
+    "dir": "29#piston",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/29#piston",
+    "rename": "29_0#piston_top_sticky.png",
+    "name": "piston_top_sticky.png"
+  },
+  {
+    "dir": "29#piston",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/29#piston",
+    "rename": "33_0#piston_top_normal.png",
+    "name": "piston_top_normal.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "110_0#mycelium_side.png",
+    "name": "mycelium_side.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "110_0#mycelium_top.png",
+    "name": "mycelium_top.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "208_0#grass_path_side.png",
+    "name": "grass_path_side.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "208_0#grass_path_top.png",
+    "name": "grass_path_top.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "2_0#grass_side.png",
+    "name": "grass_side.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "2_0#grass_side_overlay.png",
+    "name": "grass_side_overlay.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "2_0#grass_side_snowed.png",
+    "name": "grass_side_snowed.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "2_0#grass_top.png",
+    "name": "grass_top.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "3_0#dirt.png",
+    "name": "dirt.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "3_1#coarse_dirt.png",
+    "name": "coarse_dirt.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "3_2#dirt_podzol_side.png",
+    "name": "dirt_podzol_side.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "3_2#dirt_podzol_top.png",
+    "name": "dirt_podzol_top.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "60_0#farmland_dry.png",
+    "name": "farmland_dry.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "60_1#farmland_wet.png",
+    "name": "farmland_wet.png"
+  },
+  {
+    "dir": "2#dirt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/2#dirt",
+    "rename": "78_0#snow.png",
+    "name": "snow.png"
+  },
+  {
+    "dir": "30#web",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/30#web",
+    "rename": "30_0#web.png",
+    "name": "web.png"
+  },
+  {
+    "dir": "31#grass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/31#grass",
+    "rename": "31_0#deadbush.png",
+    "name": "deadbush.png"
+  },
+  {
+    "dir": "31#grass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/31#grass",
+    "rename": "31_1#tallgrass.png",
+    "name": "tallgrass.png"
+  },
+  {
+    "dir": "31#grass",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/31#grass",
+    "rename": "31_2#fern.png",
+    "name": "fern.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_0#wool_colored_white.png",
+    "name": "wool_colored_white.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_10#wool_colored_purple.png",
+    "name": "wool_colored_purple.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_11#wool_colored_blue.png",
+    "name": "wool_colored_blue.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_12#wool_colored_brown.png",
+    "name": "wool_colored_brown.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_13#wool_colored_green.png",
+    "name": "wool_colored_green.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_14#wool_colored_red.png",
+    "name": "wool_colored_red.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_15#wool_colored_black.png",
+    "name": "wool_colored_black.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_1#wool_colored_orange.png",
+    "name": "wool_colored_orange.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_2#wool_colored_magenta.png",
+    "name": "wool_colored_magenta.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_3#wool_colored_light_blue.png",
+    "name": "wool_colored_light_blue.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_4#wool_colored_yellow.png",
+    "name": "wool_colored_yellow.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_5#wool_colored_lime.png",
+    "name": "wool_colored_lime.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_6#wool_colored_pink.png",
+    "name": "wool_colored_pink.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_7#wool_colored_gray.png",
+    "name": "wool_colored_gray.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_8#wool_colored_silver.png",
+    "name": "wool_colored_silver.png"
+  },
+  {
+    "dir": "35#wool",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/35#wool",
+    "rename": "35_9#wool_colored_cyan.png",
+    "name": "wool_colored_cyan.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "37_0#flower_dandelion.png",
+    "name": "flower_dandelion.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_0#flower_rose.png",
+    "name": "flower_rose.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_1#flower_blue_orchid.png",
+    "name": "flower_blue_orchid.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_2#flower_allium.png",
+    "name": "flower_allium.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_3#flower_houstonia.png",
+    "name": "flower_houstonia.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_4#flower_tulip_red.png",
+    "name": "flower_tulip_red.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_5#flower_tulip_orange.png",
+    "name": "flower_tulip_orange.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_6#flower_tulip_white.png",
+    "name": "flower_tulip_white.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_7#flower_tulip_pink.png",
+    "name": "flower_tulip_pink.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_8#flower_oxeye_daisy.png",
+    "name": "flower_oxeye_daisy.png"
+  },
+  {
+    "dir": "37#flower",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/37#flower",
+    "rename": "38_none#flower_paeonia.png",
+    "name": "flower_paeonia.png"
+  },
+  {
+    "dir": "389#itemframe",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/389#itemframe",
+    "rename": "389_0#itemframe_background.png",
+    "name": "itemframe_background.png"
+  },
+  {
+    "dir": "39#mushroom",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/39#mushroom",
+    "rename": "39_0#mushroom_brown.png",
+    "name": "mushroom_brown.png"
+  },
+  {
+    "dir": "39#mushroom",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/39#mushroom",
+    "rename": "40_0#mushroom_red.png",
+    "name": "mushroom_red.png"
+  },
+  {
+    "dir": "45#brick",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/45#brick",
+    "rename": "45_0#brick.png",
+    "name": "brick.png"
+  },
+  {
+    "dir": "46#tnt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/46#tnt",
+    "rename": "46_0#tnt_bottom.png",
+    "name": "tnt_bottom.png"
+  },
+  {
+    "dir": "46#tnt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/46#tnt",
+    "rename": "46_0#tnt_side.png",
+    "name": "tnt_side.png"
+  },
+  {
+    "dir": "46#tnt",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/46#tnt",
+    "rename": "46_0#tnt_top.png",
+    "name": "tnt_top.png"
+  },
+  {
+    "dir": "47#bookshelf",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/47#bookshelf",
+    "rename": "47#bookshelf.png",
+    "name": "bookshelf.png"
+  },
+  {
+    "dir": "49#obsidian",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/49#obsidian",
+    "rename": "49_0#obsidian.png",
+    "name": "obsidian.png"
+  },
+  {
+    "dir": "4#cobblestone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/4#cobblestone",
+    "rename": "48_0#cobblestone_mossy.png",
+    "name": "cobblestone_mossy.png"
+  },
+  {
+    "dir": "4#cobblestone",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/4#cobblestone",
+    "rename": "4_0#cobblestone.png",
+    "name": "cobblestone.png"
+  },
+  {
+    "dir": "50#torch",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/50#torch",
+    "rename": "50_0#torch_on.png",
+    "name": "torch_on.png"
+  },
+  {
+    "dir": "50#torch",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/50#torch",
+    "rename": "75_0#redstone_torch_off.png",
+    "name": "redstone_torch_off.png"
+  },
+  {
+    "dir": "50#torch",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/50#torch",
+    "rename": "76_0#redstone_torch_on.png",
+    "name": "redstone_torch_on.png"
+  },
+  {
+    "dir": "51#fire",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/51#fire",
+    "rename": "51_0#fire_layer_0.png",
+    "name": "fire_layer_0.png"
+  },
+  {
+    "dir": "51#fire",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/51#fire",
+    "rename": "51_0#fire_layer_0.png.mcmeta",
+    "name": "fire_layer_0.png.mcmeta"
+  },
+  {
+    "dir": "51#fire",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/51#fire",
+    "rename": "51_1#fire_layer_1.png",
+    "name": "fire_layer_1.png"
+  },
+  {
+    "dir": "51#fire",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/51#fire",
+    "rename": "51_1#fire_layer_1.png.mcmeta",
+    "name": "fire_layer_1.png.mcmeta"
+  },
+  {
+    "dir": "52#mob_spawner",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/52#mob_spawner",
+    "rename": "52_0#mob_spawner.png",
+    "name": "mob_spawner.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "149_0#comparator_off.png",
+    "name": "comparator_off.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "150_0#comparator_on.png",
+    "name": "comparator_on.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "55_0#redstone_dust_line0.png",
+    "name": "redstone_dust_line0.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "55_0#redstone_dust_overlay.png",
+    "name": "redstone_dust_overlay.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "55_1#redstone_dust_line1.png",
+    "name": "redstone_dust_line1.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "55_2#redstone_dust_dot.png",
+    "name": "redstone_dust_dot.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "93_0#repeater_off.png",
+    "name": "repeater_off.png"
+  },
+  {
+    "dir": "55#redstone_tools",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/55#redstone_tools",
+    "rename": "94_0#repeater_on.png",
+    "name": "repeater_on.png"
+  },
+  {
+    "dir": "58#crafting",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/58#crafting",
+    "rename": "58_0#crafting_table_front.png",
+    "name": "crafting_table_front.png"
+  },
+  {
+    "dir": "58#crafting",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/58#crafting",
+    "rename": "58_0#crafting_table_side.png",
+    "name": "crafting_table_side.png"
+  },
+  {
+    "dir": "58#crafting",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/58#crafting",
+    "rename": "58_0#crafting_table_top.png",
+    "name": "crafting_table_top.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "115_0#nether_wart_stage_0.png",
+    "name": "nether_wart_stage_0.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "115_1#nether_wart_stage_1.png",
+    "name": "nether_wart_stage_1.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "115_2#nether_wart_stage_2.png",
+    "name": "nether_wart_stage_2.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "141_0#carrots_stage_0.png",
+    "name": "carrots_stage_0.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "141_1#carrots_stage_1.png",
+    "name": "carrots_stage_1.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "141_2#carrots_stage_2.png",
+    "name": "carrots_stage_2.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "141_3#carrots_stage_3.png",
+    "name": "carrots_stage_3.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "142_0#potatoes_stage_0.png",
+    "name": "potatoes_stage_0.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "142_1#potatoes_stage_1.png",
+    "name": "potatoes_stage_1.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "142_2#potatoes_stage_2.png",
+    "name": "potatoes_stage_2.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "142_3#potatoes_stage_3.png",
+    "name": "potatoes_stage_3.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "207_0#beetroots_stage_0.png",
+    "name": "beetroots_stage_0.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "207_1#beetroots_stage_1.png",
+    "name": "beetroots_stage_1.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "207_2#beetroots_stage_2.png",
+    "name": "beetroots_stage_2.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "207_3#beetroots_stage_3.png",
+    "name": "beetroots_stage_3.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_0#wheat_stage_0.png",
+    "name": "wheat_stage_0.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_1#wheat_stage_1.png",
+    "name": "wheat_stage_1.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_2#wheat_stage_2.png",
+    "name": "wheat_stage_2.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_3#wheat_stage_3.png",
+    "name": "wheat_stage_3.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_4#wheat_stage_4.png",
+    "name": "wheat_stage_4.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_5#wheat_stage_5.png",
+    "name": "wheat_stage_5.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_6#wheat_stage_6.png",
+    "name": "wheat_stage_6.png"
+  },
+  {
+    "dir": "59#fram_plant",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/59#fram_plant",
+    "rename": "59_7#wheat_stage_7.png",
+    "name": "wheat_stage_7.png"
+  },
+  {
+    "dir": "5#planks",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/5#planks",
+    "rename": "5_0#planks_oak.png",
+    "name": "planks_oak.png"
+  },
+  {
+    "dir": "5#planks",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/5#planks",
+    "rename": "5_1#planks_spruce.png",
+    "name": "planks_spruce.png"
+  },
+  {
+    "dir": "5#planks",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/5#planks",
+    "rename": "5_2#planks_birch.png",
+    "name": "planks_birch.png"
+  },
+  {
+    "dir": "5#planks",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/5#planks",
+    "rename": "5_3#planks_jungle.png",
+    "name": "planks_jungle.png"
+  },
+  {
+    "dir": "5#planks",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/5#planks",
+    "rename": "5_4#planks_acacia.png",
+    "name": "planks_acacia.png"
+  },
+  {
+    "dir": "5#planks",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/5#planks",
+    "rename": "5_5#planks_big_oak.png",
+    "name": "planks_big_oak.png"
+  },
+  {
+    "dir": "61#furnace",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/61#furnace",
+    "rename": "61_0#furnace_front_off.png",
+    "name": "furnace_front_off.png"
+  },
+  {
+    "dir": "61#furnace",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/61#furnace",
+    "rename": "61_0#furnace_side.png",
+    "name": "furnace_side.png"
+  },
+  {
+    "dir": "61#furnace",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/61#furnace",
+    "rename": "61_0#furnace_top.png",
+    "name": "furnace_top.png"
+  },
+  {
+    "dir": "61#furnace",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/61#furnace",
+    "rename": "62_0#furnace_front_on.png",
+    "name": "furnace_front_on.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "193_0#door_spruce_lower.png",
+    "name": "door_spruce_lower.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "193_0#door_spruce_upper.png",
+    "name": "door_spruce_upper.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "194_0#door_birch_lower.png",
+    "name": "door_birch_lower.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "194_0#door_birch_upper.png",
+    "name": "door_birch_upper.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "195_0#door_jungle_lower.png",
+    "name": "door_jungle_lower.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "195_0#door_jungle_upper.png",
+    "name": "door_jungle_upper.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "196_0#door_acacia_lower.png",
+    "name": "door_acacia_lower.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "196_0#door_acacia_upper.png",
+    "name": "door_acacia_upper.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "197_0#door_dark_oak_lower.png",
+    "name": "door_dark_oak_lower.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "197_0#door_dark_oak_upper.png",
+    "name": "door_dark_oak_upper.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "64_0#door_wood_lower.png",
+    "name": "door_wood_lower.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "64_0#door_wood_upper.png",
+    "name": "door_wood_upper.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "71_0#door_iron_lower.png",
+    "name": "door_iron_lower.png"
+  },
+  {
+    "dir": "64#door",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/64#door",
+    "rename": "71_0#door_iron_upper.png",
+    "name": "door_iron_upper.png"
+  },
+  {
+    "dir": "65#ladder",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/65#ladder",
+    "rename": "65_0#ladder.png",
+    "name": "ladder.png"
+  },
+  {
+    "dir": "69#lever",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/69#lever",
+    "rename": "69#lever.png",
+    "name": "lever.png"
+  },
+  {
+    "dir": "6#sapling",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/6#sapling",
+    "rename": "6_0#sapling_oak.png",
+    "name": "sapling_oak.png"
+  },
+  {
+    "dir": "6#sapling",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/6#sapling",
+    "rename": "6_1#sapling_spruce.png",
+    "name": "sapling_spruce.png"
+  },
+  {
+    "dir": "6#sapling",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/6#sapling",
+    "rename": "6_2#sapling_birch.png",
+    "name": "sapling_birch.png"
+  },
+  {
+    "dir": "6#sapling",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/6#sapling",
+    "rename": "6_3#sapling_jungle.png",
+    "name": "sapling_jungle.png"
+  },
+  {
+    "dir": "6#sapling",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/6#sapling",
+    "rename": "6_4#sapling_acacia.png",
+    "name": "sapling_acacia.png"
+  },
+  {
+    "dir": "6#sapling",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/6#sapling",
+    "rename": "6_5#sapling_roofed_oak.png",
+    "name": "sapling_roofed_oak.png"
+  },
+  {
+    "dir": "79#ice",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/79#ice",
+    "rename": "174_0#ice_packed.png",
+    "name": "ice_packed.png"
+  },
+  {
+    "dir": "79#ice",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/79#ice",
+    "rename": "212_0#frosted_ice_0.png",
+    "name": "frosted_ice_0.png"
+  },
+  {
+    "dir": "79#ice",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/79#ice",
+    "rename": "212_1#frosted_ice_1.png",
+    "name": "frosted_ice_1.png"
+  },
+  {
+    "dir": "79#ice",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/79#ice",
+    "rename": "212_2#frosted_ice_2.png",
+    "name": "frosted_ice_2.png"
+  },
+  {
+    "dir": "79#ice",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/79#ice",
+    "rename": "212_3#frosted_ice_3.png",
+    "name": "frosted_ice_3.png"
+  },
+  {
+    "dir": "79#ice",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/79#ice",
+    "rename": "79_0#ice.png",
+    "name": "ice.png"
+  },
+  {
+    "dir": "7#bedrock",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/7#bedrock",
+    "rename": "7_0#bedrock.png",
+    "name": "bedrock.png"
+  },
+  {
+    "dir": "81#cactus",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/81#cactus",
+    "rename": "81_0#cactus_bottom.png",
+    "name": "cactus_bottom.png"
+  },
+  {
+    "dir": "81#cactus",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/81#cactus",
+    "rename": "81_0#cactus_side.png",
+    "name": "cactus_side.png"
+  },
+  {
+    "dir": "81#cactus",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/81#cactus",
+    "rename": "81_0#cactus_top.png",
+    "name": "cactus_top.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_0#hardened_clay_stained_white.png",
+    "name": "hardened_clay_stained_white.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_10#hardened_clay_stained_purple.png",
+    "name": "hardened_clay_stained_purple.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_11#hardened_clay_stained_blue.png",
+    "name": "hardened_clay_stained_blue.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_12#hardened_clay_stained_brown.png",
+    "name": "hardened_clay_stained_brown.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_13#hardened_clay_stained_green.png",
+    "name": "hardened_clay_stained_green.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_14#hardened_clay_stained_red.png",
+    "name": "hardened_clay_stained_red.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_15#hardened_clay_stained_black.png",
+    "name": "hardened_clay_stained_black.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_1#hardened_clay_stained_orange.png",
+    "name": "hardened_clay_stained_orange.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_2#hardened_clay_stained_magenta.png",
+    "name": "hardened_clay_stained_magenta.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_3#hardened_clay_stained_light_blue.png",
+    "name": "hardened_clay_stained_light_blue.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_4#hardened_clay_stained_yellow.png",
+    "name": "hardened_clay_stained_yellow.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_5#hardened_clay_stained_lime.png",
+    "name": "hardened_clay_stained_lime.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_6#hardened_clay_stained_pink.png",
+    "name": "hardened_clay_stained_pink.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_7#hardened_clay_stained_gray.png",
+    "name": "hardened_clay_stained_gray.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_8#hardened_clay_stained_silver.png",
+    "name": "hardened_clay_stained_silver.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "159_9#hardened_clay_stained_cyan.png",
+    "name": "hardened_clay_stained_cyan.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "172_0#hardened_clay.png",
+    "name": "hardened_clay.png"
+  },
+  {
+    "dir": "82#clay",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/82#clay",
+    "rename": "82_0#clay.png",
+    "name": "clay.png"
+  },
+  {
+    "dir": "83#reeds",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/83#reeds",
+    "rename": "83_0#reeds.png",
+    "name": "reeds.png"
+  },
+  {
+    "dir": "84#jukebox",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/84#jukebox",
+    "rename": "84_0#jukebox_side.png",
+    "name": "jukebox_side.png"
+  },
+  {
+    "dir": "84#jukebox",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/84#jukebox",
+    "rename": "84_0#jukebox_top.png",
+    "name": "jukebox_top.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "103_0#melon_side.png",
+    "name": "melon_side.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "103_0#melon_top.png",
+    "name": "melon_top.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "104_0#pumpkin_stem_disconnected.png",
+    "name": "pumpkin_stem_disconnected.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "104_1#pumpkin_stem_connected.png",
+    "name": "pumpkin_stem_connected.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "105_0#melon_stem_disconnected.png",
+    "name": "melon_stem_disconnected.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "105_1#melon_stem_connected.png",
+    "name": "melon_stem_connected.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "86_0#pumpkin_face_off.png",
+    "name": "pumpkin_face_off.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "86_0#pumpkin_face_on.png",
+    "name": "pumpkin_face_on.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "86_0#pumpkin_side.png",
+    "name": "pumpkin_side.png"
+  },
+  {
+    "dir": "86#farm_fruit",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/86#farm_fruit",
+    "rename": "86_0#pumpkin_top.png",
+    "name": "pumpkin_top.png"
+  },
+  {
+    "dir": "87#nether",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/87#nether",
+    "rename": "112_0#nether_brick.png",
+    "name": "nether_brick.png"
+  },
+  {
+    "dir": "87#nether",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/87#nether",
+    "rename": "153_0#quartz_ore.png",
+    "name": "quartz_ore.png"
+  },
+  {
+    "dir": "87#nether",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/87#nether",
+    "rename": "214_0#nether_wart_block.png",
+    "name": "nether_wart_block.png"
+  },
+  {
+    "dir": "87#nether",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/87#nether",
+    "rename": "215_0#red_nether_brick.png",
+    "name": "red_nether_brick.png"
+  },
+  {
+    "dir": "87#nether",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/87#nether",
+    "rename": "87_0#netherrack.png",
+    "name": "netherrack.png"
+  },
+  {
+    "dir": "87#nether",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/87#nether",
+    "rename": "88_0#soul_sand.png",
+    "name": "soul_sand.png"
+  },
+  {
+    "dir": "89#glowstone_lamp",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/89#glowstone_lamp",
+    "rename": "123_0#redstone_lamp_off.png",
+    "name": "redstone_lamp_off.png"
+  },
+  {
+    "dir": "89#glowstone_lamp",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/89#glowstone_lamp",
+    "rename": "123_0#redstone_lamp_on.png",
+    "name": "redstone_lamp_on.png"
+  },
+  {
+    "dir": "89#glowstone_lamp",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/89#glowstone_lamp",
+    "rename": "169_0#sea_lantern.png",
+    "name": "sea_lantern.png"
+  },
+  {
+    "dir": "89#glowstone_lamp",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/89#glowstone_lamp",
+    "rename": "169_0#sea_lantern.png.mcmeta",
+    "name": "sea_lantern.png.mcmeta"
+  },
+  {
+    "dir": "89#glowstone_lamp",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/89#glowstone_lamp",
+    "rename": "89_0#glowstone.png",
+    "name": "glowstone.png"
+  },
+  {
+    "dir": "8#water",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/8#water",
+    "rename": "8_0#water_flow.png",
+    "name": "water_flow.png"
+  },
+  {
+    "dir": "8#water",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/8#water",
+    "rename": "8_0#water_flow.png.mcmeta",
+    "name": "water_flow.png.mcmeta"
+  },
+  {
+    "dir": "8#water",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/8#water",
+    "rename": "8_0#water_overlay.png",
+    "name": "water_overlay.png"
+  },
+  {
+    "dir": "8#water",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/8#water",
+    "rename": "9_0#water_still.png",
+    "name": "water_still.png"
+  },
+  {
+    "dir": "8#water",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/8#water",
+    "rename": "9_0#water_still.png.mcmeta",
+    "name": "water_still.png.mcmeta"
+  },
+  {
+    "dir": "90#portal",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/90#portal",
+    "rename": "90_0#portal.png",
+    "name": "portal.png"
+  },
+  {
+    "dir": "90#portal",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/90#portal",
+    "rename": "90_0#portal.png.mcmeta",
+    "name": "portal.png.mcmeta"
+  },
+  {
+    "dir": "92#cake",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/92#cake",
+    "rename": "92_0#cake_bottom.png",
+    "name": "cake_bottom.png"
+  },
+  {
+    "dir": "92#cake",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/92#cake",
+    "rename": "92_0#cake_inner.png",
+    "name": "cake_inner.png"
+  },
+  {
+    "dir": "92#cake",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/92#cake",
+    "rename": "92_0#cake_side.png",
+    "name": "cake_side.png"
+  },
+  {
+    "dir": "92#cake",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/92#cake",
+    "rename": "92_0#cake_top.png",
+    "name": "cake_top.png"
+  },
+  {
+    "dir": "96#trapdoor",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/96#trapdoor",
+    "rename": "167_0#iron_trapdoor.png",
+    "name": "iron_trapdoor.png"
+  },
+  {
+    "dir": "96#trapdoor",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/96#trapdoor",
+    "rename": "96_0#trapdoor.png",
+    "name": "trapdoor.png"
+  },
+  {
+    "dir": "98#stonebrick",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/98#stonebrick",
+    "rename": "98_0#stonebrick.png",
+    "name": "stonebrick.png"
+  },
+  {
+    "dir": "98#stonebrick",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/98#stonebrick",
+    "rename": "98_1#stonebrick_mossy.png",
+    "name": "stonebrick_mossy.png"
+  },
+  {
+    "dir": "98#stonebrick",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/98#stonebrick",
+    "rename": "98_2#stonebrick_cracked.png",
+    "name": "stonebrick_cracked.png"
+  },
+  {
+    "dir": "98#stonebrick",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/98#stonebrick",
+    "rename": "98_3#stonebrick_carved.png",
+    "name": "stonebrick_carved.png"
+  },
+  {
+    "dir": "99#mushroom_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/99#mushroom_block",
+    "rename": "100_0#mushroom_block_skin_red.png",
+    "name": "mushroom_block_skin_red.png"
+  },
+  {
+    "dir": "99#mushroom_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/99#mushroom_block",
+    "rename": "99_0#mushroom_block_inside.png",
+    "name": "mushroom_block_inside.png"
+  },
+  {
+    "dir": "99#mushroom_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/99#mushroom_block",
+    "rename": "99_0#mushroom_block_skin_brown.png",
+    "name": "mushroom_block_skin_brown.png"
+  },
+  {
+    "dir": "99#mushroom_block",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/99#mushroom_block",
+    "rename": "99_0#mushroom_block_skin_stem.png",
+    "name": "mushroom_block_skin_stem.png"
+  },
+  {
+    "dir": "none#debug",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#debug",
+    "rename": "none_0#debug.png",
+    "name": "debug.png"
+  },
+  {
+    "dir": "none#debug",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#debug",
+    "rename": "none_1#debug2.png",
+    "name": "debug2.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_0#destroy_stage_0.png",
+    "name": "destroy_stage_0.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_1#destroy_stage_1.png",
+    "name": "destroy_stage_1.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_2#destroy_stage_2.png",
+    "name": "destroy_stage_2.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_3#destroy_stage_3.png",
+    "name": "destroy_stage_3.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_4#destroy_stage_4.png",
+    "name": "destroy_stage_4.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_5#destroy_stage_5.png",
+    "name": "destroy_stage_5.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_6#destroy_stage_6.png",
+    "name": "destroy_stage_6.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_7#destroy_stage_7.png",
+    "name": "destroy_stage_7.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_8#destroy_stage_8.png",
+    "name": "destroy_stage_8.png"
+  },
+  {
+    "dir": "none#destroy",
+    "dirpath": "assets/minecraft/mcpatcher/ctm/none#destroy",
+    "rename": "none_9#destroy_stage_9.png",
+    "name": "destroy_stage_9.png"
+  }
+]

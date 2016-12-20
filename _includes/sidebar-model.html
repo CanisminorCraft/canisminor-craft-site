@@ -1,0 +1,21 @@
+<form class="bd-search">
+  <input type="text" class="form-control" id="search-input" placeholder="搜索..." autocomplete="off">
+  <div class="dropdown-menu bd-search-results" id="search-results"></div>
+</form>
+<nav class="bd-links hidden-sm-down" id="docsNavbarContent">
+  {% for a in site.data.block-models %}
+        <div class="bd-toc-item">
+          <a class="bd-toc-link"
+             href="#{{ a.name }}">{{ a.name }}</a>
+        </div>
+  {% endfor %}
+</nav>
+<script>
+  SimpleJekyllSearch.init({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    searchResultTemplate: '<a class="dropdown-item" href="{url}">{title}</a>',
+    noResultsText: '<div class="dropdown-item no-results">对不起, 没有您要的结果.</div>',
+    json: '{{ site.baseurl }}/json/search-models.json'
+  })
+</script>

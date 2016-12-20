@@ -1,0 +1,13 @@
+---
+# Leave it empty to compile
+---
+
+[
+{% for a in site.data.block-models %}
+{
+  "title" : "{{ a.name }}",
+  "url"   : "#{{ a.name }}"
+},
+{% endfor %}
+{}
+]

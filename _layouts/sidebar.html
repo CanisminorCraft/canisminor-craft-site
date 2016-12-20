@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="bd-pageheader text-xs-center text-sm-left">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="lead">
+      {{ page.desc }}
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3 push-md-9 bd-sidebar">
+      {% include sidebar-{{ page.sidebar }}.html %}
+    </div>
+    <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+

@@ -6,10 +6,10 @@ $(function () {
     var strHtml = "";
     $.getJSON("//hook.canisminor.cc/", function (data) {
         //merge
-        hook_client(data, "#client", 3);
+        hook_client(data, "#client", 2);
 
         //webhook
-        hook_webhook(data, "#hook", 3);
+        hook_webhook(data, "#hook", 2);
 
     })
 

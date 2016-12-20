@@ -14,7 +14,7 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <title>
   
-    Map &middot; CMC
+    服务器 &middot; CMC
   
 </title>
 <!-- Bootstrap core CSS -->
@@ -54,7 +54,7 @@
                href="/">首页</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link active"
+            <a class="nav-item nav-link "
                href="/pages/map.html">地图</a>
           </li>
           <li class="nav-item">
@@ -62,7 +62,7 @@
                href="https://coding.net/u/canisminor1990/p/CanisminorCraft/git">材质包</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link "
+            <a class="nav-item nav-link active"
                href="/pages/server.html">服务器</a>
           </li>
         </ul>
@@ -73,19 +73,101 @@
 
 
 <div id="content">
-  <style>
-  footer {
-    display : none !important;
-  }
-</style>
+  <div class="bd-pageheader text-xs-center text-sm-left">
+  <div class="container">
+    <h1>服务器</h1>
+    <p class="lead">
+      CMC服务器信息与插件列表
+    </p>
+  </div>
+</div>
 
-<iframe src="http://map.canisminor.cc" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3 push-md-9 bd-sidebar">
+      <nav class="bd-links" id="simpleNavbarContent"></nav>
+    </div>
+    <div class="col-xs-12 col-md-9 pull-md-3 bd-content">
+      <h2 id="section">目录</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">目录</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">服务器信息</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">截图</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">插件列表</a></li>
+</ul>
+
+<h2 id="section-1">服务器信息</h2>
+
+<ul>
+  <li><strong>版本:</strong> <code class="highlighter-rouge">1.11</code></li>
+  <li><strong>材质包:</strong> <code class="highlighter-rouge">Canisminor Craft</code></li>
+  <li><strong>服务器:</strong> <code class="highlighter-rouge">Paper Spigot</code></li>
+</ul>
+
+<h2 id="section-2">截图</h2>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223051-9.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223050-8.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223052-1.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223052-2.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223053-3.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223053-4.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223053-5.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223054-6.png" alt="" /></p>
+
+<p><img src="https://o4j4l4n7h.qnssl.com/20161219-223054-7.png" alt="" /></p>
+
+<h2 id="section-3">插件列表</h2>
+
+<ul>
+  <li>AuthMe</li>
+  <li>BossShop</li>
+  <li>Citizen</li>
+  <li>Citizen-Sentinel</li>
+  <li>ClearLag</li>
+  <li>CommandCost</li>
+  <li>ConquestiaMobs</li>
+  <li>Dynmap</li>
+  <li>Dynmap-Residence</li>
+  <li>EHDGroupManager</li>
+  <li>EssentialsX</li>
+  <li>EssentialsX-AntiBuild</li>
+  <li>EssentialsX-Chat</li>
+  <li>EssentialsX-Protect</li>
+  <li>EssentialsX-Spawn</li>
+  <li>InfernalMobs</li>
+  <li>IslandCraft</li>
+  <li>Lift</li>
+  <li>LockettePro</li>
+  <li>mcMMO</li>
+  <li>MobHealth</li>
+  <li>Plugman</li>
+  <li>ProtocolLib</li>
+  <li>Residence</li>
+  <li>ServerlistMOTD</li>
+  <li>SkinsRestorer</li>
+  <li>Vault</li>
+  <li>WorldBorder</li>
+  <li>WorldEdit</li>
+</ul>
+
+    </div>
+  </div>
+</div>
 
 <script>
-  $(function () {
-    var mainheight = $(window).height() - 92;
-    $("iframe").height(mainheight);
-  })
+  $('#section').hide();
+  $('#simpleNavbarContent').html($('#markdown-toc').html());
+  $('#markdown-toc').hide();
 </script>
 </div>
 

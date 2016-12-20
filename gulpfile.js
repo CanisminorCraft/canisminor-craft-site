@@ -8,7 +8,7 @@ gulp.task('default', ['browser-sync', 'watch']);
 
 
 //服务端
-gulp.task('build', ['server-js', 'server-sass', 'server-jekyll', 'zip']);
+gulp.task('build', ['server-js', 'server-sass', 'server-jekyll']);
 
 //task
 gulp.task('browser-sync', ['js', 'sass', 'img', 'jekyll'], function (cb) {

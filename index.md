@@ -12,7 +12,7 @@ title: Canisminor Craft
    
 <div class="w-group" id="server"></div>
     
-### 客户端
+### 客户端推送
 
 <div class="show-btn" id="clientShow">展示全部</div>
 <div class="w-group" id="client"></div>
@@ -21,6 +21,14 @@ title: Canisminor Craft
 
 <div class="show-btn" id="hookShow">展示全部</div>
 <div class="w-group" id="hook"></div>
+
+## 纯ResPack包
+
+### 下载地址
+
+```sh
+https://coding.net/u/canisminor1990/p/CanisminorCraft/git
+```
 
 ## SVN版
 
@@ -70,6 +78,11 @@ $ git clone git://git.coding.net/canisminor1990/cmc-client.git
 ```bash
 $ git reset --hard ; git pull
 ```
+
+## Shader光影
+
+- 启动器中含有两个版本 `1.11` 与 `1.11-forge`
+- 分别对应原版与光影版本,可自由切换
 
 ## Contact
 

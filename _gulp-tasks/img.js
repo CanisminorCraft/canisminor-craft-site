@@ -30,8 +30,8 @@ gulp.task('img', function (cb) {
 
 // img-library
 
-gulp.task('img-library-tiny', function (cb) {
-    return gulp.src(imgSrc('pages/library/**/'))
+gulp.task('img-pages', function (cb) {
+    return gulp.src(imgSrc('pages/**/'))
         .pipe(cache(imagemin({
             verbose: true,
             progressive: true, //类型：Boolean 默认：false 无损压缩jpg图片
@@ -39,18 +39,11 @@ gulp.task('img-library-tiny', function (cb) {
             multipass: true, //类型：Boolean 默认：false 多次优化svg直到完全优化
             use: [pngquant()]
         })))
-        .pipe(gulp.dest('dist/pages/library/'))
+        .pipe(gulp.dest('pages/'))
     cb();
 });
 
-gulp.task('img-library-del', ['image-opt'], function (cb) {
-    return del(imgSrc('dist/pages/library/**/'));
-    cb();
-});
 
-gulp.task('img-library', ['img-library-tiny', 'img-library-del'], function (cb) {
-    cb()
-});
 
 gulp.task('cache-clear', function (done) {
     return cache.clearAll(done);

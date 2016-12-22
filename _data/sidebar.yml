@@ -1,8 +1,26 @@
-- name: id-list
-  title: ID List
+---
 
-- name: model-list
-  title: Model List
+-
+  title: Armors
 
-- name: viewer
-  title: Viewer
+-
+  title: Weapons
+
+-
+  title: Tools
+
+-
+  title: Books
+
+-
+  title: Fish
+
+-
+  title: Mob
+
+-
+  title: Halloween
+
+-
+  title: Holiday
+

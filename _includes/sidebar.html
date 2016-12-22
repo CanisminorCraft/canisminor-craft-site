@@ -5,25 +5,9 @@
 
 <nav class="bd-links" id="docsNavbarContent">
   {% for nav in site.data.sidebar %}
-    {% if pagenav == nav.name | downcase | replace: ' ', '-' %}
-      {% for group in nav.group %}
-        {% assign link = group.sub | first %}
-        {% assign name = group.name | downcase | replace: ' ', '-' %}
-        <div class="bd-toc-item {% if pagegroup ==  name %}active{% endif %}">
-          <a class="bd-toc-link"
-             href="{{ site.baseurl }}/pages/{{ pagenav }}/{{ group.name }}/{{ link.name  | downcase | replace: ' ', '-' }}.html">{{ group.title }}</a>
-          {% if group.sub %}
-            <ul class="nav bd-sidenav">
-              {% for sub in group.sub %}
-                {% assign name = sub.name | downcase | replace: ' ', '-' %}
-                <li class="{% if pagename  == name %}active bd-sidenav-active{% endif %}">
-                  <a href="{{ site.baseurl }}/pages/{{ pagenav }}/{{ group.name | downcase | replace: ' ', '-'}}/{{ sub.name  | downcase | replace: ' ', '-' }}.html">{{ sub.title }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-      {% endfor %}
-    {% endif %}
+    <div class="bd-toc-item {% if page.title ==  nav.title %}active{% endif %}">
+      <a class="bd-toc-link"
+         href="{{ site.baseurl }}/pages/addon/{{ nav.title  | downcase }}/">{{ nav.title }}</a>
+    </div>
   {% endfor %}
 </nav>

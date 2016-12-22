@@ -18,7 +18,6 @@ desc: Model 模型列表
       <h3><a href="#">Model</a>{{ modelname[0] }}</h3>
       <ul>
         {% endif %}
-
         <li>
           <a href="{{ site.baseurl }}/pages/viewer.html?openId={{ a.name }}"><p id="{{ a.name }}">{{ a.name }}</p></a>
           <ul>
@@ -41,19 +40,12 @@ desc: Model 模型列表
                        style="background-image:url({{ site.baseurl }}/assets/minecraft/textures/blocks/{{ name }}.png)"></div>
                 </li>
               {% endif %}
-
               {% assign texture = name %}
             {% endfor %}
-
             {% assign texture = "" %}
-
             </li>
-
-
           </ul>
           {% assign modelname2 = a.name | split:'_' %}
-
-
           {% endfor %}
       </ul>
 </div>

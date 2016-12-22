@@ -1,14 +1,22 @@
-table{
-  display: table !important;
-  width: 100%;
-}
-tbody{
-  width: 100%;
-}
-td{
-  width: 33%;
-  * {
-    font-size: .9rem !important;
-    display:block !important;
+table {
+  display : table !important;
+  width   : 100%;
+  tbody {
+    width : 100%;
+  }
+  td {
+    width     : 33%;
+    max-width     : 33%;
+    font-size : .9rem !important;
+    word-wrap: break-word;
+    word-break:break-all;
+  }
+  img{
+    width: 32px !important;
+    height: 32px!important;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;//像素不模糊
+    display: block !important;
   }
 }

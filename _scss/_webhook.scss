@@ -123,11 +123,11 @@
     overflow: hidden;
     position: relative;
     img {
-      width: 256px !important;
+      width: 64px !important;
       height: auto;
       position: absolute;
-      margin-top: -32px;
-      margin-left: -32px;
+      margin-top: 0px;
+      margin-left: -16px;
       image-rendering: auto;
       image-rendering: crisp-edges;
       image-rendering: pixelated; //像素不模糊

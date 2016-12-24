@@ -37,7 +37,7 @@ $(function () {
         if (json.currentcount > 0) {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";
-                var imgurl = "http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name.replace(/\[(.*)\]/, '') + ".png";
+                var imgurl = "http://s3.amazonaws.com/MinecraftSkins/" + json.players[i].name.replace(/\[(.*)\]/, '') + ".png";
                 var imgdefault = "javascript:this.src='http://www.canisminor.cc/img/dynmap/player.png'";
                 strHtml += '<div class="p-avata"><img onerror="' + imgdefault + '" src="' + imgurl + '"></div>';
 

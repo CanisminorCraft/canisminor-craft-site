@@ -41,7 +41,7 @@ $(function () {
                 if (validateImage(imgurl)) {
                     strHtml += "<div class='p-avata'><img src='" + imgurl + "'></div>";
                 }else {
-                    strHtml += "<div class='p-avata'><img src='http://canisminor.cc/img/dynmap/player.png'></div>";
+                    strHtml += "<div class='p-avata'><img src='http://www.canisminor.cc/img/dynmap/player.png'></div>";
                 }
                 strHtml += "<div class='p-content'>";
                 strHtml += "<div class='p-name'>" + json.players[i].name;

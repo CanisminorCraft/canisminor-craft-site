@@ -38,9 +38,9 @@ $(function () {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";
                 var imgurl = "http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name.replace(/\[(.*)\]/, '') + ".png"
-                if (validateImage(imgurl)) {
+                if (CheckImgExists(imgurl)) {
                     strHtml += "<div class='p-avata'><img src='" + imgurl + "'></div>";
-                }else {
+                } else {
                     strHtml += "<div class='p-avata'><img src='http://www.canisminor.cc/img/dynmap/player.png'></div>";
                 }
                 strHtml += "<div class='p-content'>";
@@ -64,19 +64,13 @@ $(function () {
         $("#server .w-message").text($('#content .version').text())
     })
 })
-
-function validateImage(url) {
-    var xmlHttp;
-    if (window.ActiveXObject) {
-        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    else if (window.XMLHttpRequest) {
-        xmlHttp = new XMLHttpRequest();
-    }
-    xmlHttp.open("Get", url, false);
-    xmlHttp.send();
-    if (xmlHttp.status == 404)
-        return false;
-    else
+function CheckImgExists(imgurl) {
+    var ImgObj = new Image(); //判断图片是否存在
+    ImgObj.src = imgurl;
+    //没有图片，则返回-1
+    if (ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0)) {
         return true;
+    } else {
+        return false;
+    }
 }

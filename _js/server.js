@@ -38,6 +38,8 @@ $(function () {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";
                 var imgurl = "http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name.replace(/\[(.*)\]/, '') + ".png"
+                console.log(imgurl)
+                console.log(CheckImgExists(imgurl))
                 if (CheckImgExists(imgurl)) {
                     strHtml += "<div class='p-avata'><img src='" + imgurl + "'></div>";
                 } else {

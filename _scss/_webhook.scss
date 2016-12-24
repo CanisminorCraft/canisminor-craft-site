@@ -119,17 +119,17 @@
   .p-avata {
     width: 32px;
     height: 32px;
-    border-radius: 6px;
+    border-radius: 4px;
     overflow: hidden;
     border: 1px solid #fff;
     box-sizing: border-box;
     position: relative;
     img {
-      width: 64px !important;
+      width: 61px !important;
       height: auto;
       position: absolute;
       margin-top: 0px;
-      margin-left: -16px;
+      margin-left: -15px;
       image-rendering: auto;
       image-rendering: crisp-edges;
       image-rendering: pixelated; //像素不模糊

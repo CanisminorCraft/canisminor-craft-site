@@ -37,7 +37,7 @@ $(function () {
         if (json.currentcount > 0) {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";
-                strHtml += "<div class='p-avata'><img src='http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name + ".png'></div>";
+                strHtml += "<div class='p-avata'><img src='http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name.replace(/\[(.*)\]/,'') + ".png'></div>";
                 strHtml += "<div class='p-content'>";
                 strHtml += "<div class='p-name'>" + json.players[i].name;
                 var xyz = "x:" + json.players[i].x + " y:" + json.players[i].y + " z:" + json.players[i].z

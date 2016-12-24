@@ -67,12 +67,14 @@ $(function () {
     })
 })
 function CheckImgExists(imgurl) {
-    var ImgObj = new Image(); //判断图片是否存在
-    ImgObj.src = imgurl;
-    //没有图片，则返回-1
-    if (ImgObj.fileSize > 0 || (ImgObj.width > 0 && ImgObj.height > 0)) {
-        return true;
-    } else {
-        return false;
-    }
+
+    var oReq = new ActiveXObject("Microsoft.XMLHTTP")
+    oReq.open("Get", imgurl, false);
+    oReq.send();
+//alert(oReq.status)
+    if (oReq.status == 404)
+        return false
+    else
+        return true
+
 }

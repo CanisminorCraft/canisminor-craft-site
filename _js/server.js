@@ -37,7 +37,12 @@ $(function () {
         if (json.currentcount > 0) {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";
-                strHtml += "<div class='p-avata'><img src='http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name.replace(/\[(.*)\]/,'') + ".png'></div>";
+                var imgurl = "http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name.replace(/\[(.*)\]/, '') + ".png"
+                if (validateImage(imgurl)) {
+                    strHtml += "<div class='p-avata'><img src='" + imgurl + "'></div>";
+                }else {
+                    strHtml += "<div class='p-avata'><img src='http://canisminor.cc/img/dynmap/player.png'></div>";
+                }
                 strHtml += "<div class='p-content'>";
                 strHtml += "<div class='p-name'>" + json.players[i].name;
                 var xyz = "x:" + json.players[i].x + " y:" + json.players[i].y + " z:" + json.players[i].z
@@ -59,3 +64,19 @@ $(function () {
         $("#server .w-message").text($('#content .version').text())
     })
 })
+
+function validateImage(url) {
+    var xmlHttp;
+    if (window.ActiveXObject) {
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    else if (window.XMLHttpRequest) {
+        xmlHttp = new XMLHttpRequest();
+    }
+    xmlHttp.open("Get", url, false);
+    xmlHttp.send();
+    if (xmlHttp.status == 404)
+        return false;
+    else
+        return true;
+}

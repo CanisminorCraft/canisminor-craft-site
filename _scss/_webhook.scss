@@ -121,7 +121,13 @@
     height: 32px;
     border-radius: 2px;
     overflow: hidden;
+    position: relative;
     img {
+      width: 256px !important;
+      height: auto;
+      position: absolute;
+      margin-top: -32px;
+      margin-left: -32px;
       image-rendering: auto;
       image-rendering: crisp-edges;
       image-rendering: pixelated; //像素不模糊

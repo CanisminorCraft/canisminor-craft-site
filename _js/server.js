@@ -38,13 +38,9 @@ $(function () {
             for (var i = 0; i < json.players.length; i++) {
                 strHtml += "<div class='p-box'>";
                 var imgurl = "http://map.canisminor.cc/tiles/faces/32x32/" + json.players[i].name.replace(/\[(.*)\]/, '') + ".png"
-                console.log(imgurl)
-                console.log(CheckImgExists(imgurl))
-                if (CheckImgExists(imgurl)) {
-                    strHtml += "<div class='p-avata'><img src='" + imgurl + "'></div>";
-                } else {
-                    strHtml += "<div class='p-avata'><img src='http://www.canisminor.cc/img/dynmap/player.png'></div>";
-                }
+                var imgdefault = "http://www.canisminor.cc/img/dynmap/player.png"
+                strHtml += "<div class='p-avata'><img onerror='" + imgdefault + "' src='" + imgurl + "'></div>";
+
                 strHtml += "<div class='p-content'>";
                 strHtml += "<div class='p-name'>" + json.players[i].name;
                 var xyz = "x:" + json.players[i].x + " y:" + json.players[i].y + " z:" + json.players[i].z
@@ -66,15 +62,3 @@ $(function () {
         $("#server .w-message").text($('#content .version').text())
     })
 })
-function CheckImgExists(imgurl) {
-
-    var oReq = new ActiveXObject("Microsoft.XMLHTTP")
-    oReq.open("Get", imgurl, false);
-    oReq.send();
-//alert(oReq.status)
-    if (oReq.status == 404)
-        return false
-    else
-        return true
-
-}

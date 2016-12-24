@@ -119,8 +119,10 @@
   .p-avata {
     width: 32px;
     height: 32px;
-    border-radius: 2px;
+    border-radius: 6px;
     overflow: hidden;
+    border: 1px solid #fff;
+    box-sizing: border-box;
     position: relative;
     img {
       width: 64px !important;

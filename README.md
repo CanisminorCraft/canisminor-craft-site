@@ -1,12 +1,3 @@
-#cmc-website
+# Canisminor Craft Site
 
-###url
-```
-http://canisminor.cc
-```
-
-###webhook
-
-```
-http://hook.canisminor.cc/website
-```
+![](https://o4j4l4n7h.qnssl.com/20161215-22116-bg.png)
